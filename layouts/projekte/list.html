@@ -11,12 +11,13 @@
   </h3>
 
   {{ if .Params.image }}
-	<img src="{{ .Params.image }}" >
-{{ end }}
+    <!-- {{ $image := .Page.Resources.GetMatch .Params.image }} -->
+    <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
+  {{ end }}
 
-	<time datetime="{{ .Date.Format "2006-01-02" }}">
+	<!-- <time datetime="{{ .Date.Format "2006-01-02" }}">
 		{{ .Date.Format "January 2, 2006" }}
-	</time>
+	</time> -->
 </article>
 {{ end }}
 
