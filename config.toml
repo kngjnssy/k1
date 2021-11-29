@@ -1,14 +1,26 @@
-title = "My New Hugo Site"
+title = "k1"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
-    weight = 10
+    identifier = "profil"
+    name = "Profil"
+    url = "/profil"
+    weight = 20
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
+    identifier = "projekte"
+    name = "Projekte"
+    url = "/projekte"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "wettbewerbe"
+    name = "Wettbewerbe"
+    url = "/wettbewerbe"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "referenzen"
+    name = "Referenzen"
+    url = "/referenzen"
     weight = 20
