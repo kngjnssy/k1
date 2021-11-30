@@ -4,7 +4,7 @@ body {
   color: #333;
   font-size: 100%;
   line-height: 1.5;
-  max-width: 55rem;
+  max-width: 65rem;
   padding: 1rem;
   margin: 0 auto;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -40,6 +40,7 @@ img {
 .grid-child {
   /* border: 1px solid red; */
   margin-left: 1px;
+  height: 300px;
 
 }
 /* 
