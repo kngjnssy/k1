@@ -38,14 +38,19 @@ img {
 }
 
 .grid-child {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-left: 1px;
 
 }
+/* 
+.grid-child p {
+
+} */
 
 .avatar {
   width: 150px;
   height: 200px;
+  font-size: 12px;
 }
 
 /* NAVIGATION */
@@ -53,15 +58,19 @@ img {
 .site-nav {
   display: flex;
   align-items: baseline;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 .site-nav a {
   display: block;
-  padding: 1rem;
-  text-decoration: none;
+  padding-right: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  /* text-decoration: none; */
   color: #333;
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
+  text-align: left;
 }
 
 .site-nav .logo {
