@@ -4,19 +4,16 @@
 
 {{ .Content }}
 
+<div class="grid-container">
+<!-- <article class="grid-child"> -->
 {{ range.Data.Pages }}
-<article class="post-snippet">
-  <h3>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h3>
-
-  {{ if .Params.image }}
-	<img src="{{ .Params.image }}" >
-  {{ end }}
-	<time datetime="{{ .Date.Format "2006-01-02" }}">
-		{{ .Date.Format "January 2, 2006" }}
-	</time>
-</article>
+<figure class="grid-child">
+    <img class="avatar" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
+    <!-- <p>{{ .Params.name }}</p> -->
+    <figcaption>{{ .Params.name }}</figcaption>
+</figure>
 {{ end }}
+<!-- </article> -->
 
+</div>
 {{ partial "footer.html" . }}
