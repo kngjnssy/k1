@@ -1,5 +1,6 @@
 ---
 title: "2020"
+date: ""
 ---
 Neubau Am Aubuckel, Adolf-Damaschke-Ring 29-45 , Mannheim - Freiflächen Geschosswohnungsbau\
 Bauherr: GBG Mannheimer Wohnungsbaugesellschaft mbH

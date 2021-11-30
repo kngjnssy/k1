@@ -65,6 +65,7 @@ collections:
       - file: "content/referenzen/index.md"
         label: "Referenzen"
         name: "referenzen"
+        # path: "{{slug}}/index" layout is always taken from _default - how to change it? 
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
