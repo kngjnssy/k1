@@ -6,7 +6,7 @@
 
 <div class="grid-container">
 <!-- <article class="grid-child"> -->
-{{ range.Data.Pages }}
+{{range sort .Data.Pages "Params.name"}} 
 <figure class="grid-child">
     <img class="avatar" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
     <!-- <p>{{ .Params.name }}</p> -->
