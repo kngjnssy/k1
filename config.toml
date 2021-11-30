@@ -1,11 +1,11 @@
 title = "k1"
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "k1"
-    url = "/"
-    weight = 20
+  # [[menu.main]]
+  #   identifier = "home"
+  #   name = "k1"
+  #   url = "/"
+  #   weight = 20
 
   [[menu.main]]
     identifier = "profil"

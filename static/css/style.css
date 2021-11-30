@@ -64,12 +64,12 @@ img {
 
 .site-nav a {
   display: block;
-  padding-right: 1.5rem;
+  padding-right: 2.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 
-  /* text-decoration: none; */
-  color: #333;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
   /* border: 1px solid cyan; */
   text-align: left;
 }
@@ -78,7 +78,7 @@ img {
   width: 80px;
   font-weight: bold;
   padding-left: 0;
-  background-color: crimson;
+  /* background-color: crimson; */
 }
 
 .main-menu {
