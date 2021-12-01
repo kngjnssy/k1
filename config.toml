@@ -1,4 +1,5 @@
 title = "k1"
+pluralizelisttitles = false
 
 [menu]
   # [[menu.main]]
