@@ -29,15 +29,6 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - {
-        label: "Images",
-        name: "images",
-        widget: "image",
-        # choose_url: true,
-        media_library:
-          config:
-            multiple: true
-      }
 
   - name: "wettbewerbe" # Used in routes, e.g., /admin/collections/post
     label: "Wettbewerbe" # Used in the UI
@@ -78,4 +69,12 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "List", name: "list", widget: "markdown" }
+
+      - file: "content/kontakt/index.md"
+        label: "Kontakt"
+        name: "kontakt"
+        # path: "{{slug}}/index" layout is always taken from _default - how to change it? 
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+

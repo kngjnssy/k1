@@ -30,3 +30,9 @@ title = "k1"
     name = "Referenzen"
     url = "/referenzen"
     weight = 20
+
+  [[menu.main]]
+    identifier = "kontakt"
+    name = "Kontakt"
+    url = "/kontakt"
+    weight = 40
