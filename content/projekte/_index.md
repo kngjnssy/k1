@@ -1,5 +1,5 @@
 ---
-# title: "Hi There"
+title: "Projekte"
 # blurb: "Welcome to your new Hugo site."
 # section:
 #     heading: "A Subsection"

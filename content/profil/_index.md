@@ -1,5 +1,5 @@
 ---
-title: "Wettbewerbe" # there is an S at the end?
+title: "Profil"
 # blurb: "Welcome to your new Hugo site."
 # section:
 #     heading: "A Subsection"
