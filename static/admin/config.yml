@@ -41,6 +41,14 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image 2", name: "image2", widget: "image" }
+      - { label: "Image 3", name: "image3", widget: "image" }
+      - { label: "Image 4", name: "image4", widget: "image" }
+      - { label: "Image 5", name: "image5", widget: "image" }
+      - { label: "Image 6", name: "image6", widget: "image" }
+      - { label: "Image 7", name: "image7", widget: "image" }
+      - { label: "Image 8", name: "image8", widget: "image" }
+
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "pages"
