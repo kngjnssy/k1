@@ -1,42 +1,16 @@
-<!-- {{ partial "header.html" . }}
-
-<h1>{{ .Params.title }}</h1>
-
-<p>{{ .Params.blurb }}</p>
-
-<h2>{{ .Params.section.heading }}</h2>
-
-<p>{{ .Params.section.text }}</p>
-
-{{ partial "footer.html" . }} -->
-
 {{ partial "header.html" . }}
 
 <!-- <h1>{{ .Title }}</h1> -->
 
 {{ .Content }}
-<!-- range.Site.Pages
-range $.Site.Data. -->
 
-{{ range where $.Site.Pages "Section" "projekte" }}
+{{ range where $.Site.Pages "Params.front" "yes" }}
 <article class="post-snippet">
   <h3>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h3>
-
 </article>
+
 {{ end }}
-range.Site.Pages
-{{ range.Site.Pages }}
-
-<article class="post-snippet">
-  <h5>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h5>
-  
-</article>
-{{ end }}
-
-
 
 {{ partial "footer.html" . }}
