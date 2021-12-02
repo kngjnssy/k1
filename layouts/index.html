@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+<!-- {{ partial "header.html" . }}
 
 <h1>{{ .Params.title }}</h1>
 
@@ -7,5 +7,36 @@
 <h2>{{ .Params.section.heading }}</h2>
 
 <p>{{ .Params.section.text }}</p>
+
+{{ partial "footer.html" . }} -->
+
+{{ partial "header.html" . }}
+
+<!-- <h1>{{ .Title }}</h1> -->
+
+{{ .Content }}
+<!-- range.Site.Pages
+range $.Site.Data. -->
+
+{{ range where $.Site.Pages "Section" "wettbewerbe" }}
+<article class="post-snippet">
+  <h3>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
+
+</article>
+{{ end }}
+range.Site.Pages
+{{ range.Site.Pages }}
+
+<article class="post-snippet">
+  <h5>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h5>
+  
+</article>
+{{ end }}
+
+
 
 {{ partial "footer.html" . }}
