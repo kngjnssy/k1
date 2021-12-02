@@ -1,8 +1,10 @@
 ---
 title: Kontakt
-type: "kontakt"
+type: kontakt
 ---
-Kontakt
+
+
+
 
 \
 k1 Landschaftsarchitekten\
