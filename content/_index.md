@@ -1,6 +1,6 @@
 ---
-title: "Wettbewerbe" # there is an S at the end?
-# blurb: "Welcome to your new Hugo site."
+title: "News" # 
+blurb: "Welcome to our new site."
 # section:
 #     heading: "A Subsection"
 #     text: "You can put even more content in here."

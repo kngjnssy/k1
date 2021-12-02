@@ -2,11 +2,11 @@ title = "k1"
 pluralizelisttitles = false
 
 [menu]
-  # [[menu.main]]
-  #   identifier = "home"
-  #   name = "k1"
-  #   url = "/"
-  #   weight = 20
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 20
 
   [[menu.main]]
     identifier = "profil"
@@ -30,7 +30,7 @@ pluralizelisttitles = false
     identifier = "referenzen"
     name = "Referenzen"
     url = "/referenzen"
-    weight = 20
+    weight = 30
 
   [[menu.main]]
     identifier = "kontakt"

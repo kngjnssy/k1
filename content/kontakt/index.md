@@ -1,5 +1,6 @@
 ---
 title: Kontakt
+type: "kontakt"
 ---
 Kontakt
 
