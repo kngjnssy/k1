@@ -2,38 +2,38 @@ title = "k1"
 pluralizelisttitles = false
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 20
+  # [[menu.main]]
+  #   identifier = "home"
+  #   name = "Home"
+  #   url = "/"
+  #   weight = 20
 
   [[menu.main]]
     identifier = "profil"
-    name = "Profil"
+    name = "büro"
     url = "/profil"
-    weight = 20
+    weight = 10
 
   [[menu.main]]
     identifier = "projekte"
-    name = "Projekte"
+    name = "arbeiten"
     url = "/projekte"
     weight = 20
 
-  [[menu.main]]
-    identifier = "wettbewerbe"
-    name = "Wettbewerbe"
-    url = "/wettbewerbe"
-    weight = 20
+  # [[menu.main]]
+  #   identifier = "wettbewerbe"
+  #   name = "Wettbewerbe"
+  #   url = "/wettbewerbe"
+  #   weight = 20
 
-  [[menu.main]]
-    identifier = "referenzen"
-    name = "Referenzen"
-    url = "/referenzen"
-    weight = 30
+  # [[menu.main]]
+  #   identifier = "referenzen"
+  #   name = "Referenzen"
+  #   url = "/referenzen"
+  #   weight = 30
 
   [[menu.main]]
     identifier = "kontakt"
-    name = "Kontakt"
+    name = "kontakt"
     url = "/kontakt"
     weight = 40

@@ -1,12 +1,11 @@
 <header class="site-header">
   <nav class="site-nav">
-
-    <a class="logo" href="/">
-      <img src="../../assets/media/logo.png" alt="k1-logo">
-    </a>
-
     <ul class="main-menu">
+      <a class="logo" href="/">
+        <img src="../../assets/media/logo.png" alt="k1-logo">
+      </a>
       {{ range.Site.Menus.main }}
+
       <li>
         <a href="{{ .URL }}">{{ .Name }}</a>
       </li>
