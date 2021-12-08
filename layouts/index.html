@@ -2,8 +2,9 @@
 
 <!-- <h1>{{ .Title }}</h1> -->
 <!-- {{ .Content }} -->
-
-{{ range where $.Site.Pages "Params.front" "yes" }}
+hi
+{{ range .Site.Taxonomies.type.wbw }}
+hello
 <article class="post-snippet">
   <h2 class="post-title">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>

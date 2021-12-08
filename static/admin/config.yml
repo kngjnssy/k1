@@ -25,7 +25,6 @@ collections:
     public_folder: ""
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - { label: "Front page", name: "front", widget: "hidden", default: "\"yes or no\""}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
@@ -39,7 +38,6 @@ collections:
     public_folder: ""
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - { label: "Front", name: "front", widget: "hidden", default: "\"yes\""}
       - { label: "Type", name: "type", widget: "list", default: "[\"projekt\", \"wbw\"]"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }

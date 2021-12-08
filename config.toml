@@ -37,3 +37,6 @@ pluralizelisttitles = false
     name = "kontakt"
     url = "/kontakt"
     weight = 40
+
+[taxonomies]
+  type = "type"
