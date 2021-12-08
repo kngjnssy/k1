@@ -15,9 +15,9 @@ pluralizelisttitles = false
     weight = 10
 
   [[menu.main]]
-    identifier = "projekte"
+    identifier = "arbeiten"
     name = "arbeiten"
-    url = "/projekte"
+    url = "/arbeiten"
     weight = 20
 
   # [[menu.main]]
@@ -26,11 +26,11 @@ pluralizelisttitles = false
   #   url = "/wettbewerbe"
   #   weight = 20
 
-  # [[menu.main]]
-  #   identifier = "referenzen"
-  #   name = "Referenzen"
-  #   url = "/referenzen"
-  #   weight = 30
+  [[menu.main]]
+    identifier = "referenzen"
+    name = "referenzen"
+    url = "/referenzen"
+    weight = 30
 
   [[menu.main]]
     identifier = "kontakt"

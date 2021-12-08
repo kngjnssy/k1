@@ -8,11 +8,12 @@
   <h2 class="post-title">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h2>
+  <p>{{ .Params.text }}</p>
 
   {{ if .Params.image }}
-    <!-- {{ $image := .Page.Resources.GetMatch .Params.image }} -->
     <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
   {{ end }}
+
 </article>
 
 {{ end }}

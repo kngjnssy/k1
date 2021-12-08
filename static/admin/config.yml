@@ -5,7 +5,7 @@ media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
 collections:
   - name: "profil" # Used in routes, e.g., /admin/collections/post
-    label: "Profil" # Used in the UI
+    label: "profil" # Used in the UI
     folder: "content/profil" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
     media_folder: "" # Save images in the post's own folder instead of the static folder
@@ -17,43 +17,30 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Bio", name: "bio", widget: "string" }
 
-  - name: "projekte" # Used in routes, e.g., /admin/collections/post
-    label: "Projekte" # Used in the UI
-    folder: "content/projekte" # The path to the folder where the documents are stored
-    path: "{{slug}}/index"
-    media_folder: "" # Save images in the post's own folder instead of the static folder
-    public_folder: ""
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
-      - { label: "Front", name: "front", widget: "hidden", default: "\"yes\""}
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "news" # Used in routes, e.g., /admin/collections/post
-    label: "News" # Used in the UI
+    label: "news" # Used in the UI
     folder: "content/news" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
     media_folder: "" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - { label: "Front", name: "front", widget: "hidden", default: "\"yes\""}
+      - { label: "Front page", name: "front", widget: "hidden", default: "\"yes or no\""}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Text", name: "text", widget: "markdown" }
 
-  - name: "wettbewerbe" # Used in routes, e.g., /admin/collections/post
-    label: "Wettbewerbe" # Used in the UI
-    folder: "content/wettbewerbe" # The path to the folder where the documents are stored
+  - name: "arbeiten" # Used in routes, e.g., /admin/collections/post
+    label: "arbeiten" # Used in the UI
+    folder: "content/arbeiten" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
     media_folder: "" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - { label: "Front", name: "front", widget: "hidden", default: "\"yes\""}
+      - { label: "Type", name: "type", widget: "list", default: "[\"projekt\", \"wbw\"]"}
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
@@ -66,11 +53,22 @@ collections:
       - { label: "Image 8", name: "image8", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "referenzen" # Used in routes, e.g., /admin/collections/post
+    label: "referenzen" # Used in the UI
+    folder: "content/referenzen" # The path to the folder where the documents are stored
+    path: "{{slug}}/index"
+    media_folder: "" # Save images in the post's own folder instead of the static folder
+    public_folder: ""
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "pages"
-    label: "Pages"
+    label: "pages"
     files:
       - file: "content/_index.md"
-        label: "Home Page"
+        label: "home page"
         name: "home"
         fields:
           - { label: "Title", name: "title", widget: "string" }
@@ -85,18 +83,10 @@ collections:
                   { label: "Text", name: "text", widget: "text" },
                 ],
             }
-      - file: "content/referenzen/index.md"
-        label: "Referenzen"
-        name: "referenzen"
-        # path: "{{slug}}/index" layout is always taken from _default - how to change it? 
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
 
       - file: "content/kontakt/index.md"
-        label: "Kontakt"
+        label: "kontakt"
         name: "kontakt"
-        # path: "{{slug}}/index" layout is always taken from _default - how to change it? 
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
