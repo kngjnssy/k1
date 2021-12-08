@@ -1,7 +1,9 @@
 ---
+front: yes
+type:
+  - '["wbw"]'
 title: Jüdischer Garten in den Gärten der Welt, Berlin
 date: 2021-12-02T17:01:31.452Z
-front: "yes"
 image: bild_galerie_jud_1.jpg.crop_display.jpg
 image2: bild_galerie_jud_2.jpg.crop_display.jpg
 image3: bild_recht_jud_1_0.jpg
