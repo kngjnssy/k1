@@ -1,7 +1,8 @@
 ---
 type:
   - '["wbw"'
-  - '"projekt"]'
+  - '"projekt"'
+  - '"frontpage"]'
 title: " Uferpark Friedrichshafen"
 date: 2021-12-01T12:20:06.903Z
 image: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
