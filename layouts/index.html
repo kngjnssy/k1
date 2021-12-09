@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 
-<!-- <h1>{{ .Title }}</h1> -->
-<!-- {{ .Content }} -->
-hi
-{{ range .Site.Taxonomies.type.wbw }}
-hello
+{{ $display_posts := (.Site.Pages.ByDate) }}
+{{ range $post := $display_posts }}
+
+  {{ if in .Params.tags "frontpage" }}
+
 <article class="post-snippet">
   <h2 class="post-title">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -16,6 +16,7 @@ hello
   {{ end }}
 
 </article>
+  {{ end }}
 
 {{ end }}
 

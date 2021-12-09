@@ -1,24 +1,25 @@
 {{ partial "header.html" . }}
+{{ partial "subnav.html" . }}
 
-<!-- <h1>{{ .Title }}</h1> -->
 
-{{ .Content }}
+{{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate.Reverse) }}
+{{ range $post := $display_posts }}
 
-{{ range.Data.Pages }}
+  {{ if in .Params.tags "projekt" }}
+
 <article class="post-snippet">
-  <h3>
+  <h2 class="post-title">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h3>
+  </h2>
+  <p>{{ .Params.text }}</p>
 
   {{ if .Params.image }}
-    <!-- {{ $image := .Page.Resources.GetMatch .Params.image }} -->
     <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
   {{ end }}
 
-	<!-- <time datetime="{{ .Date.Format "2006-01-02" }}">
-		{{ .Date.Format "January 2, 2006" }}
-	</time> -->
 </article>
+  {{ end }}
+
 {{ end }}
 
 {{ partial "footer.html" . }}

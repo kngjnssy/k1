@@ -1,7 +1,5 @@
 ---
-front: '"yes"'
-type:
-  - '["projekt"]'
+tags: [ "projekt" ]
 title: "Spielerlebniswelt Echsenland, Rathenow "
 date: 2021-12-08T13:54:11.468Z
 image: rat_twf5782.jpg.crop_display.jpg
