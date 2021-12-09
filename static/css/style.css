@@ -24,11 +24,10 @@ a {
 
 h3, h2 {
   font-weight: 100;
-  font-size: larger;
+  font-size: 85%;
   /* padding-bottom: -100px; */
 }
 .post-title {
-  margin-bottom: 1rem;
   z-index: 100;
   /* position: absolute;
   margin-left: -80px; */
@@ -50,11 +49,33 @@ img {
   max-width: 100%;
 }
 
+.projekt-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: sandybrown; */
+  /* border: 1px solid purple; */
+}
+
+.projekt-item {
+  /* background-color: sandybrown; */
+  /* border: 1px solid purple; */
+  /* height: 400px; */
+  width: 400px;
+  margin: 0 20px 20px 0;
+}
+
+.projekt-item img{
+  background-color: blue;
+}
+
+.projekt-item img:hover {
+  /* border: 1px solid blue; */
+  opacity: 0.6;
+}
+
 /* profil */
 .grid-container {
   display: flex;
-  /* background-color: orange; */
-  /* border: 2px solid rgb(146, 146, 146); */
   flex-wrap: wrap;
 }
 
@@ -116,12 +137,26 @@ img {
   /* flex-direction: column; */
   margin-left: 150px;
   padding: 0;
+  margin-top: 78px;
+  background-color: white;
+  z-index: 100;
+
 }
 
 .sub-menu a {
   font-size: 85%;
   margin: 2px;
   /* border: 1px solid red; */
+}
+
+.main-menu a:hover {
+  /* border: 1px solid red; */
+  color: #AFB89E;
+}
+
+.sub-menu a:hover {
+  /* border: 1px solid red; */
+  color: #AFB89E;
 }
 
 /* @media screen and (max-width: 48rem) {

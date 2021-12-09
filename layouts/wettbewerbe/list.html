@@ -1,25 +1,25 @@
 {{ partial "header.html" . }}
 {{ partial "subnav.html" . }}
 
-
+<div class="projekt-container">
 {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate.Reverse) }}
 {{ range $post := $display_posts }}
 
   {{ if in .Params.tags "wbw" }}
 
-<article class="post-snippet">
-  <h2 class="post-title">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h2>
-  <p>{{ .Params.text }}</p>
+  <article class="post-snippet projekt-item">
+    <h3 class="post-title">
+      <a href="{{ .RelPermalink }}">
+        <img class= "projekt-item-img " src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
+        {{ .Title }}
+      </a>
+    </h3>
+    <p>{{ .Params.text }}</p>
+  </article>
 
-  {{ if .Params.image }}
-    <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
-  {{ end }}
-
-</article>
   {{ end }}
 
 {{ end }}
+</div>
 
 {{ partial "footer.html" . }}
