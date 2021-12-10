@@ -1,7 +1,7 @@
 ---
 tags:
-  - 'projekt'
-title: _test_ Stadtgarten Biesdorf Spiellandschaft Stadtgarten Biesdorf
+  - projekt
+title: Stadtgarten Biesdorf Spiellandschaft Stadtgarten Biesdorf
 yearplace: 2018, Berlin
 date: 2021-12-09T18:26:59.117Z
 image: bild_galerie_5_1.jpg.crop_display.jpg
