@@ -1,0 +1,10 @@
+<article class="post-snippet projekt-item">
+    <div class="post-title">
+        <a href="{{ .RelPermalink }}">
+            <img class= "projekt-item-img" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
+            <h2>{{ .Title }}</h2>
+            <h3>{{ .Params.yearplace }}</h3>
+            <p>{{ .Params.info }}</p>
+        </a>
+    </div>
+</article>

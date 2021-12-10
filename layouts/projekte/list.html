@@ -2,25 +2,14 @@
 {{ partial "subnav.html" . }}
 
 <div class="projekt-container">
-{{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate.Reverse) }}
-{{ range $post := $display_posts }}
+  {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate.Reverse) }}
+  {{ range $post := $display_posts }}
 
-  {{ if in .Params.tags "projekt" }}
-
-  <article class="post-snippet projekt-item">
-    <h3 class="post-title">
-      <a href="{{ .RelPermalink }}">
-        <img class= "projekt-item-img " src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
-        {{ .Title }}
-        <p>{{ .Params.info }}</p>
-      </a>
-    </h3>
-    <p>{{ .Params.text }}</p>
-  </article>
+    {{ if in .Params.tags "projekt" }}
+      {{ partial "projektlist.html" . }}
+    {{ end }}
 
   {{ end }}
-
-{{ end }}
 </div>
 
 {{ partial "footer.html" . }}

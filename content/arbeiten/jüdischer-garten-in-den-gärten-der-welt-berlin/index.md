@@ -1,6 +1,6 @@
 ---
 tags:
-  - '"wbw"'
+  - 'wbw'
 title: _test_ Jüdischer Garten in den Gärten der Welt, Berlin
 yearplace: 2019, Berlin
 info: Nichtoffener Kooperativer Gestaltungswettbewerb in Arbeitsgemeinschaft mit

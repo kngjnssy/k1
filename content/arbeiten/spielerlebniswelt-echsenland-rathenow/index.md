@@ -1,6 +1,6 @@
 ---
 tags:
-  - '"projekt"'
+  - 'projekt'
 title: "_test_ Spielerlebniswelt Echsenland, Rathenow "
 yearplace: 2015, Rathenow
 date: 2021-12-08T13:54:11.468Z
