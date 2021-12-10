@@ -1,13 +1,15 @@
 ---
-title: test Jüdischer Garten in den Gärten der Welt, Berlin
+tags:
+  - '"wbw"'
+title: _test_ Jüdischer Garten in den Gärten der Welt, Berlin
+yearplace: 2019, Berlin
+info: Nichtoffener Kooperativer Gestaltungswettbewerb in Arbeitsgemeinschaft mit
+  Martin Kaltwasser, Künstler
 date: 2021-12-02T17:01:31.452Z
 image: bild_galerie_jud_1.jpg.crop_display.jpg
 image2: bild_galerie_jud_2.jpg.crop_display.jpg
 image3: bild_recht_jud_1_0.jpg
 ---
-**Nichtoffener Kooperativer Gestaltungswettbewerb**\
-in Arbeitsgemeinschaft mit Martin Kaltwasser, Künstler
-
 Ergänzend zu den in den Gärten der Welt bereits vorhandenen Themengärten der großen Weltreligionen sollte in einem kooperativen Wettbewerbsverfahren eine Idee für einen jüdischen Garten\
 gefunden werden.
 
