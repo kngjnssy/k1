@@ -114,6 +114,16 @@ img {
   /* background-color: rgba(255, 255, 255, 0.349); */
 }
 
+.site-nav-sub {
+  position: fixed;
+  top: 2rem;
+  left: 12rem;
+  display: flex;
+  align-items: baseline;
+  /* background-color: rgba(255, 255, 255, 0.349); */
+  /* border: 2px solid coral; */
+}
+
 .site-nav a {
   display: block;
   margin-right: 2.5rem;
@@ -147,12 +157,11 @@ img {
   display: flex;
   list-style: none;
   /* flex-direction: column; */
-  margin-left: 150px;
+  margin-left: 0;
   padding: 0;
   margin-top: 78px;
   background-color: white;
   z-index: 100;
-
 }
 
 .sub-menu a {
