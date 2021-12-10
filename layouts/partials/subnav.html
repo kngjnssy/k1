@@ -35,7 +35,10 @@
   <ul class="sub-menu">
       {{ range .Site.Menus.sub }}
         <li >
-          <a href="{{ .URL }}">{{ .Name }} {{ .Pre }}</a>
+          <a href="{{ .URL }}">{{ .Name }} </a> 
+        </li>
+        <li>
+          {{ .Pre }}
         </li>
       {{ end }}
     </ul>

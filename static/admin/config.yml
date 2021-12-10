@@ -26,8 +26,9 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "list", default: "[\"frontpage\"]"}
+      - { label: "Publish Date", name: "date", widget: "hidden" }
+      - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Text", name: "text", widget: "markdown" }
 
   - name: "arbeiten" # Used in routes, e.g., /admin/collections/post
@@ -38,11 +39,13 @@ collections:
     public_folder: ""
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - { label: "Type", name: "type", widget: "list", default: "[\"projekt\", \"wbw\"]"}
+      - { label: "Tags", name: "tags", widget: "list", default: "[\"projekt\", \"wbw\", \"frontpage\"]"}
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Info", name: "info", widget: "markdown" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Year, Place", name: "yearplace", widget: "string", required: false }
+      - { label: "Short Info", name: "info", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "hidden" }      
       - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Image 2", name: "image2", widget: "image", required: false }
       - { label: "Image 3", name: "image3", widget: "image", required: false }
       - { label: "Image 4", name: "image4", widget: "image", required: false }
@@ -50,7 +53,7 @@ collections:
       - { label: "Image 6", name: "image6", widget: "image", required: false }
       - { label: "Image 7", name: "image7", widget: "image", required: false }
       - { label: "Image 8", name: "image8", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      
 
   - name: "referenzen" # Used in routes, e.g., /admin/collections/post
     label: "referenzen" # Used in the UI

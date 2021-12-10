@@ -1,17 +1,9 @@
 ---
-front: yes
-type:
-  - wbw
 title: test Jüdischer Garten in den Gärten der Welt, Berlin
-info: |-
-  Year\
-  Location, Berlin
 date: 2021-12-02T17:01:31.452Z
 image: bild_galerie_jud_1.jpg.crop_display.jpg
 image2: bild_galerie_jud_2.jpg.crop_display.jpg
 image3: bild_recht_jud_1_0.jpg
-tags:
-  - wbw
 ---
 **Nichtoffener Kooperativer Gestaltungswettbewerb**\
 in Arbeitsgemeinschaft mit Martin Kaltwasser, Künstler
