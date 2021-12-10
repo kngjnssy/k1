@@ -1,8 +1,8 @@
 ---
 tags:
-  - 'wbw'
-  - 'projekt'
-title: _test_ Uferpark Friedrichshafen
+  - wbw
+  - projekt
+title: Uferpark Friedrichshafen
 yearplace: 2017, Friedrichshafen
 info: 1. Preis - Ideenwettbewerb mit nachgeschaltetem Workshopverfahren
 date: 2021-12-01T12:20:06.903Z
