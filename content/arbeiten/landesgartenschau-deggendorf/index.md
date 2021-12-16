@@ -4,6 +4,7 @@ title: Landesgartenschau Deggendorf
 yearplace: "2014"
 info: Wettbewerb 2008 - 1. Preis
 image: donaupark-08-deichgaerten_lichtschwaermer.jpeg
+image2: donaupark-02_lichtschwaermer.jpeg
 ---
 Bauherr: Landesgartenschau Deggendorf GmbH
 
