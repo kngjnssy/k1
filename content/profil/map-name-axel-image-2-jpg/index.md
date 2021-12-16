@@ -1,6 +1,6 @@
 ---
-name: Axel
+name: Prof. Axel Klapka
+date: 2021-11-30T15:12:00.000Z
 image: 2.jpg
-date: ""
-bio: this is just a example sentence about the person
+bio: Dipl.-Ing., freier Landschaftsarchitekt
 ---
