@@ -1,6 +1,8 @@
 ---
 tags:
   - wbw
+  - projekt
+  - frontpage
 title: Uferpark Friedrichshafen
 yearplace: "2017"
 info: 1. Preis - Ideenwettbewerb mit nachgeschaltetem Workshopverfahren
