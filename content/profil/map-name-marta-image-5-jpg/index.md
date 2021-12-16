@@ -1,6 +1,6 @@
 ---
-name: Marta
+name: Marta Gioffrè
+date: 2021-11-29T23:00:00.000Z
 image: 5.jpg
-date: ""
-bio: this is just a example sentence about the person
+bio: MA Landscape Architecture
 ---
