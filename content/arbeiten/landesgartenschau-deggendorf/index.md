@@ -5,10 +5,11 @@ yearplace: "2014"
 info: Wettbewerb 2008 - 1. Preis
 image: donaupark-08-deichgaerten_lichtschwaermer.jpeg
 image2: donaupark-02_lichtschwaermer.jpeg
+image3: donaupark-09-deichgaerten_lichtschwaermer-kopie.jpg
 ---
-Bauherr: Landesgartenschau Deggendorf GmbH
+**Bauherr:** Landesgartenschau Deggendorf GmbH
 
-Fertigstellung: 2014
+**Fertigstellung:** 2014
 
 Das gesamte Gelände wird landschaftsraumspezifisch neu strukturiert. Der Donaupark wird als landschaftlicher Uferpark zur ruhigen Erholung entwickelt und liegt eigenständig vor dem Deich. Die Deichgärten bzw. die Deichpromenade erschließen das Gelände als urbanes Glied und dienen als Verteiler zwischen den Nutzungen. Zwischen Deich und dem „Baumvorhang“ an der Neusiedler Straße entsteht ein neuer Raum, der als Multifunktionsfläche mit Angeboten für Veranstaltungen, Spiel und Sport eine eigene räumliche Qualität erhält.
 
