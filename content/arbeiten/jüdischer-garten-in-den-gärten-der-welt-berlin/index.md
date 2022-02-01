@@ -7,10 +7,10 @@ info: Nichtoffener Kooperativer Gestaltungswettbewerb in Arbeitsgemeinschaft mit
   Martin Kaltwasser, Künstler
 date: 2021-12-02T17:01:31.452Z
 image: bild_galerie_jud_1.jpg.crop_display.jpg
-image2: perspektiv_mg.jpg
-image3: bild_recht_jud_1_0.jpg
-image4: materialität.jpg
-image5: schnitt.jpg
+image2: ""
+image3: ""
+image4: ""
+image5: ""
 ---
 Ergänzend zu den in den Gärten der Welt bereits vorhandenen Themengärten der großen Weltreligionen sollte in einem kooperativen Wettbewerbsverfahren eine Idee für einen jüdischen Garten\
 gefunden werden.
