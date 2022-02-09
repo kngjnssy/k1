@@ -7,7 +7,7 @@ info: Pfefferwerk Stadtkultur gGmbH
 date: 2021-12-02T17:01:31.452Z
 image: c-lichtschwaermer_mg_7978.jpg
 image2: c-lichtschwaermer_mg_7993.jpg
-image3: ""
+image3: c-lichtschwaermer_mg_7878.jpg
 image4: ""
 image5: ""
 ---
