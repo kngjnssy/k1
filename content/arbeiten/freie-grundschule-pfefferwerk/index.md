@@ -3,8 +3,7 @@ tags:
   - projekt
 title: Freie Grundschule Pfefferwerk
 yearplace: 2015, Berlin
-info: Nichtoffener Kooperativer Gestaltungswettbewerb in Arbeitsgemeinschaft mit
-  Martin Kaltwasser, Künstler
+info: Pfefferwerk Stadtkultur gGmbH
 date: 2021-12-02T17:01:31.452Z
 image: c-lichtschwaermer_mg_7978.jpg
 image2: c-lichtschwaermer_mg_7993.jpg
