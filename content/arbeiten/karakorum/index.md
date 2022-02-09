@@ -5,8 +5,8 @@ title: Karakorum
 yearplace: "2014"
 info: Wettbewerb 2008 - 1. Preis
 image: dsc_0221.jpg
-image2: donaupark-02_lichtschwaermer.jpeg
-image3: donaupark-09-deichgaerten_lichtschwaermer-kopie.jpg
+image2: dsc_0120.jpg
+image3: ""
 ---
 Die seit 2000 unter der Schirmherrschaft des Bundespräsidenten und des mongolischen Staatspräsidenten laufenden Ausgrabungen in der altmongolischen Hauptstadt haben das hergebrachte Bild von Karakorum grund- legend revidiert. So repräsentiert die große von seinem ersten Ausgräber Sergej Kiselev (1949) als Palast des Ögedei identifizierte Säulenhalle im Südwesten Karakorums nachweislich nicht den Palast , sondern einen großen buddhistischen Tempel des 13. und 14.Jahrhunderts. Der Palast hingegen lag vermutlich innerhalb des Klosters Erdene zuu.
 
