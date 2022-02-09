@@ -8,7 +8,7 @@ date: 2021-12-02T17:01:31.452Z
 image: c-lichtschwaermer_mg_7978.jpg
 image2: c-lichtschwaermer_mg_7993.jpg
 image3: c-lichtschwaermer_mg_7878.jpg
-image4: ""
+image4: c-lichtschwaermer_mg_7914.jpg
 image5: ""
 ---
 Die bestehende Sandfläche im „Kleinen Schulhof“ wird im Norden mit einer Holzskulptur aufgewertet. Dieses Holzdeck kann von vielen Kindern gleichzeitig genutzt werden und bildet den Höhepunkt der Spielfläche. In der neuen Holzlandschaft sind der Schulgarten, eine Sandspielfläche und das „Grüne Klassenzimmer“ integriert. Ein großer Spiel-, Lern- und Erlebnisraum wird geschaffen. Das Holzdeck fungiert als offene Plattform für die verschiedenen Nutzungsansprüche der Schüler und Lehrer. Im äußeren, östlichen Bereich entsteht ein neues „Grünes Klassenzimmer“ mit langen Holzstufen und kleinen Sitzblöcke, das den Schülern und Lehrern die Möglichkeit gibt, im Freien zu Sitzen und zusammen zu lernen. Räumlich eingefasst wird das Klassenzimmer von dem Bestandsbaum, der aus dem Holzdeck wächst und von neu gepflanzten Weidensteckhölzern.\
