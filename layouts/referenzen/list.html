@@ -4,8 +4,8 @@
 
 {{ .Content }}
 
-{{ range.Data.Pages }}
-<article class="post-snippet">
+{{ range.Data.Pages.ByTitle.Reverse }}
+<article class="post-snippet ref-list">
   <h3>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h3>
@@ -16,6 +16,8 @@
 	<!-- <time datetime="{{ .Date.Format "2006-01-02" }}">
 		{{ .Date.Format "January 2, 2006" }}
 	</time> -->
+  <p class="ref-list">{{ .Content }}</p>
+
 </article>
 {{ end }}
 

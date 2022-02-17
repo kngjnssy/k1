@@ -24,13 +24,11 @@ paragraph2: >-
   Gemeinden\
 
   und Individuen, symbolisiert durch die steinernen Einzelelemente, sind gleichsam als Gesamtensemble arrangiert – flächig, vertikal, verspielt und offen – aber auch jedes Element für sich stehend.
-image3: materialität.jpg
+image3: materialitat.jpg
 paragraph3: >-
   Die gewählte Form des Kreises hat weder politische noch religiöse oder andere
   symbolische Bedeutungen – sie steht für sich selbst.\
 
   Das Material Stein steht für Dauerhaftigkeit. Seine Farbe generiert einen positiven, hellen Ort.
 image4: schnitt.jpg
-image5: ""
 ---
- x

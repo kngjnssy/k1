@@ -19,4 +19,3 @@ image6: 200_1_website.jpg.crop_display.jpg
 image7: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
 image8: 500_website.jpg.crop_display.jpg
 ---
-x

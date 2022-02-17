@@ -41,6 +41,3 @@ paragraph4: >-
   Beine und Füße sind ausgeformt als Schaukel-, Kletter-, oder Balancierkonstruktionen, als Holzpodeste konstruierte Hautschuppen laden am Sonnenhang zum Kletterabenteuer oder Ausruhen ein. Gleichzeitig bilden die Podeste den Startpunkt für Erkundungen der angrenzenden Naturflächen, die bewusst in das Angebot der Spielmöglichkeiten einbezogen werden. Eine 17m hohe und über 30m lange Riesenrutsche führt zum Reptilgelege mit überdimensionalen Eiern aus Glasfaserkunststoff mit Angeboten für die Allerkleinsten.
 image5: _twf5895.jpg
 ---
-
-
-x

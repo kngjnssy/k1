@@ -53,6 +53,13 @@ a {
   font-style: italic;
 }
 /* --------- projekt LISTS --------- */
+.projekt-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: sandybrown; */
+  margin-left: 0px;
+  /* border: 1px solid purple; */
+}
 
 .projekt-item {
   margin: 0 1rem 1rem 0;
@@ -82,6 +89,13 @@ a {
   /* background-color: blueviolet; */
 }
 
+.single-view-box{
+  min-width: 50%;
+  /* width: 80vh; */
+  /* height: 80vh; */
+  /* background-color: blueviolet; */
+
+}
 .content {
   margin-bottom: 2rem;
 }
@@ -95,8 +109,25 @@ img {
 
 }
 .para1 {
+  margin-top: -200px;
   margin-left: 45rem;
-  width: 30rem;
+  width: 25rem;
+  font-size: 0.9rem;
+  /* background-color: cyan; */
+
+}
+
+.para2 {
+  margin-top: -200px;
+  margin-left: 5rem;
+  width: 25rem;
+  font-size: 0.9rem;
+  /* background-color: cyan; */
+
+}
+
+.single-images{
+  /* max-width: 70%; */
 
 }
 
@@ -110,7 +141,8 @@ img {
 
 .img2 {
   width: 30rem;
-  margin-left: 10rem;
+  margin-top: 5rem;
+  margin-left: 40em;
   margin-bottom: 4rem;
 
   /* border: 2px solid crimson; */
@@ -124,14 +156,14 @@ img {
 }
 .img4 {
   width: 30rem;
-  margin-left: 25rem;
-  margin-bottom: 4rem;
+  margin-left: 35rem;
+  /* margin-bottom: 4rem; */
 
   /* border: 2px solid crimson; */
 }
 .img5 {
-  width: 25rem;
-  margin-left: 20rem;
+  width: 35rem;
+  margin-left: 10rem;
   margin-bottom: 4rem;
   /* border: 2px solid crimson; */
 }
@@ -152,12 +184,6 @@ img {
   margin-left: 20rem;
   /* border: 2px solid crimson; */
 }
-.projekt-container {
-  display: flex;
-  flex-wrap: wrap;
-  /* background-color: sandybrown; */
-  /* border: 1px solid purple; */
-}
 
 /* profil */
 .grid-container {
@@ -177,6 +203,11 @@ img {
   font-size: 12px;
 }
 
+.ref-list {
+  font-size: 0.9rem;
+  max-width: 80%;
+  /* background-color: red; */
+}
 /* NAVIGATION */
 
 .site-nav {
@@ -185,6 +216,8 @@ img {
   left: 3rem;
   display: flex;
   align-items: baseline;
+  /* border: 2px solid coral; */
+
   /* background-color: rgba(255, 255, 255, 0.349); */
 }
 
@@ -225,6 +258,7 @@ img {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  /* background-color: darkblue; */
 }
 
 .sub-menu {
@@ -234,7 +268,7 @@ img {
   margin-left: 0;
   padding: 0;
   margin-top: 78px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 100;
 }
 
@@ -254,6 +288,7 @@ img {
   color: #AFB89E;
 }
 
+
 /* @media screen and (max-width: 48rem) {
   .site-nav,
   .main-menu {
@@ -263,4 +298,4 @@ img {
   .site-nav a {
     padding: 0.5rem;
     padding-left: 0;
-  }*/
+  } */
