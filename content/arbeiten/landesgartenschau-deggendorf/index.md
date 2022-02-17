@@ -1,5 +1,7 @@
 ---
-tags: '["projekt", "wbw", "frontpage"]'
+tags:
+  - '["projekt"'
+  - '"wbw"]'
 title: Landesgartenschau Deggendorf
 yearplace: "2014"
 info: Wettbewerb 2008 - 1. Preis
