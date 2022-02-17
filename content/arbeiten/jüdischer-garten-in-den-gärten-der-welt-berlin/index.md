@@ -24,7 +24,7 @@ paragraph2: >-
   Gemeinden\
 
   und Individuen, symbolisiert durch die steinernen Einzelelemente, sind gleichsam als Gesamtensemble arrangiert – flächig, vertikal, verspielt und offen – aber auch jedes Element für sich stehend.
-image3: materialitat.jpg
+image3: ""
 paragraph3: >-
   Die gewählte Form des Kreises hat weder politische noch religiöse oder andere
   symbolische Bedeutungen – sie steht für sich selbst.\
