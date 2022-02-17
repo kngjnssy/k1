@@ -8,6 +8,7 @@
 	<img src="{{ .Params.image }}" >
 {{ end }}
 
-{{ .Content }}
+
+<p>{{ .Params.text }}</p>
 
 {{ partial "footer.html" . }}

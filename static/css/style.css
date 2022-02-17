@@ -288,6 +288,12 @@ img {
   color: #AFB89E;
 }
 
+footer {
+  /* position: fixed; */
+  bottom: 40px;
+  /* left: 10px; */
+  /* background-color: darkblue; */
+}
 
 /* @media screen and (max-width: 48rem) {
   .site-nav,
