@@ -46,28 +46,28 @@ collections:
       - { label: "Publish Date", name: "date", widget: "hidden" }      
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Subtitle 1", name: "subtitle1", widget: "markdown", required: false}
+      - { label: "Subtitle 1", name: "subtitle1", widget: "string", required: false}
       - { label: "Paragraph 1", name: "paragraph1", widget: "markdown"}
       - { label: "Image 2", name: "image2", widget: "image", required: false }
-      - { label: "Subtitle 2", name: "subtitle2", widget: "markdown", required: false}
+      - { label: "Subtitle 2", name: "subtitle2", widget: "string", required: false}
       - { label: "Paragraph 2", name: "paragraph2", widget: "markdown", required: false }
       - { label: "Image 3", name: "image3", widget: "image", required: false }
-      - { label: "Subtitle 3", name: "subtitle3", widget: "markdown", required: false}
+      - { label: "Subtitle 3", name: "subtitle3", widget: "string", required: false}
       - { label: "Paragraph 3", name: "paragraph3", widget: "markdown", required: false }
       - { label: "Image 4", name: "image4", widget: "image", required: false }
-      - { label: "Subtitle 4", name: "subtitle4", widget: "markdown", required: false}
+      - { label: "Subtitle 4", name: "subtitle4", widget: "string", required: false}
       - { label: "Paragraph 4", name: "paragraph4", widget: "markdown", required: false }
       - { label: "Image 5", name: "image5", widget: "image", required: false }
-      - { label: "Subtitle 5", name: "subtitle5", widget: "markdown", required: false}
+      - { label: "Subtitle 5", name: "subtitle5", widget: "string", required: false}
       - { label: "Paragraph 5", name: "paragraph5", widget: "markdown", required: false }
       - { label: "Image 6", name: "image6", widget: "image", required: false }
-      - { label: "Subtitle 6", name: "subtitle6", widget: "markdown", required: false}
+      - { label: "Subtitle 6", name: "subtitle6", widget: "string", required: false}
       - { label: "Paragraph 6", name: "paragraph6", widget: "markdown", required: false }
       - { label: "Image 7", name: "image7", widget: "image", required: false }
-      - { label: "Subtitle 7", name: "subtitle7", widget: "markdown", required: false}
+      - { label: "Subtitle 7", name: "subtitle7", widget: "string", required: false}
       - { label: "Paragraph 7", name: "paragraph7", widget: "markdown", required: false }
       - { label: "Image 8", name: "image8", widget: "image", required: false }
-      - { label: "Subtitle 8", name: "subtitle8", widget: "markdown", required: false}
+      - { label: "Subtitle 8", name: "subtitle8", widget: "string", required: false}
       - { label: "Paragraph 8", name: "paragraph8", widget: "markdown", required: false }
       
 
