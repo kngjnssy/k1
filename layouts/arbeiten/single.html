@@ -1,41 +1,96 @@
 {{ partial "header.html" . }}
 
 <h1 class="post-title">{{ .Title }}</h1>
+<p>{{ .Params.info }}</p>
 
-<span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+<!-- <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span> -->
 
 {{ if .Params.image }}
 	<img class= "img1" src="{{ .Params.image }}" >
 {{ end }}
 
-{{ .Content }}
+<!-- {{ .Content }} -->
+{{ if .Params.subtitle1 }}
+	<p class= "sub">{{ .Params.subtitle1 }}</p>
+{{ end }}
+<p class= "para1">{{ .Params.paragraph1 }}</p>
+<!-- ---------------------------------------------------- -->
 
 {{ if .Params.image2 }}
 	<img class= "img2" src="{{ .Params.image2 }}" >
 {{ end }}
 
+{{ if .Params.subtitle2 }}
+	<p class= "sub">{{ .Params.subtitle2 }}</p>
+{{ end }}
+
+{{ if .Params.paragraph2 }}
+	<p class= "para1">{{ .Params.paragraph2 }}</p>
+{{ end }}
+<!-- ---------------------------------------------------- -->
+
 {{ if .Params.image3 }}
 	<img class= "img3" src="{{ .Params.image3 }}" >
 {{ end }}
+{{ if .Params.subtitle3 }}
+	<p class= "sub">{{ .Params.subtitle3 }}</p>
+{{ end }}
+{{ if .Params.paragraph3 }}
+	<p class= "para1">{{ .Params.paragraph3 }}</p>
+{{ end }}
+<!-- ---------------------------------------------------- -->
 
 {{ if .Params.image4 }}
 	<img class= "img4" src="{{ .Params.image4 }}" >
 {{ end }}
+{{ if .Params.subtitle4 }}
+	<p class= "sub">{{ .Params.subtitle4 }}</p>
+{{ end }}
+{{ if .Params.paragraph4 }}
+	<p class= "para1">{{ .Params.paragraph4 }}</p>
+{{ end }}
+<!-- ---------------------------------------------------- -->
 
 {{ if .Params.image5 }}
 	<img class= "img5" src="{{ .Params.image5 }}" >
 {{ end }}
+{{ if .Params.subtitle5 }}
+	<p class= "sub">{{ .Params.subtitle5 }}</p>
+{{ end }}
+{{ if .Params.paragraph5 }}
+	<p class= "para1">{{ .Params.paragraph5 }}</p>
+{{ end }}
+<!-- ---------------------------------------------------- -->
 
 {{ if .Params.image6 }}
 	<img class= "img6" src="{{ .Params.image6 }}" >
 {{ end }}
+{{ if .Params.subtitle6 }}
+	<p class= "sub">{{ .Params.subtitle6 }}</p>
+{{ end }}
+{{ if .Params.paragraph6 }}
+	<p class= "para1">{{ .Params.paragraph6 }}</p>
+{{ end }}
+<!-- ---------------------------------------------------- -->
 
 {{ if .Params.image7 }}
 	<img class= "img7" src="{{ .Params.image7 }}" >
 {{ end }}
-
+{{ if .Params.subtitle7 }}
+	<p class= "sub">{{ .Params.subtitle7 }}</p>
+{{ end }}
+{{ if .Params.paragraph7 }}
+	<p class= "para1">{{ .Params.paragraph7 }}</p>
+{{ end }}
+<!-- ---------------------------------------------------- -->
 {{ if .Params.image8 }}
 	<img class= "img8" src="{{ .Params.image8 }}" >
+{{ end }}
+{{ if .Params.subtitle8 }}
+	<p class= "sub">{{ .Params.subtitle8 }}</p>
+{{ end }}
+{{ if .Params.paragraph8 }}
+	<p class= "para1">{{ .Params.paragraph8 }}</p>
 {{ end }}
 
 {{ partial "footer.html" . }}
