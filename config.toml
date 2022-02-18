@@ -5,13 +5,13 @@ pluralizelisttitles = false
 
   [[menu.main]]
     identifier = "profil"
-    name = "büro"
+    name = "Büro"
     url = "/profil"
     weight = 10
 
   [[menu.main]]
     identifier = "arbeiten"
-    name = "arbeiten"
+    name = "Arbeiten"
     url = "/arbeiten"
     weight = 20
 
@@ -42,13 +42,13 @@ pluralizelisttitles = false
 
   [[menu.main]]
     identifier = "referenzen"
-    name = "referenzen"
+    name = "Referenzen"
     url = "/referenzen"
     weight = 30
 
   [[menu.main]]
     identifier = "kontakt"
-    name = "kontakt"
+    name = "Kontakt"
     url = "/kontakt"
     weight = 40
 
