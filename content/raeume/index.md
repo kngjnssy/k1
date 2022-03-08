@@ -1,5 +1,5 @@
 ---
-title: Räeume
+title: Räume
 image: buroleben2.jpeg
 image2: buroleben.jpeg
 ---
