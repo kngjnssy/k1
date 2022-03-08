@@ -1,9 +1,11 @@
 {{ partial "header.html" . }}
 
-<!-- <h1>{{ .Title }}</h1> -->
+{{ with .Site.GetPage "/philosophie" }}
+<h2>{{ .Title }}</h2>
+<div class="content2">{{ .Content }}</div>
+{{ end }}
 
-{{ .Content }}
-
+<h2>Unser Team</h2>
 <div class="grid-container">
 <!-- <article class="grid-child"> -->
 {{range sort .Data.Pages "Params.name"}} 
@@ -15,7 +17,11 @@
 </figure>
 
 {{ end }}
-<!-- </article> -->
+
+{{ with .Site.GetPage "/arbeitsverfahren" }}
+<h2>{{ .Title }}</h2>
+<div class="content2">{{ .Content }}</div>
+{{ end }}
 
 </div>
 {{ partial "footer.html" . }}

@@ -109,3 +109,25 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      - file: "content/philosophie/index.md"
+        label: "philosophie"
+        name: "philosophie"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/arbeitsverfahren/index.md"
+        label: "arbeitsverfahren"
+        name: "arbeitsverfahren"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/raeume/index.md"
+        label: "raeume"
+        name: "raeume"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - { label: "Image2", name: "image2", widget: "image", required: false }

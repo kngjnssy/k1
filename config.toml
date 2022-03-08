@@ -17,24 +17,21 @@ pluralizelisttitles = false
 
   [[menu.sub]]
     identifier = "wettbewerbe"
-    name = "wettbewerbe"
+    name = "Wettbewerbe"
     url = "/wettbewerbe"
     pre = "/"
     weight = 20
-    # parent = "arbeiten"
 
   [[menu.sub]]
     identifier = "projekte"
-    name = "projekte"
+    name = "Projekte"
     url = "/projekte"
     pre = "/"
     weight = 10
-    # parent = "arbeiten"
-
 
   [[menu.sub]]
     identifier = "all"
-    name = "all"
+    name = "All"
     url = "/arbeiten"
     weight = 30
     # parent = "arbeiten"
