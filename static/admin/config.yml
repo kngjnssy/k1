@@ -124,6 +124,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
 
       - file: "content/raeume/index.md"
+        folder: "content/raeume" # The path to the folder where the documents are stored
         label: "raeume"
         name: "raeume"
         fields:
@@ -131,3 +132,5 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image", name: "image", widget: "image", required: false }
           - { label: "Image2", name: "image2", widget: "image", required: false }
+          - { label: "Image3", name: "image3", widget: "image", required: false }
+
