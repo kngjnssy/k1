@@ -70,7 +70,6 @@ collections:
       - { label: "Subtitle 8", name: "subtitle8", widget: "string", required: false}
       - { label: "Paragraph 8", name: "paragraph8", widget: "markdown", required: false }
       
-
   - name: "referenzen" # Used in routes, e.g., /admin/collections/post
     label: "referenzen" # Used in the UI
     folder: "content/referenzen" # The path to the folder where the documents are stored
@@ -82,7 +81,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-    - name: "raeume" # Used in routes, e.g., /admin/collections/post
+  - name: "raeume" # Used in routes, e.g., /admin/collections/post
     label: "raeume" # Used in the UI
     folder: "content/raeume" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
