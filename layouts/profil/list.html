@@ -23,5 +23,15 @@
 <div class="content2">{{ .Content }}</div>
 {{ end }}
 
+
+{{ with .Site.GetPage "/raeume" }}
+<h2>{{ .Title }}</h2>
+<div class="content2">{{ .Content }}
+    {{ if .Params.image }}
+        <img src="{{ .Params.image }}" >
+    {{ end }}
+</div>
+{{ end }}
+
 </div>
 {{ partial "footer.html" . }}
