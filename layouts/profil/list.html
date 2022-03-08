@@ -23,5 +23,16 @@
 <div class="content2">{{ .Content }}</div>
 {{ end }}
 
+{{ with .Site.GetPage "/raeume" }}
+<div class="content2">
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+    <img src='{{ .RelPermalink }}{{ .Params.image }}' alt="">
+    <img src='{{ .RelPermalink }}{{ .Params.image2 }}' alt="hi">
+</div>
+{{ end }}
+
+
+
 </div>
 {{ partial "footer.html" . }}
