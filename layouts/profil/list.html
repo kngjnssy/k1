@@ -1,42 +1,47 @@
 {{ partial "header.html" . }}
 
-<li><a href="#philosophie">philosophie</a></li>
-<li><a href="#raeume">raeume</a></li>
 
+<a class="toc" href="#philosophie">1. Philosophie</a><br>
+<a class="toc" href="#team">2. Unser Team</a><br>
+<a class="toc" href="#raeume">3. Räume</a>
 
-{{ with .Site.GetPage "/philosophie" }}
-<h2 id="philosophie">{{ .Title }}</h2>
-<div class="content2">{{ .Content }}</div>
-{{ end }}
+<div class="buro-content-box">
+    {{ with .Site.GetPage "/philosophie" }}
+    <h2 id="philosophie">{{ .Title }}</h2>
+    <div class="content2">{{ .Content }}</div>
+    {{ end }}
+</div>
 
-<h2>Unser Team</h2>
-<div class="grid-container">
-<!-- <article class="grid-child"> -->
-{{range sort .Data.Pages "Params.name"}} 
-<figure class="grid-child">
-    <img class="avatar" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
-    <!-- <p>{{ .Params.name }}</p> -->
-    <figcaption>{{ .Params.name }}</figcaption>
-    <p class="avatar">{{ .Params.bio }}</p>
-</figure>
-
-{{ end }}
-
-{{ with .Site.GetPage "/arbeitsverfahren" }}
-<h2>{{ .Title }}</h2>
-<div class="content2">{{ .Content }}</div>
-{{ end }}
-
-{{ with .Site.GetPage "/raeume" }}
-<div class="content2">
-    <h2 id="raeume">{{ .Title }}</h2>
+<div class="buro-content-box">
+    <h2 id="team">Unser Team</h2>
+    <div class="grid-container">
+    {{range sort (sort .Data.Pages "Params.name") "Params.index"}} 
+        <figure class="grid-child">
+            <img class="avatar" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
+            <!-- <p>{{ .Params.name }}</p> -->
+            <figcaption>{{ .Params.name }}</figcaption>
+            <p class="avatar">{{ .Params.bio }}</p>
+        </figure>
+    {{ end }}
+    </div>
+</div>
+    
+<div class="buro-content-box">
+    {{ with .Site.GetPage "/arbeitsverfahren" }}
+    <h2>{{ .Title }}</h2>
     {{ .Content }}
-    <img src='{{ .RelPermalink }}{{ .Params.image }}' alt="">
-    <img src='{{ .RelPermalink }}{{ .Params.image2 }}' alt="hi">
+    {{ end }}
 </div>
-{{ end }}
 
-
-
+<div class="buro-content-box">
+    {{ with .Site.GetPage "/raeume" }}
+    <div class="content2">
+        <h2 id="raeume">{{ .Title }}</h2>
+        {{ .Content }}
+        <img src='{{ .RelPermalink }}{{ .Params.image }}' alt="">
+        <img src='{{ .RelPermalink }}{{ .Params.image2 }}' alt="hi">
+    </div>
+    {{ end }}
 </div>
+
 {{ partial "footer.html" . }}

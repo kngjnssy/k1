@@ -18,6 +18,11 @@ a {
   color: #333;
 }
 
+.toc {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
 .post-title h2 {
   font-weight: 400;
   font-size: 95%;
@@ -102,8 +107,10 @@ a {
   margin-bottom: 2rem;
 }
 
-.content2 {
+.buro-content-box {
+  margin-top: 10rem;
   margin-bottom: 10rem;
+  /* background-color: tomato; */
 }
 
 img {
