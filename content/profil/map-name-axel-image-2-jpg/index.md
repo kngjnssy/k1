@@ -1,6 +1,6 @@
 ---
 name: Prof. Axel Klapka
 date: 2021-11-30T15:12:00.000Z
-image: axel-kopie.jpg
+image: fotos-kopie.jpg
 bio: Dipl.-Ing. Landschaftsplanung, freier Landschaftsarchitekt
 ---
