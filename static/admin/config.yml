@@ -82,6 +82,18 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "arbeitsverfahren" # Used in routes, e.g., /admin/collections/post
+    label: "arbeitsverfahren" # Used in the UI
+    folder: "content/arbeitsverfahren" # The path to the folder where the documents are stored
+    path: "{{slug}}/index"
+    media_folder: "" # Save images in the post's own folder instead of the static folder
+    public_folder: ""
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Short Info", name: "info", widget: "string", required: true }    
+      - { label: "Featured Image", name: "image", widget: "image", required: true }
+
   - name: "raeume" # Used in routes, e.g., /admin/collections/post
     label: "raeume" # Used in the UI
     folder: "content/raeume" # The path to the folder where the documents are stored
@@ -130,9 +142,3 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
-      - file: "content/arbeitsverfahren/index.md"
-        label: "arbeitsverfahren"
-        name: "arbeitsverfahren"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
