@@ -3,7 +3,8 @@
 
 <a class="toc" href="#philosophie">1. Philosophie</a><br>
 <a class="toc" href="#team">2. Unser Team</a><br>
-<a class="toc" href="#raeume">3. Räume</a>
+<a class="toc" href="#arbeitsverfahren">3. Arbeitsverfahren</a><br>
+<a class="toc" href="#raeume">4. Räume</a>
 
 <div class="buro-content-box">
     {{ with .Site.GetPage "/philosophie" }}
@@ -28,19 +29,16 @@
     
 <div class="buro-content-box">
     {{ with .Site.GetPage "/arbeitsverfahren" }}
-    <h2>{{ .Title }}</h2>
+    <h2 id="arbeitsverfahren">{{ .Title }}</h2>
     {{ .Content }}
     {{ end }}
 </div>
 
 <div class="buro-content-box">
     {{ with .Site.GetPage "/raeume" }}
-    <div class="content2">
         <h2 id="raeume">{{ .Title }}</h2>
         {{ .Content }}
         <img src='{{ .RelPermalink }}{{ .Params.image }}' alt="">
-        <img src='{{ .RelPermalink }}{{ .Params.image2 }}' alt="hi">
-    </div>
     {{ end }}
 </div>
 
