@@ -1,28 +1,14 @@
-<nav class="site-nav">
-  <ul class="main-menu">
-    <a class="logo" href="/">
-      <img src="../../assets/media/logo.png" alt="k1-logo">
+<nav class="">
+  <ul class="">
+    <a href="/">
+      <img class="w-24" src="../../assets/media/logo.png" alt="k1-logo">
     </a>
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-          {{ if .HasChildren }}
-              <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                  <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
-              <!-- <ul class="sub-menu">
-                  {{ range .Children }}
-                      <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                          <a href="{{ .URL }}">{{ .Name }}</a>
-                      </li>
-                  {{ end }}
-              </ul> -->
-          {{ else }}
-              <li>
-                  <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
-          {{ end }}
+        <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
       {{ end }}
-
     </ul>
 
 </nav>
