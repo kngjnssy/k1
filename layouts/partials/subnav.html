@@ -1,12 +1,10 @@
-<nav class="site-nav-sub">
-  <ul class="sub-menu">
-      {{ range .Site.Menus.sub }}
-        <li >
-          <a href="{{ .URL }}">{{ .Name }} </a> 
-        </li>
-        <li>
-          {{ .Pre }}
-        </li>
-      {{ end }}
-    </ul>
+<nav class="">
+  <div class="mb-10">
+    {{ range .Site.Menus.sub }}
+    <span class="underline">
+      <a href="{{ .URL }}">{{ .Name }} </a>
+    </span>
+    <span> {{ .Pre }} </span>
+    {{ end }}
+  </div>
 </nav>

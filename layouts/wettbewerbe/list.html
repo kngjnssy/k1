@@ -5,7 +5,7 @@
 {{ partial "subnav.html" . }}
 
 
-<div class="projekt-container">
+<div class="grid grid-cols-3">
 {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate.Reverse) }}
 {{ range $post := $display_posts }}
 
