@@ -30,7 +30,15 @@
 <div class="buro-content-box">
     {{ with .Site.GetPage "/arbeitsverfahren" }}
     <h2 id="arbeitsverfahren">{{ .Title }}</h2>
-    {{ .Content }}
+    <div class="">
+        {{ $display_posts := ((.Site.GetPage "section" "/arbeitsverfahren").Pages) }}
+        {{ range $post := $display_posts }}
+            
+            <img class="para3" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
+            <h3 class="img4">{{ .Title }}</h3><br>
+            <p class="img4">{{ .Params.info}}</p>
+        {{ end }}
+    </div>
     {{ end }}
 </div>
 

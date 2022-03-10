@@ -77,13 +77,14 @@ a {
   /* background-color: rgba(175, 115, 37, 0.397); */
 }
 
+/* 
 .projekt-item-box{
-  /* width: 18rem; */
+  width: 18rem;
   height: 17rem;
 }
 .projekt-item img{
   object-fit: cover;
-}
+} */
 
 .projekt-item img:hover {
   /* border: 1px solid blue; */
