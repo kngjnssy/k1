@@ -1,14 +1,13 @@
-<nav class="">
-  <ul class="">
+<nav class="font-[100] font-roboto col-span-2 relative">
+  <ul class="fixed">
     <a href="/">
-      <img class="w-24" src="../../assets/media/logo.png" alt="k1-logo">
+      <img class="mb-12 w-24" src="../../assets/media/logo.png" alt="k1-logo">
     </a>
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
         <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a class="leading-10" href="{{ .URL }}">{{ .Name }}</a>
         </li>
       {{ end }}
     </ul>
-
 </nav>
