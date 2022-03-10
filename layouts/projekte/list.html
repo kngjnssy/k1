@@ -1,15 +1,20 @@
-{{ partial "header.html" . }}
-{{ partial "subnav.html" . }}
+<div class="flex flex-col">
+  <div class="font-[100] font-roboto grid grid-cols-12 ml-12 mt-24">
+  {{ partial "header.html" . }}
+    <div class="flex flex-col col-span-8 mt-24">
+    {{ partial "subnav.html" . }}
 
-<div class="projekt-container">
-  {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate.Reverse) }}
-  {{ range $post := $display_posts }}
+      <div class="projekt-container">
+        {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate.Reverse) }}
+        {{ range $post := $display_posts }}
 
-    {{ if in .Params.tags "projekt" }}
-      {{ partial "projektlist.html" . }}
-    {{ end }}
+          {{ if in .Params.tags "projekt" }}
+            {{ partial "projektlist.html" . }}
+          {{ end }}
 
-  {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </div>
-
-{{ partial "footer.html" . }}
+<!-- {{ partial "footer.html" . }} -->
