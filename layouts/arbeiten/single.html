@@ -1,96 +1,86 @@
-{{ partial "header.html" . }}
-<div class="single-view-box">
-	<h1 class="post-title">{{ .Title }}</h1>
-	<p>{{ .Params.info }}</p>
+<div class="flex flex-col">
+  <div class="font-[100] font-roboto grid grid-cols-12 ml-12 mt-24">
+    {{ partial "header.html" . }}
+    <div class="flex flex-col col-span-8 mt-24">
+      <div class="">
+        
+        <p>{{ .Params.info }}</p>
 
-	<!-- <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span> -->
+        <!-- <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span> -->
 
-	{{ if .Params.image }}
-		<img class= "single-images img1" src="{{ .Params.image }}" >
-	{{ end }}
+        {{ if .Params.image }}
+        <img class="single-images img1" src="{{ .Params.image }}" />
+        {{ end }}
+		<h1 class="text-4xl text-bold">{{ .Title }}</h1>
+        <!-- {{ .Content }} -->
+        {{ if .Params.subtitle1 }}
+        <p class="">{{ .Params.subtitle1 }}</p>
+        {{ end }}
+        <p class="">{{ .Params.paragraph1 }}</p>
+        <!-- ---------------------------------------------------- -->
 
-	<!-- {{ .Content }} -->
-	{{ if .Params.subtitle1 }}
-		<p class= "sub">{{ .Params.subtitle1 }}</p>
-	{{ end }}
-	<p class= "para1">{{ .Params.paragraph1 }}</p>
-	<!-- ---------------------------------------------------- -->
+        {{ if .Params.image2 }}
+        <img class="single-images img2" src="{{ .Params.image2 }}" />
+        {{ end }} {{ if .Params.subtitle2 }}
+        <p class="sub">{{ .Params.subtitle2 }}</p>
+        {{ end }} {{ if .Params.paragraph2 }}
+        <p class="para2">{{ .Params.paragraph2 }}</p>
+        {{ end }}
+        <!-- ---------------------------------------------------- -->
 
-	{{ if .Params.image2 }}
-		<img class= "single-images img2" src="{{ .Params.image2 }}" >
-	{{ end }}
+        {{ if .Params.image3 }}
+        <img class="img3" src="{{ .Params.image3 }}" />
+        {{ end }} {{ if .Params.subtitle3 }}
+        <p class="sub">{{ .Params.subtitle3 }}</p>
+        {{ end }} {{ if .Params.paragraph3 }}
+        <p class="para1">{{ .Params.paragraph3 }}</p>
+        {{ end }}
+        <!-- ---------------------------------------------------- -->
 
-	{{ if .Params.subtitle2 }}
-		<p class= "sub">{{ .Params.subtitle2 }}</p>
-	{{ end }}
+        {{ if .Params.image4 }}
+        <img class="img4" src="{{ .Params.image4 }}" />
+        {{ end }} {{ if .Params.subtitle4 }}
+        <p class="sub">{{ .Params.subtitle4 }}</p>
+        {{ end }} {{ if .Params.paragraph4 }}
+        <p class="para2">{{ .Params.paragraph4 }}</p>
+        {{ end }}
+        <!-- ---------------------------------------------------- -->
 
-	{{ if .Params.paragraph2 }}
-		<p class= "para2">{{ .Params.paragraph2 }}</p>
-	{{ end }}
-	<!-- ---------------------------------------------------- -->
+        {{ if .Params.image5 }}
+        <img class="img5" src="{{ .Params.image5 }}" />
+        {{ end }} {{ if .Params.subtitle5 }}
+        <p class="sub">{{ .Params.subtitle5 }}</p>
+        {{ end }} {{ if .Params.paragraph5 }}
+        <p class="para1">{{ .Params.paragraph5 }}</p>
+        {{ end }}
+        <!-- ---------------------------------------------------- -->
 
-	{{ if .Params.image3 }}
-		<img class= "img3" src="{{ .Params.image3 }}" >
-	{{ end }}
-	{{ if .Params.subtitle3 }}
-		<p class= "sub">{{ .Params.subtitle3 }}</p>
-	{{ end }}
-	{{ if .Params.paragraph3 }}
-		<p class= "para1">{{ .Params.paragraph3 }}</p>
-	{{ end }}
-	<!-- ---------------------------------------------------- -->
+        {{ if .Params.image6 }}
+        <img class="img6" src="{{ .Params.image6 }}" />
+        {{ end }} {{ if .Params.subtitle6 }}
+        <p class="sub">{{ .Params.subtitle6 }}</p>
+        {{ end }} {{ if .Params.paragraph6 }}
+        <p class="para1">{{ .Params.paragraph6 }}</p>
+        {{ end }}
+        <!-- ---------------------------------------------------- -->
 
-	{{ if .Params.image4 }}
-		<img class= "img4" src="{{ .Params.image4 }}" >
-	{{ end }}
-	{{ if .Params.subtitle4 }}
-		<p class= "sub">{{ .Params.subtitle4 }}</p>
-	{{ end }}
-	{{ if .Params.paragraph4 }}
-		<p class= "para2">{{ .Params.paragraph4 }}</p>
-	{{ end }}
-	<!-- ---------------------------------------------------- -->
-
-	{{ if .Params.image5 }}
-		<img class= "img5" src="{{ .Params.image5 }}" >
-	{{ end }}
-	{{ if .Params.subtitle5 }}
-		<p class= "sub">{{ .Params.subtitle5 }}</p>
-	{{ end }}
-	{{ if .Params.paragraph5 }}
-		<p class= "para1">{{ .Params.paragraph5 }}</p>
-	{{ end }}
-	<!-- ---------------------------------------------------- -->
-
-	{{ if .Params.image6 }}
-		<img class= "img6" src="{{ .Params.image6 }}" >
-	{{ end }}
-	{{ if .Params.subtitle6 }}
-		<p class= "sub">{{ .Params.subtitle6 }}</p>
-	{{ end }}
-	{{ if .Params.paragraph6 }}
-		<p class= "para1">{{ .Params.paragraph6 }}</p>
-	{{ end }}
-	<!-- ---------------------------------------------------- -->
-
-	{{ if .Params.image7 }}
-		<img class= "img7" src="{{ .Params.image7 }}" >
-	{{ end }}
-	{{ if .Params.subtitle7 }}
-		<p class= "sub">{{ .Params.subtitle7 }}</p>
-	{{ end }}
-	{{ if .Params.paragraph7 }}
-		<p class= "para1">{{ .Params.paragraph7 }}</p>
-	{{ end }}
-	<!-- ---------------------------------------------------- -->
-	{{ if .Params.image8 }}
-		<img class= "img8" src="{{ .Params.image8 }}" >
-	{{ end }}
-	{{ if .Params.subtitle8 }}
-		<p class= "sub">{{ .Params.subtitle8 }}</p>
-	{{ end }}
-	{{ if .Params.paragraph8 }}
-		<p class= "para1">{{ .Params.paragraph8 }}</p>
-	{{ end }}
+        {{ if .Params.image7 }}
+        <img class="img7" src="{{ .Params.image7 }}" />
+        {{ end }} {{ if .Params.subtitle7 }}
+        <p class="sub">{{ .Params.subtitle7 }}</p>
+        {{ end }} {{ if .Params.paragraph7 }}
+        <p class="para1">{{ .Params.paragraph7 }}</p>
+        {{ end }}
+        <!-- ---------------------------------------------------- -->
+        {{ if .Params.image8 }}
+        <img class="img8" src="{{ .Params.image8 }}" />
+        {{ end }} {{ if .Params.subtitle8 }}
+        <p class="sub">{{ .Params.subtitle8 }}</p>
+        {{ end }} {{ if .Params.paragraph8 }}
+        <p class="para1">{{ .Params.paragraph8 }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </div>
-{{ partial "footer.html" . }}
+<!-- {{ partial "footer.html" . }} -->
