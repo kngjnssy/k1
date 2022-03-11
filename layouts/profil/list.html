@@ -22,7 +22,7 @@
                 <div class="grid grid-cols-2 md:grid-cols-5 md:grid-rows-2">
                 {{range sort (sort .Data.Pages "Params.name") "Params.index"}} 
                     <figure class="w-36 mr-2">
-                        <img class="" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
+                        <img class="grayscale" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
                         <figcaption>{{ .Params.name }}</figcaption>
                         <p class="text-xs">{{ .Params.bio }}</p>
                     </figure>
@@ -39,7 +39,7 @@
                     <!-- <div class="m-10"> -->
                         <img class="md:mb-10 object-cover w-96 grayscale opacity-60" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
                         <div class="md:ml-10">
-                            <h3 class="font-medium text-xl">{{ .Title }}</h3><br>
+                            <h3 class="text-xl">{{ .Title }}</h3><br>
                             <p>{{ .Params.info}}</p>
                         </div>
                     <!-- </div> -->
