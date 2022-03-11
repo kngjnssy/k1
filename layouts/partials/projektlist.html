@@ -1,10 +1,14 @@
-<article class="projekt-item">
-    <div class="post-title">
-        <a href="{{ .RelPermalink }}">
-            <img class= "projekt-item-box projekt-item-img" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
-            <h2>{{ .Title }}</h2>
-            <h3>{{ .Params.yearplace }}</h3>
-            <p>{{ .Params.info }}</p>
-        </a>
-    </div>
+<article class="mr-6 h-80 mb-5">
+  <div class="">
+    <a href="{{ .RelPermalink }}">
+      <img
+        class="projekt-item-box projekt-item-img"
+        src="{{ .RelPermalink }}{{ .Params.image }}"
+        alt=""
+      />
+      <h2>{{ .Title }}</h2>
+      <h3 class="text-xs">{{ .Params.yearplace }}</h3>
+      <p class="text-xs">{{ .Params.info }}</p>
+    </a>
+  </div>
 </article>

@@ -1,53 +1,61 @@
-{{ partial "header.html" . }}
-
-
-<a class="toc" href="#philosophie">1. Philosophie</a><br>
-<a class="toc" href="#team">2. Unser Team</a><br>
-<a class="toc" href="#arbeitsverfahren">3. Arbeitsverfahren</a><br>
-<a class="toc" href="#raeume">4. Räume</a>
-
-<div class="buro-content-box">
-    {{ with .Site.GetPage "/philosophie" }}
-    <h2 id="philosophie">{{ .Title }}</h2>
-    <div class="content2">{{ .Content }}</div>
-    {{ end }}
-</div>
-
-<div class="buro-content-box">
-    <h2 id="team">Unser Team</h2>
-    <div class="grid-container">
-    {{range sort (sort .Data.Pages "Params.name") "Params.index"}} 
-        <figure class="grid-child">
-            <img class="avatar" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
-            <!-- <p>{{ .Params.name }}</p> -->
-            <figcaption>{{ .Params.name }}</figcaption>
-            <p class="avatar">{{ .Params.bio }}</p>
-        </figure>
-    {{ end }}
-    </div>
-</div>
+<div class="flex flex-col">
+    <div class="font-[100] font-roboto grid grid-cols-12 ml-12 mt-24">
+    {{ partial "header.html" . }}
+        <div class="flex flex-col col-span-8 mt-24">
     
-<div class="buro-content-box">
-    {{ with .Site.GetPage "/arbeitsverfahren" }}
-    <h2 id="arbeitsverfahren">{{ .Title }}</h2>
-    <div class="">
-        {{ $display_posts := ((.Site.GetPage "section" "/arbeitsverfahren").Pages) }}
-        {{ range $post := $display_posts }}
+            <section class="flex flex-col underline leading-tight">
+                <a href="#philosophie">1. Philosophie</a><br>
+                <a href="#team">2. Unser Team</a><br>
+                <a href="#arbeitsverfahren">3. Arbeitsverfahren</a><br>
+                <a href="#raeume">4. Räume</a>
+            </section>
             
-            <img class="para3" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
-            <h3 class="img4">{{ .Title }}</h3><br>
-            <p class="img4">{{ .Params.info}}</p>
-        {{ end }}
+            <section class="flex flex-col mt-20">
+                {{ with .Site.GetPage "/philosophie" }}
+                <h2 id="philosophie" class="text-xl mb-6">{{ .Title }}</h2>
+                <div class="">{{ .Content }}</div>
+                {{ end }}
+            </section>
+    
+            <section class="flex flex-col mt-20">
+                <h2 id="team" class="text-xl mb-6">Unser Team</h2>
+                <div class="grid grid-cols-2 md:grid-cols-5 md:grid-rows-2">
+                {{range sort (sort .Data.Pages "Params.name") "Params.index"}} 
+                    <figure class="w-36 mr-2">
+                        <img class="" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
+                        <figcaption>{{ .Params.name }}</figcaption>
+                        <p class="text-xs">{{ .Params.bio }}</p>
+                    </figure>
+                {{ end }}
+                </div>
+            </section>
+                
+            <section class="flex flex-col mt-20">
+                {{ with .Site.GetPage "/arbeitsverfahren" }}
+                <h2 id="arbeitsverfahren" class="text-xl mb-6">{{ .Title }}</h2>
+                <div class="grid md:grid-cols-2 mt-10">
+                    {{ $display_posts := ((.Site.GetPage "section" "/arbeitsverfahren").Pages) }}
+                    {{ range $post := $display_posts }}
+                    <!-- <div class="m-10"> -->
+                        <img class="md:mb-10 object-cover w-96 grayscale opacity-60" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
+                        <div class="md:ml-10">
+                            <h3 class="font-medium text-xl">{{ .Title }}</h3><br>
+                            <p>{{ .Params.info}}</p>
+                        </div>
+                    <!-- </div> -->
+                    {{ end }}
+                </div>
+                {{ end }}
+            </section>
+    
+            <section class="flex flex-col mt-20 mb-20">
+                {{ with .Site.GetPage "/raeume" }}
+                    <h2 id="raeume" class="text-xl mb-6">{{ .Title }}</h2>
+                    <!-- {{ .Content }} -->
+                    <img class="w-8/12 opacity-30 grayscale" src='{{ .RelPermalink }}{{ .Params.image }}' alt="">
+                {{ end }}
+            </section>
+        </div>
     </div>
-    {{ end }}
 </div>
-
-<div class="buro-content-box">
-    {{ with .Site.GetPage "/raeume" }}
-        <h2 id="raeume">{{ .Title }}</h2>
-        {{ .Content }}
-        <img src='{{ .RelPermalink }}{{ .Params.image }}' alt="">
-    {{ end }}
-</div>
-
-{{ partial "footer.html" . }}
+<!-- {{ partial "footer.html" . }} -->

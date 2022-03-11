@@ -1,11 +1,17 @@
-{{ partial "header.html" . }}
-{{ partial "subnav.html" . }}
+<div class="flex flex-col">
+  <div class="font-[100] font-roboto grid grid-cols-12 ml-12 mt-24">
+    {{ partial "header.html" . }}
+    <div class="flex flex-col col-span-8 mt-24">
+      {{ partial "subnav.html" . }}
 
-<div class="projekt-container">
-{{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate) }}
-  {{ range $post := $display_posts }}
-    {{ partial "projektlist.html" . }}
-  {{ end }}
+      <div class="grid grid-cols-3">
+        {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate) }} 
+        {{ range $post := $display_posts }} 
+          {{ partial "projektlist.html" . }} 
+        {{ end }}
+      </div>
+    </div>
+  </div>
 </div>
 
-{{ partial "footer.html" . }}
+<!-- {{ partial "footer.html" . }} -->
