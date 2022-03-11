@@ -142,3 +142,9 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      - file: "content/arbeiten_intro/index.md"
+        label: "arbeiten_intro"
+        name: "arbeiten_intro"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
