@@ -17,7 +17,7 @@ paragraph2: Die bestehende Sandfläche im „Kleinen Schulhof“ wird im Norden 
 # subtitle3: Something3
 paragraph3: Unterschiedlich breite Farbstreifen, Zahlen, Symbole, Flächen erstrecken sich über den gesamten „Großen Schulhof“. Diese Bodenmarkierungen auf dem Asphalt dienen als subtile Lenkung und Orientierungshilfe für Schüler und Besucher auf dem Schulgelände. Die Farblinien und -flächen sind „Spielbänder“, auf denen die Kinder rennen, spielen, hüpfen, fahren können. 
 # subtitle4: Something4
-paragraph4: ""
+paragraph4: "Weitere bunte Bodenlinien in der Nähe des Fußballtores und des Basketballkorbes markieren Spielfelder und können in den Spielablauf der Schüler integriert werden. Die Bodenmarkierungen führen spielerisch in den „Kleinen Schulhof“. Die Asphaltfläche südlich der Sandfläche wird damit attraktiver gestaltet."
 # subtitle5: Something5
 # paragraph5: text text text
 ---
