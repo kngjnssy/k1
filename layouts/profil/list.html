@@ -37,7 +37,7 @@
                     {{ $display_posts := ((.Site.GetPage "section" "/arbeitsverfahren").Pages) }}
                     {{ range $post := $display_posts }}
                     <!-- <div class="m-10"> -->
-                        <img class="md:mb-10 object-cover w-96 grayscale" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
+                        <img class="md:mb-10 object-cover w-96 grayscale opacity-60" src="{{ .RelPermalink }}{{ .Params.image }}" alt="">
                         <div class="md:ml-10">
                             <h3 class="font-medium text-xl">{{ .Title }}</h3><br>
                             <p>{{ .Params.info}}</p>
@@ -48,7 +48,7 @@
                 {{ end }}
             </section>
     
-            <section class="flex flex-col mt-20">
+            <section class="flex flex-col mt-20 mb-20">
                 {{ with .Site.GetPage "/raeume" }}
                     <h2 id="raeume" class="text-xl mb-6">{{ .Title }}</h2>
                     <!-- {{ .Content }} -->
@@ -58,4 +58,4 @@
         </div>
     </div>
 </div>
-{{ partial "footer.html" . }}
+<!-- {{ partial "footer.html" . }} -->
