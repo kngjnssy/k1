@@ -4,12 +4,19 @@
     <div class="flex flex-col col-span-8 mt-24">
       {{ partial "subnav.html" . }}
 
-      <div class="grid grid-cols-3">
-        {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate) }} 
-        {{ range $post := $display_posts }} 
-          {{ partial "projektlist.html" . }} 
+      <section class="flex flex-col mt-10 mb-20 w-6/12">
+        {{ with .Site.GetPage "/arbeiten_intro" }}
+        <h2 class="text-xl mb-6">{{ .Title }}</h2>
+        <div>{{ .Content }}</div>
         {{ end }}
-      </div>
+      </section>
+
+      <section class="grid grid-cols-3">
+        {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByDate) }}
+        {{ range $post := $display_posts }}
+        {{ partial "projektlist.html" . }}
+        {{ end }}
+      </section>
     </div>
   </div>
 </div>

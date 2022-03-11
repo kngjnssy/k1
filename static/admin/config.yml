@@ -148,3 +148,17 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/wbw_intro/index.md"
+        label: "wbw_intro"
+        name: "wbw_intro"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - file: "content/projekte_intro/index.md"
+        label: "projekte_intro"
+        name: "projekte_intro"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }

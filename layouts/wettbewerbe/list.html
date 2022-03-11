@@ -4,12 +4,19 @@
     <div class="flex flex-col col-span-8 mt-24">
       {{ partial "subnav.html" . }}
 
-      <div class="grid grid-cols-3">
+      <section class="flex flex-col mt-10 mb-20 w-6/12">
+        {{ with .Site.GetPage "/wbw_intro" }}
+        <h2 class="text-xl mb-6">{{ .Title }}</h2>
+        <div>{{ .Content }}</div>
+        {{ end }}
+      </section>
+
+      <section class="grid grid-cols-3">
         {{ $display_posts := (((.Site.GetPage "section"
         "/arbeiten").Pages).ByDate.Reverse) }} {{ range $post := $display_posts
         }} {{ if in .Params.tags "wbw" }} {{ partial "projektlist.html" . }} {{
         end }} {{ end }}
-      </div>
+      </section>
     </div>
   </div>
 </div>
