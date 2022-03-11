@@ -1,13 +1,13 @@
-<nav class="font-[100] font-roboto col-span-2 relative">
+<nav class="font-[100] font-roboto col-span-1 relative">
   <ul class="fixed">
     <a href="/">
       <img class="mb-12 w-24" src="../../assets/media/logo.png" alt="k1-logo">
     </a>
-      {{ $currentPage := . }}
-      {{ range .Site.Menus.main }}
-        <li>
-            <a class="leading-10" href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-      {{ end }}
-    </ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="invisible md:visible">
+      <a class="leading-10" href="{{ .URL }}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
 </nav>

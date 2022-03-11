@@ -42,7 +42,11 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Tags", name: "tags", widget: "list", default: "[\"projekt\", \"wbw\", \"frontpage\"]"}
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Year, Place", name: "yearplace", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "string", required: false }
+      - { label: "Place", name: "place", widget: "string", required: false }
+      - { label: "Size", name: "size", widget: "string", required: false }
+      - { label: "Bauherr", name: "bauherr", widget: "string", required: false }
+      - { label: "Keywords", name: "keywords", widget: "list", default: "[\"bürgerbeteiligung\", \"spielplatz\", \"parkanlagen\"]", , required: false }
       - { label: "Short Info", name: "info", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "hidden" }      
       - { label: "Featured Image", name: "image", widget: "image" }
