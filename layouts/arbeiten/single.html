@@ -9,7 +9,7 @@
 				<!-- <h1 class="text-4xl text-bold mt-10">{{ .Title }}</h1> -->
 			</div>
 
-
+<!-- +1 extra full with image at the end?  -->
 			<div class="grid md:grid-cols-2">
 
 				<div class="flex flex-col">
@@ -64,13 +64,13 @@
 				</div>
 
 				<!-- ---------------------------------------------------- -->
-				<div class="flex flex-col mb-10 md:m-10">
+				<div class="flex flex-col">
 					{{ if .Params.image4 }}
 					<img class="img4" src="{{ .Params.image4 }}" />
 					{{ end }} {{ if .Params.subtitle4 }}
 					<p class="text-xs">{{ .Params.subtitle4 }}</p>
 					{{ end }} {{ if .Params.paragraph4 }}
-					<p class="md:m-10">{{ .Params.paragraph4 }}</p>
+					<!-- <p class="md:mt-10 mr-10">{{ .Params.paragraph4 }}</p> -->
 					{{ end }}
 				</div>
 				<!-- ---------------------------------------------------- -->
@@ -104,6 +104,10 @@
 					{{ end }}
 					<!-- ---------------------------------------------------- -->
 				</div>
+			</div>
+				<img class="mt-20 w-3/6" src="{{ .Params.image }}" />
+			<div>
+
 			</div>
 		</div>
 	</div>
