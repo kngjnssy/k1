@@ -23,17 +23,22 @@
 
 					<p>{{ .Params.info }}</p>
 
-					<div class="mt-2.5">
-							<p class="text-l">Ort</p>
-							<p class="text-xl mb-5">{{ .Params.place }}</p>
-							<p class="text-l">Jahr</p>
-							<p class="text-xl mb-5">{{ .Params.year }}</p>
-							<p class="text-l">Bauherr</p>
-							<p class="text-xl mb-5">{{ .Params.bauherr }}</p>
-							<p class="text-l">Größe</p>
-							<p class="text-xl mb-5">{{ .Params.size }}</p>
-							<p class="text-l">Categorie</p>
-							<p class="text-xl mb-5">{{ .Params.keywords }}</p>
+					<div class="grid grid-cols-2 mt-2.5">
+							<div>
+								<div class="text-l textcolor-grey">Ort</div>
+								<div class="text-l mb-5">{{ .Params.place }}</div>
+								<div class="text-l textcolor-grey">Jahr</div>
+								<div class="text-l mb-5">{{ .Params.year }}</div>
+								<div class="text-l textcolor-grey">Bauherr</div>
+								<div class="text-l mb-5">{{ .Params.bauherr }}</div>
+							</div>
+							<div>
+								<div class="text-l textcolor-grey">Größe</div>
+								<div class="text-l mb-5">{{ .Params.size }}</div>
+								<div class="text-l textcolor-grey">Categorie</div>
+								<div class="text-l mb-5">{{ .Params.keywords }}</div>
+							</div>
+							
 					</div>
 				</div>
 				<!-- 
