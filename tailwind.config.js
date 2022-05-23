@@ -16,7 +16,8 @@
     //   normal: 100,
     // },
     fontFamily: {
-      'roboto': 'Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif'
+      'roboto': 'Roboto',
+      'poppins': ['Poppins', 'sans-serif'] 
     }
 },
   plugins: [

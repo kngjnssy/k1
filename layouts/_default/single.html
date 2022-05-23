@@ -1,6 +1,10 @@
-{{ partial "header.html" . }}
+<div class="flex flex-col">
+	<div class="font-[100] font-roboto grid grid-cols-12 mt-24">
+	  {{ partial "header.html" . }}
+  
+	  <div class="flex flex-col col-span-8 ml-10 mt-24">
 
-<h1 class="post-title">{{ .Title }}</h1>
+<h2 class="text-xl mb-10">{{ .Title }}</h2>
 
 <!-- <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span> -->
 
@@ -8,7 +12,6 @@
 	<img src="{{ .Params.image }}" >
 {{ end }}
 
-
 <p>{{ .Params.text }}</p>
 
-{{ partial "footer.html" . }}
+<!-- {{ partial "footer.html" . }} -->

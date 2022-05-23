@@ -1,10 +1,10 @@
 <div class="flex flex-col">
-  <div class="font-[100] font-roboto grid grid-cols-12 ml-12 mt-24">
+  <div class="font-[100] font-roboto grid grid-cols-12 mt-24">
     {{ partial "header.html" . }}
-    <div class="flex flex-col col-span-8 mt-24">
+    <div class="flex flex-col col-span-8 mt-24 ml-10 testbg">
       {{ partial "subnav.html" . }}
 
-      <section class="flex flex-col mt-10 mb-20 w-6/12">
+      <section class="flex flex-col mb-20">
         {{ with .Site.GetPage "/projekte_intro" }}
         <h2 class="text-xl mb-6">{{ .Title }}</h2>
         <div>{{ .Content }}</div>

@@ -53,6 +53,8 @@ html {
 
 body {
   margin: 0;
+  margin-left: 25;
+  margin-right: 30;
   /* 1 */
   line-height: inherit;
   /* 2 */
@@ -829,9 +831,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .hovercolor:hover{
-  color: #afb79f;
+  color: #aeb79c;
 }
 
 .activecolor{
-  color: #afb79f;
+  color: #aeb79c;
 }

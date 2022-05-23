@@ -19,15 +19,15 @@ paragraph1: Die bestehende Sandfläche im „Kleinen Schulhof“ wird im Norden 
   neuen Holzlandschaft sind der Schulgarten, eine Sandspielfläche und das „Grüne
   Klassenzimmer“ integriert.
 image2: c-lichtschwaermer_mg_7993.jpg
-paragraph2: Ein großer Spiel-, Lern- und Erlebnisraum wird geschaffen. Das
-  Holzdeck fungiert als offene Plattform für die verschiedenen Nutzungsansprüche
-  der Schüler und Lehrer.
-image3: c-lichtschwaermer_mg_7878.jpg
-paragraph3: Unterschiedlich breite Farbstreifen, Zahlen, Symbole, Flächen
+paragraph2: Unterschiedlich breite Farbstreifen, Zahlen, Symbole, Flächen
   erstrecken sich über den gesamten „Großen Schulhof“. Diese Bodenmarkierungen
   auf dem Asphalt dienen als subtile Lenkung und Orientierungshilfe für Schüler
   und Besucher auf dem Schulgelände. Die Farblinien und -flächen sind
   „Spielbänder“, auf denen die Kinder rennen, spielen, hüpfen, fahren können.
+image3: c-lichtschwaermer_mg_7878.jpg
+paragraph3: Ein großer Spiel-, Lern- und Erlebnisraum wird geschaffen. Das
+  Holzdeck fungiert als offene Plattform für die verschiedenen Nutzungsansprüche
+  der Schüler und Lehrer.
 image4: c-lichtschwaermer_mg_7914.jpg
 paragraph4: Weitere bunte Bodenlinien in der Nähe des Fußballtores und des
   Basketballkorbes markieren Spielfelder und können in den Spielablauf der
