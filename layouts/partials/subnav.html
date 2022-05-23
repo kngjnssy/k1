@@ -1,9 +1,12 @@
 <nav class="">
   <div class="mb-10">
+    {{ $current := . }}
+
     {{ range .Site.Menus.sub }}
-    <span class="">
-      <a href="{{ .URL }}">{{ .Name }} </a>
-    </span>
+      {{ $active := in $current.RelPermalink .URL }}
+      <span class="hovercolor">
+        <a href="{{ .URL }}" class="{{ if $active }}activecolor{{ end }}">{{ .Name }} </a>
+      </span>
     <span> {{ .Pre }} </span>
     {{ end }}
   </div>
