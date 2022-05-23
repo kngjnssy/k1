@@ -6,10 +6,7 @@ year: "2015"
 place: Berlin
 size: 800 qm
 bauherr: Pfefferwerk Stadtkultur gGmbH
-keywords:
-  - Schulhof
-  - Spielplatz
-  - Holzbau
+keywords: Schulhof, Spielplatz, Holzbau
 info: ""
 date: 2021-12-02T17:01:31.452Z
 image: c-lichtschwaermer_mg_7978.jpg

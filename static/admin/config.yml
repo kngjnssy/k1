@@ -46,7 +46,8 @@ collections:
       - { label: "Place", name: "place", widget: "string", required: false }
       - { label: "Size", name: "size", widget: "string", required: false }
       - { label: "Bauherr", name: "bauherr", widget: "string", required: false }
-      - { label: "Keywords", name: "keywords", widget: "list", default: "[\"bürgerbeteiligung\", \"spielplatz\", \"parkanlagen\"]", required: false }
+      # - { label: "Keywords", name: "keywords", widget: "list", default: "[\"bürgerbeteiligung\", \"spielplatz\", \"parkanlagen\"]", required: false }
+      - { label: "Keywords", name: "keywords", widget: "string", required: false }
       - { label: "Short Info", name: "info", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "hidden" }      
       - { label: "Featured Image", name: "image", widget: "image" }
