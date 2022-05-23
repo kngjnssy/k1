@@ -823,3 +823,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .testbg {
   background-color: red;
 }
+
+.logosize {
+  width: 5rem;
+}
+
+.hovercolor:hover{
+  color: #afb79f;
+}
+
+.activecolor{
+  color: #afb79f;
+}
