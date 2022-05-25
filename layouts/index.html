@@ -1,24 +1,26 @@
 <div class="flex flex-col">
-  <div class="font-[100] font-roboto grid grid-cols-12 md:mt-24">
+  <div class="font-[100] font-roboto grid grid-cols-12">
     {{ partial "header.html" . }}
 
-    <div class="flex flex-col col-span-8 ml-10 mt-24">
+    <div class="flex flex-col col-span-8 ml-10 mt-rem">
       {{ $display_posts := (.Site.Pages.ByDate) }} {{ range $post :=
       $display_posts }} {{ if in .Params.tags "frontpage" }}
 
-      <article class="mb-10">
-        <h2 class="text-xl hovercolor">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-        <p>{{ .Params.text }}</p>
-
-        {{ if .Params.image }}
-        <img
-          class="w-8/12 hovercolor"
-          src="{{ .RelPermalink }}{{ .Params.image }}"
-          alt=""
-        />
-        {{ end }}
+      <article class="mb-bottom-frontpage">
+        <div>
+          <a href="{{ .RelPermalink }}">
+            <p class="text-xl maintitle z-10 relative" >{{ .Title }}</p>
+            {{ if .Params.image }}
+      
+            <img
+              class="w-8/12 z-0 img-up absolute"
+              src="{{ .RelPermalink }}{{ .Params.image }}"
+              alt=""
+            />
+            {{ end }}
+          </a>
+        </div>
+        <p class="ml-12">{{ .Params.text }}</p>
       </article>
 
       {{ end }} {{ end }}

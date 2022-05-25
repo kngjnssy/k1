@@ -549,6 +549,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 6rem;
 }
 
+.mt-rem {
+  margin-top: 8rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -567,6 +571,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-bottom {
+  margin-bottom: 2rem;
+}
+
+.mb-bottom-frontpage {
+  margin-bottom: 7rem;
 }
 
 .mr-6 {
@@ -828,7 +840,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .logosize {
   width: 5rem;
-  background-color: lime;
+  /* background-color: lime; */
 
 }
 
@@ -843,4 +855,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .activecolor{
   color: #aeb79c;
+}
+
+.maintitle:hover {
+  background-color:#aeb79c ;
+  /* font-size: xx-large; */
+  /* color: black; */
+}
+
+.maintitle {
+  /* margin-left: -2.5rem; */
+  display: inline-block;
+}
+
+.img-up {
+  margin-top: -5rem;
+  /* z-index: -0; */
+  margin-left: 3rem;
+}
+
+.img-up:hover {
+/* padding: 10px; */
+/* background-color: #aeb79c; */
 }
