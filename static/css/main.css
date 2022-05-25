@@ -828,6 +828,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .logosize {
   width: 5rem;
+  background-color: lime;
+
+}
+
+.small {
+  width: 2rem;
+  /* background-color: lightslategray; */
 }
 
 .hovercolor:hover{
