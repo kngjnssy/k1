@@ -12,7 +12,7 @@ paragraph1: Entlang der Deichpromenade in Deggendorf erstreckt sich das
   Spielereignissen thematisch die Anrainerstaaten der Donau präsentiert und
   deren kulturelle Besonderheiten zur Schau stellt.
 image2: c-lichtschwaermer_353_img_0541.jpg
-subtitle2: (c)Lichtschwaermer
+subtitle2: ""
 paragraph2: Ein geschwungenes, blaues Band aus elastischem Kunststoff bildet das
   zentrale Element und symbolisiert die Donau, den zweitlängsten Fluss unseres
   Kontinents. Das Band ist in variierenden Höhen, Neigungen und Ausdehnungen in
@@ -20,7 +20,7 @@ paragraph2: Ein geschwungenes, blaues Band aus elastischem Kunststoff bildet das
   Springen und Sitzen. Eine bewegte Landschaft ergänzt dieses Band, womit die
   gesamte Fläche zwischen Böschung und Promenade zum Spielplatz wird.
 image3: c-lichtschwaermer_340_img_0507.jpg
-subtitle3: (c)Lichtschwaermer
+subtitle3: ""
 paragraph3: ""
 image4: c-lichtschwaermer_117_mg_5429.jpg
 subtitle4: (c)Lichtschwaermer
