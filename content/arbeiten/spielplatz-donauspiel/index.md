@@ -17,5 +17,14 @@ paragraph2: Ein geschwungenes, blaues Band aus elastischem Kunststoff bildet das
   zentrale Element und symbolisiert die Donau, den zweitlängsten Fluss unseres
   Kontinents. Das Band ist in variierenden Höhen, Neigungen und Ausdehnungen in
   das Geländeniveau eingelassen und bildet einen Parkour zum Rennen, Tollen,
-  Springen und Sitzen.
+  Springen und Sitzen. Eine bewegte Landschaft ergänzt dieses Band, womit die
+  gesamte Fläche zwischen Böschung und Promenade zum Spielplatz wird.
+image3: c-lichtschwaermer_418_img_0713.jpg
+subtitle3: (c)Lichtschwaermer
+paragraph3: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
+  und Bewegungsmöglichkeiten an, die thematisch und gestalterisch wichtigen
+  Städten der einzelnen Anrainerstaaten zugeordnet sind. Den Mündungsort, das
+  schwarze Meer, bildet ein Wasserspielplatz mit einem großen Plansch und
+  Spritzbereich sowie einem Matschspiel.
+image4: c-lichtschwaermer_117_mg_5429.jpg
 ---
