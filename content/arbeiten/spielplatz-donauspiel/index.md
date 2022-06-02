@@ -24,7 +24,7 @@ subtitle3: ""
 paragraph3: ""
 image4: c-lichtschwaermer_117_mg_5429.jpg
 subtitle4: ""
-image5: c-lichtschwaermer_418_img_0713.jpg
+image5: image-5.jpg
 subtitle5: ""
 paragraph5: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
   und Bewegungsmöglichkeiten an, die thematisch und gestalterisch wichtigen
