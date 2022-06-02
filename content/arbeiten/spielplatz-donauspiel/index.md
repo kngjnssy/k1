@@ -31,4 +31,5 @@ paragraph5: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
   Städten der einzelnen Anrainerstaaten zugeordnet sind. Den Mündungsort, das
   schwarze Meer, bildet ein Wasserspielplatz mit einem großen Plansch und
   Spritzbereich sowie einem Matschspiel.
+image6: c-lichtschwaermer_091_mg_5356.jpg
 ---
