@@ -2,6 +2,7 @@
 tags: '["projekt", "wbw", "frontpage"]'
 title: Spielplatz Donauspiel
 year: 2012-2014
+place: Deggendorf
 size: 320.000 m²
 bauherr: LGS Deggendorf 2014 GmbH
 info: Spielplatzgestaltung für die Laga Deggendorf 2014
