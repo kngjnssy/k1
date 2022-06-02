@@ -7,7 +7,7 @@ place: Bad Nauheim
 size: 50.000 m2
 bauherr: LGS Bad Nauheim 2010 GmbH
 keywords: Spielplatzgestaltung für die Laga Bad Nauheim 2010
-image_featured: dsc_0161.jpg
+image_featured: dsc_0098.jpg
 paragraph1: >-
   Der Waldspielplatz wurde zur Landesgartenschau Bad Nauheim auf einer Lichtung
   des Goldsteinwäldchens mit nur wenigen Eingriffen in die Bestandsvegetation
