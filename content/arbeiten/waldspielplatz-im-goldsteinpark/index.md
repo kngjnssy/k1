@@ -25,4 +25,5 @@ paragraph2: "Mit einer eigens entwickelten Sage um den Salzkönig greift der
   des Waldes, handgeschnitzte Holzfiguren, säumen den Weg und helfen den
   Kindern, nebenher ein Rätsel zu lösen."
 image3: p1320131.jpg
+image5: image-5-wald.jpg
 ---
