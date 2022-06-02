@@ -8,7 +8,7 @@ bauherr: Berlin Random GmbH
 keywords: Park, Spielplatz
 info: This is a short, optional summary that will show up in the list / below
   the title.
-image_featured: featured.jpg
+image: featured.jpg
 subtitle1: ""
 paragraph1: This is the first paragraph, right next to the project title and
   info box. This is the first paragraph, right next to the project title and
