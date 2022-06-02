@@ -1,6 +1,6 @@
 ---
 tags:
-  - '["projekt"]'
+  - projekt
 title: Waldspielplatz im Goldsteinpark
 year: 2009 - 2010
 place: Bad Nauheim
