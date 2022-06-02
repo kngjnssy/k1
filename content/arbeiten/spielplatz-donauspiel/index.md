@@ -23,9 +23,9 @@ image3: c-lichtschwaermer_340_img_0507.jpg
 subtitle3: ""
 paragraph3: ""
 image4: c-lichtschwaermer_117_mg_5429.jpg
-subtitle4: (c)Lichtschwaermer
+subtitle4: ""
 image5: c-lichtschwaermer_418_img_0713.jpg
-subtitle5: (c)Lichtschwaermer
+subtitle5: ""
 paragraph5: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
   und Bewegungsmöglichkeiten an, die thematisch und gestalterisch wichtigen
   Städten der einzelnen Anrainerstaaten zugeordnet sind. Den Mündungsort, das
@@ -34,4 +34,5 @@ paragraph5: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
 image6: c-lichtschwaermer_096_mg_5376.jpg
 image7: c-lichtschwaermer_111_mg_5415-1.jpg
 image8: c-lichtschwaermer_462_img_9665.jpg
+image9: c-lichtschwaermer_107_mg_5402.jpg
 ---
