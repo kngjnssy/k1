@@ -15,4 +15,6 @@ paragraph1: >-
 
 
   Mit KIKS UP, einem Gesundheits-Förderprogramm für Kinder, und der Firma Zimmer.Obst wurde ein bewegungsförderndes Spielangebot zum Experimentieren und Entdecken entwickelt das die psychosoziale Kompetenz der Kinder fördert.
+image2: lgs_waldspielweg.jpg
+image3: p1320131.jpg
 ---
