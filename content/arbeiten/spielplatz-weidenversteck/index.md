@@ -13,6 +13,12 @@ paragraph1: Der Spielbereich im Weidenversteck ist basiert auf der Idee, einen
   anzubieten. Der Spielplatz ist durch drei Spieltürme gekennzeichnet, die sich
   nun weitestgehend dem Hochwasserbereich entziehen.
 image2: c-lichtschwaermer_055_mg_5262.jpg
+paragraph2: Die Spieltürme sind unterschiedlich in der Gestaltung (Holzturm,
+  Seilturm, Weidenturm) und tragen unterschiedlich Spiel- und Erlebnisthemen.
+  Der Spielbereich Weidenversteck soll in einer naturnahen Umgebung zum
+  Experimentieren, Entdecken und zum gemeinsamen Spielen einladen. Dabei sollen
+  alle Sinne angeregt werden, um Kinder und Jugendliche in ihrer motorischen
+  sowie sozialen Kompetenz zu fördern.
 image3: c-lichtschwaermer_159_img_1095.jpg
 image4: c-lichtschwaermer_060_mg_5275.jpg
 ---
