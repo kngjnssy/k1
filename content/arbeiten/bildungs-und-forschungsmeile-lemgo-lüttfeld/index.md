@@ -25,5 +25,5 @@ paragraph2: Der Bereich zwischen den Bildungseinrichtungen wird als
   Auftakt zur Bildungs- und Forschungsmeile Lemgo-Lüttfeld dar. Hier beginnt,
   eingebettet in die Platzfläche, der Boulevard.
 image3: image-3.jpg
-image4: ""
+image4: dsc_0120.jpg
 ---
