@@ -16,5 +16,13 @@ paragraph1: >-
 
   Mit KIKS UP, einem Gesundheits-Förderprogramm für Kinder, und der Firma Zimmer.Obst wurde ein bewegungsförderndes Spielangebot zum Experimentieren und Entdecken entwickelt das die psychosoziale Kompetenz der Kinder fördert.
 image2: lgs_waldspielweg.jpg
+paragraph2: "Mit einer eigens entwickelten Sage um den Salzkönig greift der
+  Waldspielplatz die Historie von Bad Nauheim auf und verbindet einzelne
+  Spielstationen des auf einer Fläche von ca. 5.000 m2 großzügig angelegten
+  Areals: Um zum Kristallturm des Salzkönigs gelangen zu können, müssen die
+  Kinder das Schwarzdorn-Labyrinth, den wogenden Weg am schwebenden Steg und den
+  Salzstangengarten, einen innovativen Niedrigseilgarten, bewältigen. Die Hüter
+  des Waldes, handgeschnitzte Holzfiguren, säumen den Weg und helfen den
+  Kindern, nebenher ein Rätsel zu lösen."
 image3: p1320131.jpg
 ---
