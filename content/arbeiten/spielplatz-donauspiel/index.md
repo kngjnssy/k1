@@ -19,12 +19,14 @@ paragraph2: Ein geschwungenes, blaues Band aus elastischem Kunststoff bildet das
   das Geländeniveau eingelassen und bildet einen Parkour zum Rennen, Tollen,
   Springen und Sitzen. Eine bewegte Landschaft ergänzt dieses Band, womit die
   gesamte Fläche zwischen Böschung und Promenade zum Spielplatz wird.
-image3: c-lichtschwaermer_418_img_0713.jpg
+image3: c-lichtschwaermer_340_img_0507.jpg
 subtitle3: (c)Lichtschwaermer
-paragraph3: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
+paragraph3: ""
+image4: c-lichtschwaermer_117_mg_5429.jpg
+image5: c-lichtschwaermer_418_img_0713.jpg
+paragraph5: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
   und Bewegungsmöglichkeiten an, die thematisch und gestalterisch wichtigen
   Städten der einzelnen Anrainerstaaten zugeordnet sind. Den Mündungsort, das
   schwarze Meer, bildet ein Wasserspielplatz mit einem großen Plansch und
   Spritzbereich sowie einem Matschspiel.
-image4: c-lichtschwaermer_117_mg_5429.jpg
 ---
