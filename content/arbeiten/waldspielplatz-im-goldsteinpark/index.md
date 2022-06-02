@@ -28,5 +28,6 @@ paragraph2: "Mit einer eigens entwickelten Sage um den Salzkönig greift der
 image3: p1320131.jpg
 image4: dsc01588.jpg
 image5: image-5-wald.jpg
-image7: dsc01235.jpg
+image6: dsc01235.jpg
+image7: ""
 ---
