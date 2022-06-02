@@ -22,7 +22,7 @@ paragraph2: Ein geschwungenes, blaues Band aus elastischem Kunststoff bildet das
 image3: c-lichtschwaermer_340_img_0507.jpg
 subtitle3: ""
 paragraph3: ""
-image4: c-lichtschwaermer_117_mg_5429.jpg
+image4: image-4.jpg
 subtitle4: ""
 paragraph4: An diesem Band reihen sich Spielbereiche mit verschiedenen Aktions-
   und Bewegungsmöglichkeiten an, die thematisch und gestalterisch wichtigen
