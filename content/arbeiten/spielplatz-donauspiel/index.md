@@ -11,4 +11,11 @@ paragraph1: Entlang der Deichpromenade in Deggendorf erstreckt sich das
   Donauspiel, ein großzügiger Spielbereich, der neben besonderen
   Spielereignissen thematisch die Anrainerstaaten der Donau präsentiert und
   deren kulturelle Besonderheiten zur Schau stellt.
+image2: c-lichtschwaermer_353_img_0541.jpg
+subtitle2: (c)Lichtschwaermer
+paragraph2: Ein geschwungenes, blaues Band aus elastischem Kunststoff bildet das
+  zentrale Element und symbolisiert die Donau, den zweitlängsten Fluss unseres
+  Kontinents. Das Band ist in variierenden Höhen, Neigungen und Ausdehnungen in
+  das Geländeniveau eingelassen und bildet einen Parkour zum Rennen, Tollen,
+  Springen und Sitzen.
 ---
