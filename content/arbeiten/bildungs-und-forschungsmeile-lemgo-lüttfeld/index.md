@@ -14,5 +14,6 @@ paragraph1: m Rahmen der Neugestaltung der Bildungs- und Forschungsmeile
   geordnet, in einen Gesamtraum umgestaltet und mit einem Boulevard als
   Erschließungsachse belegt.
 image2: dsc_0177.jpg
-image3: dsc_0177.jpg
+image3: image-3.jpg
+image4: ""
 ---
