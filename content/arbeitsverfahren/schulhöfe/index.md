@@ -1,5 +1,5 @@
 ---
-title: Schulhöfe
+title: Spielplätze
 info: Die neuen Gestaltungselemente in Kombination mit den ausgewählten
   Bestandsstrukturen, gliedern die Höfe in verschiedene Räume. Es entstehen
   offene, vielschichtige und flexibel nutzbare Höfe.
