@@ -50,10 +50,10 @@ collections:
       - { label: "Keywords", name: "keywords", widget: "string", required: false }
       - { label: "Short Info", name: "info", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "hidden" }      
-      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Featured Image", name: "image_featured", widget: "image" }
       # - { label: "Body", name: "body", widget: "markdown", required: false}
       - { label: "Subtitle 1", name: "subtitle1", widget: "string", required: false}
-      - { label: "Paragraph 1", name: "paragraph1", widget: "markdown"}
+      - { label: "Paragraph 1", name: "paragraph1", widget: "markdown", required: false}
       - { label: "Image 2", name: "image2", widget: "image", required: false }
       - { label: "Subtitle 2", name: "subtitle2", widget: "string", required: false}
       - { label: "Paragraph 2", name: "paragraph2", widget: "markdown", required: false }
@@ -75,6 +75,31 @@ collections:
       - { label: "Image 8", name: "image8", widget: "image", required: false }
       - { label: "Subtitle 8", name: "subtitle8", widget: "string", required: false}
       - { label: "Paragraph 8", name: "paragraph8", widget: "markdown", required: false }
+      - { label: "Image 9", name: "image9", widget: "image", required: false }
+      - { label: "Subtitle 9", name: "subtitle9", widget: "string", required: false}
+      - { label: "Paragraph 9", name: "paragraph9", widget: "markdown", required: false }
+      - { label: "Image 10", name: "image10", widget: "image", required: false }
+      - { label: "Subtitle 10", name: "subtitle10", widget: "string", required: false}
+      - { label: "Paragraph 10", name: "paragraph10", widget: "markdown", required: false }
+      - { label: "Image 11", name: "image11", widget: "image", required: false }
+      - { label: "Subtitle 11", name: "subtitle11", widget: "string", required: false}
+      - { label: "Paragraph 11", name: "paragraph11", widget: "markdown", required: false }
+      - { label: "Image 12", name: "image12", widget: "image", required: false }
+      - { label: "Subtitle 12", name: "subtitle12", widget: "string", required: false}
+      - { label: "Paragraph 12", name: "paragraph12", widget: "markdown", required: false }
+      - { label: "Image 13", name: "image13", widget: "image", required: false }
+      - { label: "Subtitle 13", name: "subtitle13", widget: "string", required: false}
+      - { label: "Paragraph 13", name: "paragraph13", widget: "markdown", required: false }
+      - { label: "Image 14", name: "image14", widget: "image", required: false }
+      - { label: "Subtitle 14", name: "subtitle14", widget: "string", required: false}
+      - { label: "Paragraph 14", name: "paragraph14", widget: "markdown", required: false }
+      - { label: "Image 15", name: "image15", widget: "image", required: false }
+      - { label: "Subtitle 15", name: "subtitle15", widget: "string", required: false}
+      - { label: "Paragraph 15", name: "paragraph15", widget: "markdown", required: false }
+      - { label: "Image 16", name: "image16", widget: "image", required: false }
+      - { label: "Subtitle 16", name: "subtitle16", widget: "string", required: false}
+      - { label: "Paragraph 16", name: "paragraph16", widget: "markdown", required: false }
+      
       
   - name: "referenzen" # Used in routes, e.g., /admin/collections/post
     label: "referenzen" # Used in the UI
