@@ -1,5 +1,6 @@
 ---
-tags: '["projekt", "wbw", "frontpage"]'
+tags:
+  - projekt
 title: Spielplatz Donauspiel
 year: 2012-2014
 place: Deggendorf
