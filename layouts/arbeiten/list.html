@@ -1,17 +1,33 @@
-<div class="flex flex-col">
+<div class="">
   <div class="font-[100] font-roboto grid grid-cols-12">
     {{ partial "header.html" . }}
-    <div class="flex flex-col col-span-8 ml-10 mt-32">
+    <div class="flex flex-col 
+            col-span-11 
+            lg:col-start-2
+            md:col-span-8 
+            md:ml-10 
+            md:mt-32 
+            mt-10
+            ">
       {{ partial "subnav.html" . }}
 
-      <section class="flex flex-col mt-10 mb-20 w-6/12">
+      <section class="
+                md:mt-10 
+                mb-20
+                md:w-6/12
+                ">
         {{ with .Site.GetPage "/arbeiten_intro" }}
         <h2 class="text-xl mb-6">{{ .Title }}</h2>
         <div>{{ .Params.textarea | markdownify }}</div>
         {{ end }}
       </section>
 
-      <section class="grid grid-cols-3">
+      <section class="
+                  grid 
+                  xl:grid-cols-3 
+                  md:grid-cols-2 
+                  grid-cols-1
+      ">
         {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByTitle) }}
         {{ range $post := $display_posts }}
         {{ partial "projektlist.html" . }}
