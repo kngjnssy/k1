@@ -7,9 +7,11 @@ textarea: >-
   Bauherr: GBG Mannheimer Wohnungsbaugesellschaft mbH
 
 
+
   Feriendorf Fleesensee, Göhren-Lebbin – Freiflächen Urlaubsressort\
 
   Bauherr: Fleesensee Feriendorf GmbH
+
 
 
   Sanierung und Umgestaltung Grünanlage Auerdreieck, Berlin\
