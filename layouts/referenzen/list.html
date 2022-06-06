@@ -2,9 +2,6 @@
   <div class="font-[100] font-roboto grid grid-cols-12">
     {{ partial "header.html" . }}
     <div class="flex flex-col col-span-8 ml-10 mt-32">
-<!-- <h1>{{ .Title }}</h1> -->
-
-{{ .Content }}
 
 {{ range.Data.Pages.ByTitle.Reverse }}
 <article class="post-snippet ref-list">
@@ -18,9 +15,9 @@
 	<!-- <time datetime="{{ .Date.Format "2006-01-02" }}">
 		{{ .Date.Format "January 2, 2006" }}
 	</time> -->
-  <p class="ref-list">{{ .Content }}</p>
+  <p class="">{{ .Params.textarea | markdownify }}</p>
 
 </article>
 {{ end }}
 
-{{ partial "footer.html" . }}
+<!-- {{ partial "footer.html" . }} -->

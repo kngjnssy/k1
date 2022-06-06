@@ -9,7 +9,7 @@
       <article class="mb-28">
         <div>
           <a href="{{ .RelPermalink }}">
-            <p class="text-xl z-10" >{{ .Title }}</p>
+            <p class="text-xl z-10 inline-block bg-red-300" >{{ .Title }}</p>
 
             {{ if .Params.image }}
             <img
@@ -18,10 +18,11 @@
               alt=""
             />
             {{ end }}
-            <!-- <p class="text-xl z-10" >{{ .Title }}</p> -->
           </a>
         </div>
-        <p class="ml-12">{{ .Params.text }}</p>
+        <div>
+          <p class="ml-12">{{ .Params.textarea | markdownify }}</p>
+        </div>
       </article>
 
       {{ end }} {{ end }}

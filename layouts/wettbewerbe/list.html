@@ -7,13 +7,13 @@
       <section class="flex flex-col mt-10 mb-20 w-6/12">
         {{ with .Site.GetPage "/wbw_intro" }}
         <h2 class="text-xl mb-6">{{ .Title }}</h2>
-        <div>{{ .Content }}</div>
+        <div>{{ .Params.textarea | markdownify }}</div>
         {{ end }}
       </section>
 
       <section class="grid grid-cols-3">
         {{ $display_posts := (((.Site.GetPage "section"
-        "/arbeiten").Pages).ByDate.Reverse) }} {{ range $post := $display_posts
+        "/arbeiten").Pages).ByTitle) }} {{ range $post := $display_posts
         }} {{ if in .Params.tags "wbw" }} {{ partial "projektlist.html" . }} {{
         end }} {{ end }}
       </section>

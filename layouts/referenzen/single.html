@@ -2,7 +2,7 @@
 
 <!-- <h1>{{ .Params.title }}</h1> -->
 
-{{ .Content }}
+{{ .Params.textarea | markdownify }}
 
 
 <!-- <p>{{ .Params.blurb }}</p>

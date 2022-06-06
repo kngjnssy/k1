@@ -821,34 +821,3 @@ Ensure the default browser behavior of the `hidden` attribute.
     visibility: hidden;
   }
 }
-
-.textcolor-grey {
-  color: rgba(117, 117, 117, 0.74);
-}
-
-.testbg {
-  background-color: red;
-}
-
-
-.maintitle:hover {
-  background-color:#aeb79c ;
-  /* font-size: xx-large; */
-  /* color: black; */
-}
-
-.maintitle {
-  /* margin-left: -2.5rem; */
-  display: inline-block;
-}
-
-.img-up {
-  margin-top: -5rem;
-  /* z-index: -0; */
-  margin-left: 3rem;
-}
-
-.img-up:hover {
-/* padding: 10px; */
-/* background-color: #aeb79c; */
-}

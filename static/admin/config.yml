@@ -51,7 +51,7 @@ collections:
       - { label: "Short Info", name: "info", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "hidden" }      
       - { label: "Featured Image", name: "image", widget: "image" }
-      # - { label: "Body", name: "body", widget: "markdown", required: false}
+      # - { label: "Textarea", name: "textarea", widget: "markdown", required: false}
       - { label: "Subtitle 1", name: "subtitle1", widget: "string", required: false}
       - { label: "Paragraph 1", name: "paragraph1", widget: "markdown", required: false}
       - { label: "Image 2", name: "image2", widget: "image", required: false }
@@ -110,7 +110,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Textarea", name: "textarea", widget: "markdown" }
 
   - name: "arbeitsverfahren" # Used in routes, e.g., /admin/collections/post
     label: "arbeitsverfahren" # Used in the UI
@@ -133,7 +133,7 @@ collections:
     create: false # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Textarea", name: "textarea", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Image2", name: "image2", widget: "image", required: false }
       - { label: "Image3", name: "image3", widget: "image", required: false }
@@ -163,32 +163,32 @@ collections:
         name: "kontakt"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Textarea", name: "textarea", widget: "markdown" }
 
       - file: "content/philosophie/index.md"
         label: "philosophie"
         name: "philosophie"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Textarea", name: "textarea", widget: "markdown" }
 
       - file: "content/arbeiten_intro/index.md"
         label: "arbeiten_intro"
         name: "arbeiten_intro"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Textarea", name: "textarea", widget: "markdown" }
 
       - file: "content/wbw_intro/index.md"
         label: "wbw_intro"
         name: "wbw_intro"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Textarea", name: "textarea", widget: "markdown" }
 
       - file: "content/projekte_intro/index.md"
         label: "projekte_intro"
         name: "projekte_intro"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Textarea", name: "textarea", widget: "markdown" }

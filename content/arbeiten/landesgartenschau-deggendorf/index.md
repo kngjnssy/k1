@@ -1,7 +1,8 @@
 ---
 tags:
-  - '["projekt"'
-  - '"wbw"]'
+  - projekt
+  - wbw
+  - frontpage
 title: Landesgartenschau Deggendorf
 yearplace: "2014"
 info: Wettbewerb 2008 - 1. Preis
