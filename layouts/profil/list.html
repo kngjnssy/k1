@@ -1,19 +1,19 @@
 <div class="flex flex-col">
     <div class="font-[100] font-roboto grid grid-cols-12">
     {{ partial "header.html" . }}
-        <div class="flex flex-col col-span-8 ml-10 mt-32">
+        <div class="flex flex-col col-span-10 md:col-span-9 md:ml-10 mt-32">
     
             <section class="flex flex-col">
                <span>
                 <!-- <a class="hover:underline" href="#philosophie">Philosophie</a> / -->
                 <a class="hover:text-k1green" href="#philosophie">Philosophie</a> /
                 <a class="hover:text-k1green" href="#team">Unser Team</a> /
-                <a class="hover:text-k1green" href="#arbeitsverfahren">Arbeitsverfahren</a> /
+                <a class="hover:text-k1green" href="#arbeitsverfahren">Arbeitsschwerpunkte</a> /
                 <a class="hover:text-k1green" href="#raeume">Räume</a>
                </span>
             </section>
             
-            <section class="flex flex-col mt-24 mb-20">
+            <section class="flex flex-col md:max-w-[800px] mt-24 mb-20">
                 {{ with .Site.GetPage "/philosophie" }}
                 <h2 id="philosophie" class="text-xl mb-6">{{ .Title }}</h2>
                 <div class="">{{ .Params.textarea | markdownify }}</div>
@@ -22,9 +22,15 @@
     
             <section class="flex flex-col mt-24 mb-20">
                 <h2 id="team" class="text-xl mb-6">Unser Team</h2>
-                <div class="grid grid-cols-2 md:grid-cols-5 md:grid-rows-2">
+                <div class="grid 
+                xl:grid-cols-6
+                lg:grid-cols-4
+                md:grid-cols-3 
+                sm:grid-cols-3
+                grid-cols-2
+                ">
                 {{range sort (sort .Data.Pages "Params.name") "Params.index"}} 
-                    <figure class="w-36 mr-2">
+                    <figure class="w-36 mb-12">
                         <img class="grayscale" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">
                         <figcaption>{{ .Params.name }}</figcaption>
                         <p class="text-xs">{{ .Params.bio }}</p>
@@ -35,7 +41,7 @@
                 
             <section class="flex flex-col mt-24 mb-20">
                 {{ with .Site.GetPage "/arbeitsverfahren" }}
-                <h2 id="arbeitsverfahren" class="text-xl mb-6">{{ .Title }}</h2>
+                <h2 id="arbeitsverfahren" class="text-xl mb-6">Arbeitsschwerpunkte</h2>
                 <div class="grid md:grid-cols-2 mt-10">
                     {{ $display_posts := ((.Site.GetPage "section" "/arbeitsverfahren").Pages) }}
                     {{ range $post := $display_posts }}
