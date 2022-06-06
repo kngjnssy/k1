@@ -111,7 +111,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Textarea", name: "textarea", widget: "markdown" }
-      - { label: "Textbox", name: "textbox", widget: "markdown" }
 
   - name: "arbeitsverfahren" # Used in routes, e.g., /admin/collections/post
     label: "arbeitsverfahren" # Used in the UI
