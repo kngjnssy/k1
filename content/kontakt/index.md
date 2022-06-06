@@ -6,21 +6,21 @@ textarea: >-
 
   Kuhn Klapka GmbH \
 
-  Raabestraße 2 10405 Berlin.
+  Raabestraße 2 10405 Berlin.\
+  
+  \
 
+  fon 030.440130.90\
 
+  fax 030.440130.99\
 
-  fon 030.440130.90 \
+  \
 
-  fax 030.440130.99
+  info(at)k1-berlin.de\
+  
+  \
 
-
-
-  info(at)k1-berlin.de
-
-
-
-  Links: \
+  Links:\
 
   [Landschaftsarchitektur Heute (bdla)](http://www.landschaftsarchitektur-heute.de/bueros/details/3)  \
 

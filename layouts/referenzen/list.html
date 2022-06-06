@@ -5,17 +5,14 @@
 
 {{ range.Data.Pages.ByTitle.Reverse }}
 <article class="post-snippet ref-list">
-  <h3>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h3>
+  <!-- <p><a class="text-2xl" href="{{ .RelPermalink }}">{{ .Title }}</a></p> -->
+  <p class="text-2xl mb-6">{{ .Title }}</p>
 
   {{ if .Params.image }}
 	<img src="{{ .Params.image }}" >
   {{ end }}
-	<!-- <time datetime="{{ .Date.Format "2006-01-02" }}">
-		{{ .Date.Format "January 2, 2006" }}
-	</time> -->
-  <p class="">{{ .Params.textarea | markdownify }}</p>
+
+  <p class="mb-24">{{ .Params.textarea | markdownify }}</p>
 
 </article>
 {{ end }}

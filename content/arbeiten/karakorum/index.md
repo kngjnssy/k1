@@ -1,6 +1,7 @@
 ---
 tags:
   - projekt
+  - frontpage
 title: Karakorum
 yearplace: "2014"
 info: ""

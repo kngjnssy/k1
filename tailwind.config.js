@@ -5,6 +5,7 @@ const colors = require('tailwindcss/colors')
   content: [
     './layouts/**/*.html', 
     './content/**/*.md',
+    './static/css/*.css'
   ],
   theme: {
     extend: {
@@ -31,5 +32,12 @@ const colors = require('tailwindcss/colors')
 },
   plugins: [
     require('@tailwindcss/typography'),
+    require('tailwindcss/plugin')(function ({ addVariant }) {
+      // Add a `third` variant, ie. `third:pb-0`
+      addVariant('second', '&:nth-child(2)')
+      addVariant('third', '&:nth-child(3)')
+      addVariant('fourth', '&:nth-child(4)')
+      addVariant('fifth', '&:nth-child(5)')
+    })
   ],
 }

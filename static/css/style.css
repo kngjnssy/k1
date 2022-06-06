@@ -468,20 +468,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .invisible {
   visibility: hidden;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .relative {
   position: relative;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .z-10 {
   z-index: 10;
 }
 
-.z-0 {
-  z-index: 0;
+.col-span-10 {
+  grid-column: span 10 / span 10;
 }
 
 .col-span-8 {
@@ -492,12 +504,46 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 1 / span 1;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
+.col-span-11 {
+  grid-column: span 11 / span 11;
+}
+
 .m-10 {
   margin: 2.5rem;
 }
 
 .m-8 {
   margin: 2rem;
+}
+
+.m-12 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .ml-10 {
@@ -508,8 +554,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 8rem;
 }
 
-.mb-28 {
-  margin-bottom: 7rem;
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .ml-12 {
@@ -536,8 +586,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .mb-5 {
@@ -546,6 +596,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-10 {
   margin-right: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mb-8 {
@@ -560,6 +614,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mr-24 {
+  margin-right: 6rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -568,16 +658,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }
 
-.h-80 {
-  height: 20rem;
+.contents {
+  display: contents;
 }
 
-.w-8\/12 {
-  width: 66.666667%;
+.hidden {
+  display: none;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .w-6\/12 {
@@ -604,6 +702,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 24rem;
 }
 
+.w-8\/12 {
+  width: 66.666667%;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.resize {
+  resize: both;
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -620,19 +738,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+.gap-4 {
+  gap: 1rem;
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-roboto {
@@ -654,6 +782,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-\[100\] {
   font-weight: 100;
 }
@@ -667,6 +800,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(174 183 156 / var(--tw-text-opacity));
 }
 
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 .opacity-60 {
   opacity: 0.6;
 }
@@ -675,8 +813,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.3;
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .grayscale {
   --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -685,6 +831,10 @@ body {
   margin-left: 25;
   margin-right: 30;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+a:hover {
+  color: #aeb79c;
 }
 
 .hover\:text-k1green:hover {
@@ -722,6 +872,10 @@ body {
     margin-bottom: 2.5rem;
   }
 
+  .md\:w-2\/4 {
+    width: 50%;
+  }
+
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -736,5 +890,61 @@ body {
 
   .md\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:first\:ml-20:first-child {
+    margin-left: 5rem;
+  }
+
+  .md\:last\:ml-72:last-child {
+    margin-left: 18rem;
+  }
+
+  .md\:second\:ml-96:nth-child(2) {
+    margin-left: 24rem;
+  }
+
+  .md\:third\:ml-20:nth-child(3) {
+    margin-left: 5rem;
+  }
+
+  .md\:fourth\:ml-96:nth-child(4) {
+    margin-left: 24rem;
+  }
+
+  .md\:fourth\:ml-44:nth-child(4) {
+    margin-left: 11rem;
+  }
+
+  .md\:fourth\:ml-\[\]:nth-child(4) {
+    margin-left: ;
+  }
+
+  .md\:fourth\:ml-\[88\]:nth-child(4) {
+    margin-left: 88;
+  }
+
+  .md\:fourth\:ml-\[88px\]:nth-child(4) {
+    margin-left: 88px;
+  }
+
+  .md\:fourth\:ml-\[140px\]:nth-child(4) {
+    margin-left: 140px;
+  }
+
+  .md\:fourth\:ml-\[440px\]:nth-child(4) {
+    margin-left: 440px;
+  }
+
+  .md\:fourth\:ml-\[500px\]:nth-child(4) {
+    margin-left: 500px;
+  }
+
+  .md\:fifth\:ml-4:nth-child(5) {
+    margin-left: 1rem;
+  }
+
+  .md\:fifth\:ml-20:nth-child(5) {
+    margin-left: 5rem;
   }
 }
