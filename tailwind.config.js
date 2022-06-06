@@ -1,23 +1,32 @@
+const colors = require('tailwindcss/colors')
+
  module.exports = {
-  content: ['./layouts/**/*.html', './content/**/*.md'],
+  mode: 'jit',
+  purge: [
+    './layouts/**/*.html', 
+    './content/**/*.md',
+  ],
   theme: {
     extend: {
         typography: {
             DEFAULT: {
                 css: {
                     "code::before": {content: ''},
-                    "code::after": {content: ''}
+                    "code::after": {content: ''},
 
                 }
             }
         }
     },
-    // fontWeight: {
-    //   normal: 100,
-    // },
+    colors: {
+      'k1green': '#aeb79c',
+       cyan: colors.cyan,
+       gray: colors.gray,
+       red: colors.red,
+    },
     fontFamily: {
-      'roboto': 'Roboto',
-      // 'poppins': ['Poppins', 'sans-serif'] 
+      'roboto': ['Roboto', 'sans-serif'],
+      'poppins': ['Poppins', 'sans-serif'] 
     }
 },
   plugins: [

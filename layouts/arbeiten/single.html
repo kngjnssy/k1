@@ -2,17 +2,17 @@
 	<div class="font-[100] font-roboto grid md:grid-cols-12">
 		{{ partial "header.html" . }}
 
-		<div class="flex flex-col md:col-span-11 md:ml-10 mt-rem">
+		<div class="flex flex-col md:col-span-11 md:ml-10 mt-32">
 
 			<div class="flex flex-col">
-				<img class="w-3/6" src="{{ .Params.image }}" />
+				<img class="" src="{{ .Params.image }}" />
 				<!-- <h1 class="text-4xl text-bold mt-10">{{ .Title }}</h1> -->
 			</div>
 
 			<div class="grid md:grid-cols-2">
 
 				<div class="flex flex-col">
-					<p class="md:visible m-10 mt-20">{{ .Params.paragraph1 }}</p>
+					<p class="m-10 mt-20">{{ .Params.paragraph1 }}</p>
 				</div>
 
 				<div class="flex-col mb-10 md:m-10">
@@ -22,13 +22,13 @@
 
 					<div class="grid grid-cols-2 mt-10">
 							<div>
-								<div class="text-l textcolor-grey">Ort</div>
+								<div class="text-l text-k1green">Ort</div>
 								<div class="text-l mb-5">{{ .Params.place }}</div>
-								<div class="text-l textcolor-grey">Jahr</div>
+								<div class="text-l text-k1green">Jahr</div>
 								<div class="text-l mb-5">{{ .Params.year }}</div>
-								<div class="text-l textcolor-grey">Bauherr</div>
+								<div class="text-l text-k1green">Bauherr</div>
 								<div class="text-l mb-5">{{ .Params.bauherr }}</div>
-								<div class="text-l textcolor-grey">Größe</div>
+								<div class="text-l text-k1green">Größe</div>
 								<div class="text-l mb-5">{{ .Params.size }}</div>
 							</div>
 							<div>

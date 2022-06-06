@@ -4,8 +4,8 @@
 
     {{ range .Site.Menus.sub }}
       {{ $active := in $current.RelPermalink .URL }}
-      <span class="hovercolor">
-        <a href="{{ .URL }}" class="{{ if $active }}activecolor{{ end }}">{{ .Name }} </a>
+      <span class="hover:text-k1green">
+        <a href="{{ .URL }}" class="{{ if $active }}text-k1green{{ end }}">{{ .Name }} </a>
       </span>
     <span> {{ .Pre }} </span>
     {{ end }}
