@@ -4,14 +4,12 @@ textarea: >-
   Neubau Am Aubuckel, Adolf-Damaschke-Ring 29-45 , Mannheim - Freiflächen
   Geschosswohnungsbau\
 
-  Bauherr: GBG Mannheimer Wohnungsbaugesellschaft mbH
-
+  *Bauherr: GBG Mannheimer Wohnungsbaugesellschaft mbH*
 
 
   Feriendorf Fleesensee, Göhren-Lebbin – Freiflächen Urlaubsressort\
 
   Bauherr: Fleesensee Feriendorf GmbH
-
 
 
   Sanierung und Umgestaltung Grünanlage Auerdreieck, Berlin\
