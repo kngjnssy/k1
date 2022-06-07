@@ -27,7 +27,6 @@ const colors = require('tailwindcss/colors')
     },
     fontFamily: {
       'roboto': ['Roboto', 'sans-serif'],
-      'poppins': ['Poppins', 'sans-serif'] 
     }
 },
   plugins: [
