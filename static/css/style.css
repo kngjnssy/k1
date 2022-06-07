@@ -602,6 +602,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
+.mt-\[215px\] {
+  margin-top: 215px;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -644,6 +648,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-\[220px\] {
+  margin-top: 220px;
+}
+
+.mt-\[218px\] {
+  margin-top: 218px;
 }
 
 .block {
@@ -793,6 +805,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-\[100\] {
   font-weight: 100;
+}
+
+.\!font-\[400\] {
+  font-weight: 400 !important;
 }
 
 .leading-10 {

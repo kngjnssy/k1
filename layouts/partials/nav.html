@@ -1,14 +1,14 @@
 <nav class="m-8 flex flex-col">
   <ul class="md:fixed">
     <a href="/">
-      <img class="mb-8 mt-20 w-20" src="../../assets/media/logo.png" alt="k1-logo">
+      <img class="mb-8 mt-20 w-20 " src="../../assets/media/logo.png" alt="k1-logo">
     </a>
     {{ $current := . }}
     {{ range .Site.Menus.main }}
       {{ $active := in $current.RelPermalink .URL }}
       <!-- {{ $active = or $active (eq .Title "Wettbewerbe") }} DOESNT WORK YET https://discourse.gohugo.io/t/another-way-to-make-a-menu-item-active/17029-->
     <li class="invisible md:visible">
-      <a class="hover:text-k1green leading-10 {{ if $active }}text-k1green{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      <a class="hover:text-k1green !font-[400] leading-10 {{ if $active }}text-k1green{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
     </li>
     {{ end }}
   </ul>
