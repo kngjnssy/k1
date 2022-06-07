@@ -558,8 +558,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 9rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .ml-12 {
@@ -628,10 +628,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-24 {
   margin-right: 6rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .mb-1 {
@@ -791,6 +787,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
+.\!font-\[500\] {
+  font-weight: 500 !important;
+}
+
 .font-\[100\] {
   font-weight: 100;
 }
@@ -835,11 +835,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 html, body, label {
   /* font-family: 'Roboto', sans-serif; */
   font-size: 1rem;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 
 .kontakt a:hover {
-  color: #aeb79c;
+  color:
+   #aeb79c;
 }
 
 .hover\:text-k1green:hover {

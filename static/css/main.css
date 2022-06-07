@@ -7,9 +7,10 @@
 html, body, label {
   /* font-family: 'Roboto', sans-serif; */
   font-size: 1rem;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 
 .kontakt a:hover {
-  color: #aeb79c;
+  color:
+   #aeb79c;
 }
