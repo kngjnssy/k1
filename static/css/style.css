@@ -590,6 +590,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 10rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -829,9 +833,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 html, body, label {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .kontakt a:hover {
@@ -913,6 +917,10 @@ html, body, label {
 
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:font-\[100\] {
+    font-weight: 100;
   }
 
   .md\:first\:ml-20:first-child {

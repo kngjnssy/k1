@@ -1,5 +1,5 @@
 <div class="flex flex-col">
-	<div class="font-[100] font-roboto grid md:grid-cols-12">
+	<div class="grid md:grid-cols-12">
 		{{ partial "header.html" . }}
 
 		<div class="flex flex-col md:col-span-11 md:ml-10 mt-32">
@@ -16,11 +16,11 @@
 				</div>
 
 				<div class="flex-col mb-10 md:m-10">
-					<h1 class="text-4xl mt-10">{{ .Title }}</h1>
+					<h1 class="text-4xl mt-10 ml-5">{{ .Title }}</h1>
 
 					<!-- <p>{{ .Params.info }}</p> -->
 
-					<div class="grid grid-cols-2 mt-10">
+					<div class="grid grid-cols-2 ml-5 mt-10">
 							<div>
 								<div class="text-l text-k1green">Ort</div>
 								<div class="text-l mb-5">{{ .Params.place }}</div>
