@@ -1,6 +1,9 @@
 title = "k1"
 pluralizelisttitles = false
 
+[params]
+favicon = "/img/favicon.ico"
+
 [menu]
 
   [[menu.main]]
