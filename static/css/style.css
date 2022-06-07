@@ -835,7 +835,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 html, body, label {
   /* font-family: 'Roboto', sans-serif; */
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .kontakt a:hover {
@@ -919,8 +919,8 @@ html, body, label {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
-  .md\:font-\[100\] {
-    font-weight: 100;
+  .md\:font-\[200\] {
+    font-weight: 200;
   }
 
   .md\:first\:ml-20:first-child {
