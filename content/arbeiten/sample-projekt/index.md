@@ -1,5 +1,5 @@
 ---
-tags: '["projekt", "wbw", "frontpage"]'
+tags: '["projekt", "wbw"]'
 title: Sample Projekt
 year: "2022"
 place: Kreuzberg, Berlin
