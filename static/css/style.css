@@ -831,7 +831,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 html, body, label {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .kontakt a:hover {
