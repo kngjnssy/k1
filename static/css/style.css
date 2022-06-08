@@ -612,6 +612,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.aspect-\[3\/4\] {
+  aspect-ratio: 3 / 4;
+}
+
+.aspect-\[4\/3\] {
+  aspect-ratio: 4 / 3;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .w-3\/6 {
   width: 50%;
 }
@@ -684,6 +696,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .font-roboto {
@@ -780,11 +797,6 @@ html, body, label {
    #99ab90;
 }
 
-.hover\:object-scale-down:hover {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
-}
-
 .hover\:text-k1green:hover {
   --tw-text-opacity: 1;
   color: rgb(174 183 156 / var(--tw-text-opacity));
@@ -793,14 +805,6 @@ html, body, label {
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-}
-
-.hover\:opacity-\[75\]:hover {
-  opacity: 75;
-}
-
-.hover\:opacity-75:hover {
-  opacity: 0.75;
 }
 
 .hover\:opacity-100:hover {

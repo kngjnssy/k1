@@ -7,9 +7,11 @@
         class="
           opacity-75
           hover:opacity-100
-          object-contain
-          hover:object-scale-down
-        "
+          object-cover
+          min-w-56
+          h-auto
+          aspect-[4/3]
+          "
         src="{{ .RelPermalink }}{{ .Params.image }}"
         alt="{{ .Title }}"
       />
