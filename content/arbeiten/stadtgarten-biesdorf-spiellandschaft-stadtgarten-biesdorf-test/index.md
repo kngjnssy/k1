@@ -7,6 +7,7 @@ place: Berlin
 size: "10.000 m² "
 bauherr: Bezirksamt Marzahn-Hellesdorf von Berlin
 keywords: ""
+info: Gestaltung Spielraum im Park mit Bürgerbeteiligung
 date: 2021-12-09T18:26:59.117Z
 image: dsc_1109.jpg
 paragraph1: >-
@@ -15,10 +16,20 @@ paragraph1: >-
   errichtet.\
 
   Das Projekt ist gemeinsam mit Anwohnerinnen und Anwohnern im Rahmen von zwei Bürgerversammlungen vorgestellt und auf Grundlage der Hinweise und Anregungen entwickelt worden. Die vorgesehenen Spielszenarien sind unter das Motto „ZIRKUS“ gestellt.
-yearplace: 2018, Berlin
-info: Gestaltung Spielraum im Park mit Bürgerbeteiligung
 image2: dsc_0134.jpg
 image3: dsc_0061.jpg
-image4: dsc_0042.jpg
 image5: dsc_0138.jpg
+paragraph5: >-
+  Der Zirkus eröffnet eine Welt, die dem Stadtgarten eine atmosphärische
+  Eigenart und damit eine erkennbare Besonderheit gibt: Hier tummeln sich
+  Artisten, scherzen die Clowns, probieren starke Männer und Frauen ihre
+  Kräfte aus.
+
+
+  Übersichtsplan
+
+
+  Akrobaten erobern mit waghalsigen Manövern die Lüfte. Seiltänzer bezaubern mit poetischen Balancierstücken neben Pferden, Schlangen und Hunden, die durch brennende Reifen springen.
+yearplace: 2018, Berlin
+image4: dsc_0042.jpg
 ---
