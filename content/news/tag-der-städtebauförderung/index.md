@@ -1,5 +1,5 @@
 ---
-title: Tag der Städtebauförderung
+title: Tag der Städtebauförderung 2022
 tags: '["frontpage"]'
 image: perspektive-fri-2200505-kopie.jpg
 text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia
