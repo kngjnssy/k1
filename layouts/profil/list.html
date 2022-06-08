@@ -26,13 +26,19 @@
                 {{ end }}
             </section>
     
-            <section class="flex flex-col mt-24 mb-20 md:max-w-[700px]">
+            <section class="flex flex-col 
+                            mt-24 
+                            mb-20 
+                            md:max-w-[700px]
+                            ">
                 <h2 id="team" class="text-xl mb-6">Unser Team</h2>
-                <div class="grid 
-                lg:grid-cols-4
-                sm:grid-cols-3
-                grid-cols-2
-                ">
+
+                <div class="grid
+                            lg:grid-cols-4
+                            sm:grid-cols-3
+                            grid-cols-2
+                            ">
+
                 {{range sort (sort .Data.Pages "Params.name") "Params.index"}} 
                     <figure class="w-36 mb-12">
                         <img class="grayscale" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Params.name }}">

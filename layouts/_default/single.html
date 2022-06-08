@@ -1,17 +1,24 @@
 <div class="flex flex-col">
-	<div class="font-[100] font-roboto grid grid-cols-12 mt-24">
+	<div class="grid grid-cols-12">
 	  {{ partial "header.html" . }}
   
-	  <div class="flex flex-col col-span-8 ml-10 mt-24">
+		<div class="flex flex-col 
+					col-span-8 
+					md:col-start-3
+					md:mt-32 
+					mt-10
+					">
+			<h2 class="text-xl mb-10">{{ .Title }}</h2>
 
-<h2 class="text-xl mb-10">{{ .Title }}</h2>
+			<!-- <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span> -->
 
-<!-- <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span> -->
+			{{ if .Params.image }}
+				<img src="{{ .Params.image }}" >
+			{{ end }}
 
-{{ if .Params.image }}
-	<img src="{{ .Params.image }}" >
-{{ end }}
+			<p class="mb-24">{{ .Params.text | markdownify }}</p>
 
-<p>{{ .Params.text }}</p>
-
+		</div>
+	</div>
+</div>
 <!-- {{ partial "footer.html" . }} -->
