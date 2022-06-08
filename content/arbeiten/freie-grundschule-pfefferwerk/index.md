@@ -2,6 +2,7 @@
 tags:
   - projekt
 title: Freie Grundschule Pfefferwerk
+date_order: 2015
 year: "2015"
 place: Berlin
 size: 800 qm

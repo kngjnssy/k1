@@ -3,6 +3,7 @@ tags:
   - projekt
   - frontpage
 title: Beech Resort Fleesensee
+date_order: 2021
 year: "2021"
 place: Göhren-Lebbin
 size: 19.700 m²

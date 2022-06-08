@@ -2,6 +2,7 @@
 tags:
   - projekt
 title: Spielplatz Donauspiel
+date_order: 2014
 year: 2012-2014
 place: Deggendorf
 size: 320.000 m²

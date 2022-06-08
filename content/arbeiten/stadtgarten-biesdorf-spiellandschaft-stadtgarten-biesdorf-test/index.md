@@ -2,6 +2,7 @@
 tags:
   - projekt
 title: Spiellandschaft Stadtgarten Biesdorf
+date_order: 2018
 year: "2018"
 place: Berlin
 size: "10.000 m² "

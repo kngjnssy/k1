@@ -29,7 +29,7 @@
                   md:grid-cols-2 
                   grid-cols-1
       ">
-        {{ $display_posts := (((.Site.GetPage "section" "/arbeiten").Pages).ByTitle) }}
+        {{ $display_posts := ( sort (( .Site.GetPage "section" "/arbeiten").Pages) "Params.date_order" ).Reverse }}
         {{ range $post := $display_posts }}
         {{ partial "projektlist.html" . }}
         {{ end }}

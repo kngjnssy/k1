@@ -2,6 +2,7 @@
 tags:
   - projekt
 title: Waldspielplatz im Goldsteinpark
+date_order: 2010
 year: 2009 - 2010
 place: Bad Nauheim
 size: 50.000 m2

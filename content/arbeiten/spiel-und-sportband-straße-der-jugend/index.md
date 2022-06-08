@@ -3,6 +3,7 @@ tags:
   - projekt
   - frontpage
 title: Spiel- und Sportband Straße der Jugend
+date_order: 2019
 year: "2019"
 place: Kyritz
 size: "1.865 m² "

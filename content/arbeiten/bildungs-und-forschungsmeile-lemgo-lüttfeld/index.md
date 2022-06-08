@@ -3,6 +3,7 @@ tags:
   - projekt
   - frontpage
 title: Bildungs- und Forschungsmeile Lemgo-Lüttfeld
+date_order: 2016
 year: "2016"
 place: Lemgo
 size: 14.600 m²

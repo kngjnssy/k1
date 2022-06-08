@@ -4,6 +4,7 @@ tags:
   - wbw
   - frontpage
 title: Landesgartenschau Deggendorf
+date_order: 2014
 yearplace: "2014"
 info: Wettbewerb 2008 - 1. Preis
 image: donaupark-08-deichgaerten_lichtschwaermer.jpeg

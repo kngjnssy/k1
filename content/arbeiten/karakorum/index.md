@@ -3,6 +3,7 @@ tags:
   - projekt
   - frontpage
 title: Karakorum
+date_order: 2015
 yearplace: "2014"
 info: ""
 image: dsc_0221.jpg
