@@ -1,16 +1,15 @@
 ---
-tags:
-  - wbw
-  - projekt
-  - frontpage
-title: Uferpark Friedrichshafen
-yearplace: 2017, Friedrichshafen
-info: 1. Preis - Ideenwettbewerb mit nachgeschaltetem Workshopverfahren
-date: 2021-12-01T12:20:06.903Z
-image: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
 paragraph1: In der ersten Phase des Wettbewerbsverfahrens wurden die Ideen des
   Planungsteams k1 Landschaftsarchitekten/ raumzeit Architekten neben vier
   weiteren Arbeiten von der Fachjury zur Weiterbearbeitung empfohlen.
+yearplace: 2017, Friedrichshafen
+tags:
+  - wbw
+  - projekt
+title: Uferpark Friedrichshafen
+info: 1. Preis - Ideenwettbewerb mit nachgeschaltetem Workshopverfahren
+date: 2021-12-01T12:20:06.903Z
+image: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
 image2: 500_website.jpg.crop_display.jpg
 image3: schlosshorn_website.jpg.crop_display.jpg
 image4: 200_1_website.jpg.crop_display.jpg
