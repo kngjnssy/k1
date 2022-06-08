@@ -1,6 +1,7 @@
 ---
 tags:
   - projekt
+  - frontpage
 title: Beech Resort Fleesensee
 year: "2021"
 place: Göhren-Lebbin
