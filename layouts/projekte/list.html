@@ -1,7 +1,14 @@
 <div class="flex flex-col">
   <div class="grid grid-cols-12">
     {{ partial "header.html" . }}
-    <div class="flex flex-col col-span-8 ml-10 mt-32">
+    <div class="flex flex-col 
+            col-span-8 
+            md:col-start-3
+            md:ml-auto 
+            md:mr-auto
+            md:mt-32 
+            mt-10
+            ">
       {{ partial "subnav.html" . }}
 
       <section class="flex flex-col mb-20">
@@ -11,7 +18,13 @@
         {{ end }}
       </section>
 
-      <section class="grid grid-cols-3">
+      <section class="
+                  grid
+                  gap-6
+                  xl:grid-cols-3 
+                  md:grid-cols-2 
+                  grid-cols-1
+      ">
         {{ $display_posts := (((.Site.GetPage "section"
         "/arbeiten").Pages).ByTitle) }} {{ range $post := $display_posts
         }} {{ if in .Params.tags "projekt" }} {{ partial "projektlist.html" . }}

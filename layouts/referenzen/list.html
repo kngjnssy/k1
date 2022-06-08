@@ -1,12 +1,19 @@
 <div class="flex flex-col">
   <div class="grid grid-cols-12">
     {{ partial "header.html" . }}
-    <div class="flex flex-col col-span-8 ml-10 mt-32">
+    <div class="flex flex-col 
+                col-span-8 
+                md:col-start-3
+                md:ml-auto 
+                md:mr-auto
+                md:mt-32 
+                mt-10
+                ">
 
 {{ range.Data.Pages.ByTitle.Reverse }}
 <article class="post-snippet ref-list">
   <!-- <p><a class="text-2xl" href="{{ .RelPermalink }}">{{ .Title }}</a></p> -->
-  <p class="text-2xl mb-6 font-[400]">{{ .Title }}</p>
+  <p class="text-2xl mb-6 font-[500]">{{ .Title }}</p>
 
   {{ if .Params.image }}
 	<img src="{{ .Params.image }}" >
