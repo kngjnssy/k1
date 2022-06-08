@@ -18,8 +18,8 @@ paragraph1: >-
   Das Projekt ist gemeinsam mit Anwohnerinnen und Anwohnern im Rahmen von zwei Bürgerversammlungen vorgestellt und auf Grundlage der Hinweise und Anregungen entwickelt worden. Die vorgesehenen Spielszenarien sind unter das Motto „ZIRKUS“ gestellt.
 image2: dsc_0134.jpg
 image3: dsc_0061.jpg
-image5: dsc_0138.jpg
-paragraph5: >-
+image4: dsc_0042.jpg
+paragraph4: >-
   Der Zirkus eröffnet eine Welt, die dem Stadtgarten eine atmosphärische
   Eigenart und damit eine erkennbare Besonderheit gibt: Hier tummeln sich
   Artisten, scherzen die Clowns, probieren starke Männer und Frauen ihre
@@ -30,6 +30,7 @@ paragraph5: >-
 
 
   Akrobaten erobern mit waghalsigen Manövern die Lüfte. Seiltänzer bezaubern mit poetischen Balancierstücken neben Pferden, Schlangen und Hunden, die durch brennende Reifen springen.
+image5: dsc_0138.jpg
+paragraph5: ""
 yearplace: 2018, Berlin
-image4: dsc_0042.jpg
 ---
