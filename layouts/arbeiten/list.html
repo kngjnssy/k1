@@ -2,10 +2,10 @@
   <div class="grid grid-cols-12">
     {{ partial "header.html" . }}
     <div class="flex flex-col 
-            col-span-11 
-            lg:col-start-2
-            md:col-span-8 
-            md:ml-10 
+            col-span-8 
+            md:col-start-3
+            md:ml-auto 
+            md:mr-auto
             md:mt-32 
             mt-10
             ">
@@ -14,16 +14,17 @@
       <section class="
                 md:mt-10 
                 mb-20
-                md:w-6/12
+                md:w-8/12
                 ">
         {{ with .Site.GetPage "/arbeiten_intro" }}
-        <h2 class="text-xl mb-6">{{ .Title }}</h2>
+        <!-- <h2 class="text-xl mb-6">{{ .Title }}</h2> -->
         <div>{{ .Params.textarea | markdownify }}</div>
         {{ end }}
       </section>
 
       <section class="
-                  grid 
+                  grid
+                  gap-6
                   xl:grid-cols-3 
                   md:grid-cols-2 
                   grid-cols-1

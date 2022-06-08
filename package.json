@@ -17,7 +17,7 @@
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:tw": "tailwindcss -i ./static/css/main.css -o ./static/css/style.css --watch",
-    "watch:hugo": "hugo serve",
+    "watch:hugo": "hugo serve --disableFastRender",
     "build": "hugo --minify"
   },
   "repository": {

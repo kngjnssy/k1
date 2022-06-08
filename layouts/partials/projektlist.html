@@ -1,17 +1,19 @@
 <article class="
-          mr-6 
-          xl:h-80 
-          xl:w-64 
-          mb-10"> 
+          mb-10
+          "> 
   <div class="">
     <a href="{{ .RelPermalink }}">
       <img
-        class=""
+        class="
+          opacity-75
+          hover:opacity-100
+          object-contain
+          hover:object-scale-down
+        "
         src="{{ .RelPermalink }}{{ .Params.image }}"
-        alt=""
+        alt="{{ .Title }}"
       />
-      <h2>{{ .Title }}</h2>
-      <h3 class="text-xs">{{ .Params.yearplace }}</h3>
+      <h2 class="mt-1.5 font-[400]">{{ .Title }}</h2>
       <p class="text-xs">{{ .Params.info }}</p>
     </a>
   </div>

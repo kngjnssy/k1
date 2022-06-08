@@ -12,5 +12,6 @@ html, body, label {
 
 .kontakt a:hover {
   color:
-   #aeb79c;
+   /* #aeb79c; */
+   #99ab90;
 }
