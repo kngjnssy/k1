@@ -2,10 +2,14 @@
 	<div class="grid md:grid-cols-12">
 		{{ partial "header.html" . }}
 
-		<div class="flex flex-col md:col-span-11 md:ml-10 mt-32">
+		<div class="flex flex-col 
+					md:col-span-10
+					md:col-start-2 
+					md:ml-10 
+					">
 
 			<div class="flex flex-col">
-				<img class="" src="{{ .Params.image }}" />
+				<img class="w-full" src="{{ .Params.image }}" />
 				<!-- <h1 class="text-4xl text-bold mt-10">{{ .Title }}</h1> -->
 			</div>
 
@@ -16,11 +20,11 @@
 				</div>
 
 				<div class="flex-col mb-10 md:m-10">
-					<h1 class="text-4xl mt-10 ml-5">{{ .Title }}</h1>
+					<h1 class="text-3xl mt-10 ml-5">{{ .Title }}</h1>
 
 					<!-- <p>{{ .Params.info }}</p> -->
 
-					<div class="grid grid-cols-2 ml-5 mt-10">
+					<div class="grid grid-cols-1 ml-5 mt-10">
 							<div>
 								<div class="text-l text-k1green">Ort</div>
 								<div class="text-l mb-5">{{ .Params.place }}</div>
@@ -44,7 +48,7 @@
 					<img class="" src="{{ .Params.image2 }}" />
 					{{ end }}
 					{{ if .Params.paragraph2 }}
-					<p class="md:visible mr-10 mt-10">{{ .Params.paragraph2 | markdownify }}</p>
+					<p class="md:w-3/5 mt-20 ml-44">{{ .Params.paragraph2 | markdownify }}</p>
 					{{ end }}
 				</div>
 
@@ -52,11 +56,13 @@
 				<div class="flex flex-col mb-10 md:m-10">
 					{{ if .Params.image3 }}
 					<img class="img3" src="{{ .Params.image3 }}" />
-					{{ end }} {{ if .Params.subtitle3 }}
-					<p class="mt-10">{{ .Params.subtitle3 }}</p>
+					{{ end }} 
+					<p class="mt-10 ml-24">
+					{{ if .Params.subtitle3 }} 
+					{{ .Params.subtitle3 }}</p>
 					{{ end }} 
 					{{ if .Params.paragraph3 }}
-					<p class="mt-10">{{ .Params.paragraph3 | markdownify }}</p>
+					<p class="md:w-3/5 mt-4 ml-24">{{ .Params.paragraph3 | markdownify }}</p>
 					{{ end }}
 					
 				</div>
@@ -64,11 +70,11 @@
 				<!-- ------------------------ 4 ---------------------------- -->
 				<div class="flex flex-col">
 					{{ if .Params.image4 }}
-					<img class="m-10" src="{{ .Params.image4 }}" />
+					<img class="mt-10" src="{{ .Params.image4 }}" />
 					{{ end }} {{ if .Params.subtitle4 }}
-					<p class="m-10">{{ .Params.subtitle4 }}</p>
+					<p class="">{{ .Params.subtitle4 }}</p>
 					{{ end }} {{ if .Params.paragraph4 }}
-					<p class="mr-10">{{ .Params.paragraph4 | markdownify }}</p>
+					<p class="m-20">{{ .Params.paragraph4 | markdownify }}</p>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 5 --------------------------- -->
@@ -104,7 +110,7 @@
 				<!-- ------------------------- 8 --------------------------- -->
 				<div class="flex flex-col">
 					{{ if .Params.image8 }}
-					<img class="m-10" src="{{ .Params.image8 }}" />
+					<img class="" src="{{ .Params.image8 }}" />
 					{{ end }} {{ if .Params.subtitle8 }}
 					<p class="m-10">{{ .Params.subtitle8 }}</p>
 					{{ end }} {{ if .Params.paragraph8 }}
@@ -114,7 +120,7 @@
 				<!-- ------------------------- 9 --------------------------- -->
 				<div class="flex flex-col">
 					{{ if .Params.image9 }}
-					<img class="m-10" src="{{ .Params.image9 }}" />
+					<img class="" src="{{ .Params.image9 }}" />
 					{{ end }} {{ if .Params.subtitle9 }}
 					<p class="m-10">{{ .Params.subtitle9 }}</p>
 					{{ end }} {{ if .Params.paragraph9 }}
@@ -124,7 +130,7 @@
 				<!-- ------------------------- 10 --------------------------- -->
 				<div class="flex flex-col">
 					{{ if .Params.image10 }}
-					<img class="m-10" src="{{ .Params.image10 }}" />
+					<img class="" src="{{ .Params.image10 }}" />
 					{{ end }} {{ if .Params.subtitle10 }}
 					<p class="m-10">{{ .Params.subtitle10 }}</p>
 					{{ end }} {{ if .Params.paragraph10 }}
@@ -193,9 +199,10 @@
 				</div>
 																								
 			<!-- +1 extra full with image at the end?  -->
-			</div>
+			<!-- </div>
 				<img class="mt-20 w-3/6" src="{{ .Params.image }}" />
-			<div>
+			<div> -->
+				<div class="mb-36"></div>
 
 			</div>
 		</div>
