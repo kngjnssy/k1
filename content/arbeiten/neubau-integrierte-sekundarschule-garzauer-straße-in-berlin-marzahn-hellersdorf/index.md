@@ -1,0 +1,19 @@
+---
+tags:
+  - wbw
+title: Neubau Integrierte Sekundarschule Garzauer Straße in Berlin Marzahn-Hellersdorf
+date_order: "202108"
+year: "2021"
+place: Berlin
+info: 2. Preis, Nichtoffener Wettbewerb
+image: f01990a79a7e839c_1.jpg
+paragraph1: Ein großer Baukörper mit linearer Ausrichtung wird als
+  städtebauliche Setzung im Norden des Baugrundstücks platziert. Die Sporthalle
+  wird als separates Bauwerk im Nordosten des Grundstücks verortet. Die
+  Freiflächen der Schule werden vor allem im Süden und Westen des Grundstücks
+  angeordnet. Der Eingang der Schule liegt schlüssig im Norden an einem
+  Eingangsplatz. Die Lage des linearen Baukörpers unmittelbar gegenüber der
+  Wohnbebauung wird allerdings kritisch bewertet. Die Sporthalle erhält einen
+  separaten Eingang im Nordosten.
+image2: f631f2c5d8de0061_1.jpg
+---
