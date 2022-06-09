@@ -25,4 +25,5 @@ paragraph2: >-
   der alle Bewohnerwünsche integriert.
 image3: img_6335_vertikal.jpg
 image4: dsc00132.jpg
+image5: dsc00112_quadratisch.jpg
 ---
