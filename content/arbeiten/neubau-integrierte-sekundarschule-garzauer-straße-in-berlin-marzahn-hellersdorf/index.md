@@ -17,4 +17,8 @@ paragraph1: Ein großer Baukörper mit linearer Ausrichtung wird als
   Wohnbebauung wird allerdings kritisch bewertet. Die Sporthalle erhält einen
   separaten Eingang im Nordosten.
 image2: f631f2c5d8de0061_1.jpg
+image3: pikto.jpg
+image4: 7301b4c14296a752_1.jpg
+image5: visual.jpg
+image6: b0929a3cdaa04a41_1.jpg
 ---
