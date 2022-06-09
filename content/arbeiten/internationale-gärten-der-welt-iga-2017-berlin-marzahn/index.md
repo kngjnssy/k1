@@ -10,7 +10,21 @@ bauherr: Grün Berlin GmbH und IGA Berlin 2017 GmbH
 info: Weiterentwicklung und Umsetzung der Entwurfsideen für die Internationalen
   Gartenkabinette in den Gärten der Welt
 image: img_6625.jpg
+paragraph1: Die Internationalen Gartenkabinette sind im Rahmen IGA Berlin 2017
+  als Erweiterung der Gärten der Welt in Berlin Marzahn entstanden. Hier geben
+  sie als zeitgenössischer Beitrag zusammen mit weiteren, eher traditionell
+  ausgelegten Gartenanlagen einen beeindruckenden Einblick in die Vielfalt
+  internationaler Gartenkultur. Die Entwurfsideen der Internationalen
+  Gartenkabinette stammen von renommierten Landschaftsarchitekturbüros aus
+  verschiedenen Kontinenten.
 image2: img_8926.jpg
+paragraph2: Die Gärten, jeweils in rechteckiger Form und 385 qm Fläche
+  umfassend, sind durch einen zusammenhängenden Weg miteinander verbunden.
+  Entsprechend der Vorgaben des Masterplanes für das Gelände sind sie von hohen
+  Hainbuchenhecken umschlossen, so dass die Gestaltung der Gärten erst mit ihrem
+  Betreten offenbart wird. Die entstandenen Kabinette bieten einen intimen Raum,
+  in dem sich der Zauber eines jeden einzelnen Gartens überraschend und auf sehr
+  charmante Weise zeigt.
 image3: internationales-gartenkabinett-china-3.jpg
 image4: 06_-c-k1_grossbritannien_2img_5251.jpg
 image5: k1_grossbritannien_5_dsc_0194_quadratisch.jpg
