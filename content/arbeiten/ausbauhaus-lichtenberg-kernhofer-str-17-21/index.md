@@ -25,5 +25,8 @@ paragraph2: >-
   der alle Bewohnerwünsche integriert.
 image3: img_6335_vertikal.jpg
 image4: dsc00132.jpg
+paragraph4: Die großzügige Sandspielfläche ist mit Holzelementen eingefasst,
+  die gleichsam als Außenraummöbel dienen und für ein Sonnenbad ebenso
+  geeignet sind wie als Sitzbank beim sommerlichen Hoffest der Anwohner.
 image5: dsc00112_quadratisch.jpg
 ---
