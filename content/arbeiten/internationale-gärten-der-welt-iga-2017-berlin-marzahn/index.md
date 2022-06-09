@@ -18,6 +18,7 @@ paragraph1: Die Internationalen Gartenkabinette sind im Rahmen IGA Berlin 2017
   Gartenkabinette stammen von renommierten Landschaftsarchitekturbüros aus
   verschiedenen Kontinenten.
 image2: img_8926.jpg
+subtitle2: "Australien: Cultivated by Fire (Taylor Cullity Lethlean, T.C.L.)"
 paragraph2: Die Gärten, jeweils in rechteckiger Form und 385 qm Fläche
   umfassend, sind durch einen zusammenhängenden Weg miteinander verbunden.
   Entsprechend der Vorgaben des Masterplanes für das Gelände sind sie von hohen
@@ -26,11 +27,16 @@ paragraph2: Die Gärten, jeweils in rechteckiger Form und 385 qm Fläche
   in dem sich der Zauber eines jeden einzelnen Gartens überraschend und auf sehr
   charmante Weise zeigt.
 image3: internationales-gartenkabinett-china-3.jpg
+subtitle3: "China: „Dule Yuan“ (Zhu Yufan, Atelier Y³C)"
 image4: 06_-c-k1_grossbritannien_2img_5251.jpg
+subtitle4: "Großbritannien: The Order of the Human Things (Tom Stuart-Smith)"
 image5: k1_grossbritannien_5_dsc_0194_quadratisch.jpg
 image6: internationales-gartenkabinett-libanon-4.jpg
+subtitle6: "Libanon: Der versunkene Garten (Vladimir Djurovic)"
 image7: internationales-gartenkabinett-thailand-7.jpg
 image8: _twf7218.jpg
 image9: img_8556-2.jpg
+subtitle9: "Chile: Beeing under the trees (Teresa Moller)"
 image10: _twf3933.jpg
+subtitle10: "Südafrika: „African Bouquet“ (Anton Comrie und Stuart Glen, Büro GREENinc,)"
 ---
