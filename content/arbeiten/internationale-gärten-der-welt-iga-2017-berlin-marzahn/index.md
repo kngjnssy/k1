@@ -34,6 +34,7 @@ image5: k1_grossbritannien_5_dsc_0194_quadratisch.jpg
 image6: internationales-gartenkabinett-libanon-4.jpg
 subtitle6: "Libanon: Der versunkene Garten (Vladimir Djurovic)"
 image7: internationales-gartenkabinett-thailand-7.jpg
+subtitle7: "Thailand: „Garden of the Mind“ (P Landscape, PLA)"
 image8: _twf7218.jpg
 image9: img_8556-2.jpg
 subtitle9: "Chile: Beeing under the trees (Teresa Moller)"
