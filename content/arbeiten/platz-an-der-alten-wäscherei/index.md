@@ -9,6 +9,7 @@ size: 3.500 m²
 bauherr: Stadt Bad Nauheim
 info: Gestaltung innerstädtischer Platz mit Denkmalumfeld
 image: dsc00976kopie.jpg
+subtitle1: Goldener Stein
 paragraph1: Der neue Platz liegt im Zentrum eines historischen und
   denkmalgeschützten Jugendstilensembles in direkter Nachbarschaft zum Bahnhof
   Bad Nauheim. Mit dem neu entstehenden Wohnquartier am Goldstein, dem Zugang
