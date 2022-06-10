@@ -19,6 +19,7 @@ paragraph1: Der neue Platz liegt im Zentrum eines historischen und
   mit einem neuen Aufzug bis zum höher gelegenen und zum Verweilen einladenden
   Platzbereich vor der Alten Wäscherei.
 image2: p1050087.jpg
+subtitle2: Blick zum Parkeingang an der Alten Wäscherei
 paragraph2: Der alte Baumbestand aus den Platz rahmenden Kastanien wurde
   erhalten und durch angehobene Rasenflächen neu in Szene gesetzt. Der Goldene
   Stein in direkter Sichtbeziehung zum Bahnhof verweist als Zitat auf das neue
