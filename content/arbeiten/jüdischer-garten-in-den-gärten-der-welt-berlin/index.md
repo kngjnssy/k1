@@ -24,6 +24,7 @@ paragraph3: >-
 yearplace: 2019, Berlin
 tags:
   - wbw
+  - frontpage
 info: Nichtoffener Kooperativer Gestaltungswettbewerb in Arbeitsgemeinschaft mit
   Martin Kaltwasser, Künstler
 date: 2021-12-02T17:01:31.452Z
