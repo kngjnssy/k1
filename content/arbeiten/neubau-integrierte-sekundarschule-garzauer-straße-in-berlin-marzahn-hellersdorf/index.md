@@ -6,6 +6,7 @@ title: Neubau Integrierte Sekundarschule Garzauer Straße in Berlin Marzahn-Hell
 date_order: "202108"
 year: "2021"
 place: Berlin
+keywords: 2. Preis, Nichtoffener Wettbewerb
 info: 2. Preis, Nichtoffener Wettbewerb
 image: f01990a79a7e839c_1.jpg
 paragraph1: Ein großer Baukörper mit linearer Ausrichtung wird als
