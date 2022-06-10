@@ -24,5 +24,6 @@ paragraph2: Der alte Baumbestand aus den Platz rahmenden Kastanien wurde
   Wohnquartier am Goldstein.
 image3: dsc_6631.jpg
 image4: paw_1030343_ok.jpg
+subtitle4: Blick Richtung Salinengebäude
 image5: lgs_pflaster_ok-kopie.jpg
 ---
