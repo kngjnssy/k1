@@ -9,6 +9,14 @@ size: 3.500 m²
 bauherr: Stadt Bad Nauheim
 info: Gestaltung innerstädtischer Platz mit Denkmalumfeld
 image: dsc00976kopie.jpg
+paragraph1: Der neue Platz liegt im Zentrum eines historischen und
+  denkmalgeschützten Jugendstilensembles in direkter Nachbarschaft zum Bahnhof
+  Bad Nauheim. Mit dem neu entstehenden Wohnquartier am Goldstein, dem Zugang
+  zum Goldsteinpark und direkt umgebende Wohnbauten stellt er einen zentralen
+  Verknüpfungspunkt im  Stadtgefüge dar. Die zentrale Achse des Platzes markiert
+  die fußläufige Verbindung zur Altstadt und verlängert die Bahnhofsunterführung
+  mit einem neuen Aufzug bis zum höher gelegenen und zum Verweilen einladenden
+  Platzbereich vor der Alten Wäscherei.
 image2: p1050087.jpg
 image3: dsc_6631.jpg
 image4: paw_1030343_ok.jpg
