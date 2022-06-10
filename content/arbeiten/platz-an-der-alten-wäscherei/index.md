@@ -18,6 +18,10 @@ paragraph1: Der neue Platz liegt im Zentrum eines historischen und
   mit einem neuen Aufzug bis zum höher gelegenen und zum Verweilen einladenden
   Platzbereich vor der Alten Wäscherei.
 image2: p1050087.jpg
+paragraph2: Der alte Baumbestand aus den Platz rahmenden Kastanien wurde
+  erhalten und durch angehobene Rasenflächen neu in Szene gesetzt. Der Goldene
+  Stein in direkter Sichtbeziehung zum Bahnhof verweist als Zitat auf das neue
+  Wohnquartier am Goldstein.
 image3: dsc_6631.jpg
 image4: paw_1030343_ok.jpg
 image5: lgs_pflaster_ok-kopie.jpg
