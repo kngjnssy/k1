@@ -13,30 +13,22 @@ paragraph1: >-
   **Wettbewerb 2008 - 1. Preis**
 
 
-  Das gesamte Gelände wird landschaftsraumspezifisch neu strukturiert. Der Donaupark wird als landschaftlicher Uferpark zur ruhigen Erholung entwickelt und liegt eigenständig vor dem Deich. Die Deichgärten bzw. die Deichpromenade erschließen das Gelände als urbanes Glied und dienen als Verteiler zwischen den Nutzungen. Zwischen Deich und dem „Baumvorhang“ an der Neusiedler Straße entsteht ein neuer Raum, der als Multifunktionsfläche mit Angeboten für Veranstaltungen, Spiel und Sport eine eigene räumliche Qualität erhält.
+  Das gesamte Gartenschaugelände wird landschafts-raumspezifisch neu strukturiert. Der Donaupark wird als landschaftlicher Uferpark zur ruhigen Erholungsnutzung entwickelt und liegt eigenständig vor dem Deich. Die Deichgärten bzw. die Deichpromenade erschließen das Gelände als urbanes Glied und dienen als Verteiler zwischen den Nutzungen.
 image2: c-lichtschwaermer_573_mg_6852.jpg
-paragraph2: Der Donaupark bezieht sich mit der dynamisch verlaufenden Promenade
-  auf den Flusslauf und konzentriert sich mit den Nutzungen auf besondere Orte
-  am Wasser. Dabei erhält der Donaupark im direkten Anschluss an das Stadtgebiet
-  im Osten eine intensivere Gestaltung, die nach Westen immer landschaftlicher
-  wird. Die Mündung des Bogenbachs erhält in der Fließrichtung eine großzügige
-  Stufenanlage von der aus die Mündungen der drei verbindenden Flüsse zu sehen
-  sind. Die Ufer werden mit gewässernahen Stauden aufgewertet und so für die
-  Gartenschau genutzt.
+paragraph2: Auf dem Parkdeck entstehen die ca. 1 ha großen Deichgärten als
+  intensive Dachbegrünung. Hierauf werden aus Cortenstahl Rasenbeete, ein
+  Spielplatz und ein Wasserspiel angeordnet. Eine große Freitreppe als
+  Einschnitt im Gebäude  leitet die Besucher vom Vorplatz auf die Deichgärten.
+  Der Vorplatz erschließt das Parkdeck auf der unteren Ebene und bietet
+  gleichzeitig ein Vorzone mit besonderen Aufenthaltsflächen.
 image3: c-lichtschwaermer_539_mg_6766.jpg
-paragraph3: Der Deichgarten wird von einer Blütenwelle überzogen, die sich
-  symbolisch von Deggendorf zum Schwarzen Meer bewegt. Sie trägt die zentralen
-  Ausstellungsflächen für Wechselflor und Stauden. Während der Gartenschau
-  werden thematische Blumenbilder, orientiert an den Stationen der Donau,
-  dargestellt. Die Blütenwelle erweitert die Promenade zu einem Gartenband, dass
-  als Artefakt auf der Parkierungsanlage gestalterisch eigenständig behandelt
-  wird. Hochbeete mit verschiedenen Höhen bilden das Traggerüst für die
-  Pflanzungen der Gartenschau und der späteren Nutzung als Rasenlandschaft. Das
-  Gelände wird so modelliert, dass eine abstrakte Landschaft im „Fließen“
-  entsteht.
+paragraph3: ""
+image5: quadratischjpg.jpg
+paragraph7: Der Besucher wird so an die besonderen Orte am Wasser herangeführt
+  und erhält immer wieder neue Perspektiven und Ausblicke. Die Promenade wird
+  durch eine seitliche Aufkantung an der Uferseite geführt.
 yearplace: "2014"
 image4: c-lichtschwaermer_069_mg_5297.jpg
-image5: quadratischjpg.jpg
 image6: c-lichtschwaermer_270_mg_5975.jpg
 image7: c-lichtschwaermer_472_mg_6624.jpg
 image8: img_1952.jpg
