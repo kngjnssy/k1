@@ -1,7 +1,14 @@
 ---
 tags:
   - projekt
+title: Landesgartenschau Deggendorf
 date_order: 2014
+year: "2014"
+place: Deggendorf
+size: 310.000 m²
+bauherr: Landesgartenschau Deggendorf 2014 GmbH
+info: Gestaltung einer Landesgartenschau entlang der Donau
+image: c-lichtschwaermer_467_mg_6616.jpg
 paragraph1: >-
   **Bauherr:** Landesgartenschau Deggendorf GmbH
 
@@ -10,6 +17,7 @@ paragraph1: >-
 
 
   Das gesamte Gelände wird landschaftsraumspezifisch neu strukturiert. Der Donaupark wird als landschaftlicher Uferpark zur ruhigen Erholung entwickelt und liegt eigenständig vor dem Deich. Die Deichgärten bzw. die Deichpromenade erschließen das Gelände als urbanes Glied und dienen als Verteiler zwischen den Nutzungen. Zwischen Deich und dem „Baumvorhang“ an der Neusiedler Straße entsteht ein neuer Raum, der als Multifunktionsfläche mit Angeboten für Veranstaltungen, Spiel und Sport eine eigene räumliche Qualität erhält.
+image2: donaupark-02_lichtschwaermer.jpeg
 paragraph2: Der Donaupark bezieht sich mit der dynamisch verlaufenden Promenade
   auf den Flusslauf und konzentriert sich mit den Nutzungen auf besondere Orte
   am Wasser. Dabei erhält der Donaupark im direkten Anschluss an das Stadtgebiet
@@ -18,6 +26,7 @@ paragraph2: Der Donaupark bezieht sich mit der dynamisch verlaufenden Promenade
   Stufenanlage von der aus die Mündungen der drei verbindenden Flüsse zu sehen
   sind. Die Ufer werden mit gewässernahen Stauden aufgewertet und so für die
   Gartenschau genutzt.
+image3: c-lichtschwaermer_539_mg_6766.jpg
 paragraph3: Der Deichgarten wird von einer Blütenwelle überzogen, die sich
   symbolisch von Deggendorf zum Schwarzen Meer bewegt. Sie trägt die zentralen
   Ausstellungsflächen für Wechselflor und Stauden. Während der Gartenschau
@@ -29,11 +38,6 @@ paragraph3: Der Deichgarten wird von einer Blütenwelle überzogen, die sich
   Gelände wird so modelliert, dass eine abstrakte Landschaft im „Fließen“
   entsteht.
 yearplace: "2014"
-title: Landesgartenschau Deggendorf
-info: Wettbewerb 2008 - 1. Preis
-image: c-lichtschwaermer_467_mg_6616.jpg
-image2: donaupark-02_lichtschwaermer.jpeg
-image3: c-lichtschwaermer_539_mg_6766.jpg
 image4: c-lichtschwaermer_069_mg_5297.jpg
 image5: quadratischjpg.jpg
 ---
