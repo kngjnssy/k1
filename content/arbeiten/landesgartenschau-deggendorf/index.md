@@ -1,6 +1,7 @@
 ---
 tags:
   - projekt
+date_order: 2014
 paragraph1: >-
   **Bauherr:** Landesgartenschau Deggendorf GmbH
 
@@ -29,10 +30,11 @@ paragraph3: Der Deichgarten wird von einer Blütenwelle überzogen, die sich
   entsteht.
 yearplace: "2014"
 title: Landesgartenschau Deggendorf
-date_order: 2014
 info: Wettbewerb 2008 - 1. Preis
-image: donaupark-08-deichgaerten_lichtschwaermer.jpeg
+image: c-lichtschwaermer_467_mg_6616.jpg
 image2: donaupark-02_lichtschwaermer.jpeg
-image3: ""
+image3: c-lichtschwaermer_539_mg_6766.jpg
+image4: c-lichtschwaermer_069_mg_5297.jpg
+image5: quadratischjpg.jpg
 ---
 **x**
