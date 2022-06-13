@@ -39,8 +39,9 @@ image4: c-lichtschwaermer_069_mg_5297.jpg
 image5: quadratischjpg.jpg
 image6: c-lichtschwaermer_270_mg_5975.jpg
 image7: c-lichtschwaermer_451_mg_6585.jpg
-image8: ""
+image8: c-lichtschwaermer_394_mg_6375.jpg
 image9: c-lichtschwaermer_034_mg_5161.jpg
 image10: quadratischjpg-2.jpg
+image11: c-lichtschwaermer_636_mg_7055.jpg
 ---
 **x**
