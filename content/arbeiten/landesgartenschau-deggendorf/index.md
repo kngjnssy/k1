@@ -14,7 +14,7 @@ paragraph1: >-
 
 
   Das gesamte Gelände wird landschaftsraumspezifisch neu strukturiert. Der Donaupark wird als landschaftlicher Uferpark zur ruhigen Erholung entwickelt und liegt eigenständig vor dem Deich. Die Deichgärten bzw. die Deichpromenade erschließen das Gelände als urbanes Glied und dienen als Verteiler zwischen den Nutzungen. Zwischen Deich und dem „Baumvorhang“ an der Neusiedler Straße entsteht ein neuer Raum, der als Multifunktionsfläche mit Angeboten für Veranstaltungen, Spiel und Sport eine eigene räumliche Qualität erhält.
-image2: donaupark-02_lichtschwaermer.jpeg
+image2: ""
 paragraph2: Der Donaupark bezieht sich mit der dynamisch verlaufenden Promenade
   auf den Flusslauf und konzentriert sich mit den Nutzungen auf besondere Orte
   am Wasser. Dabei erhält der Donaupark im direkten Anschluss an das Stadtgebiet
@@ -37,5 +37,8 @@ paragraph3: Der Deichgarten wird von einer Blütenwelle überzogen, die sich
 yearplace: "2014"
 image4: c-lichtschwaermer_069_mg_5297.jpg
 image5: quadratischjpg.jpg
+image6: c-lichtschwaermer_270_mg_5975.jpg
+image7: c-lichtschwaermer_451_mg_6585.jpg
+image8: donaupark-02_lichtschwaermer.jpeg
 ---
 **x**
