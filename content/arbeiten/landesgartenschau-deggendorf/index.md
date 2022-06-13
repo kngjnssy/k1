@@ -31,8 +31,8 @@ yearplace: "2014"
 image4: c-lichtschwaermer_069_mg_5297.jpg
 image6: c-lichtschwaermer_270_mg_5975.jpg
 image7: c-lichtschwaermer_472_mg_6624.jpg
-image8: img_1952.jpg
-image9: c-lichtschwaermer_034_mg_5161.jpg
+image8: c-lichtschwaermer_034_mg_5161.jpg
+image9: img_1952.jpg
 image10: c-lichtschwaermer_636_mg_7055.jpg
 image11: quadratischjpg-2.jpg
 ---
