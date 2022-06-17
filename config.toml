@@ -34,7 +34,7 @@ favicon = "/img/favicon.ico"
 
   [[menu.sub]]
     identifier = "all"
-    name = "All"
+    name = "Alle"
     url = "/arbeiten"
     weight = 30
     # parent = "arbeiten"

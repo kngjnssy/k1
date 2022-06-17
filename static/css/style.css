@@ -528,6 +528,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -546,10 +550,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-5 {
   margin-left: 1.25rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .mt-20 {
@@ -586,6 +586,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -919,6 +923,14 @@ html, body, label {
 
   .md\:fifth\:ml-20:nth-child(5) {
     margin-left: 5rem;
+  }
+
+  .md\:sixth\:ml-\[\]:nth-child(6) {
+    margin-left: ;
+  }
+
+  .md\:sixth\:ml-\[500px\]:nth-child(6) {
+    margin-left: 500px;
   }
 }
 

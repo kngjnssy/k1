@@ -39,6 +39,7 @@ const colors = require('tailwindcss/colors')
       addVariant('third', '&:nth-child(3)')
       addVariant('fourth', '&:nth-child(4)')
       addVariant('fifth', '&:nth-child(5)')
+      addVariant('sixth', '&:nth-child(6)')
     })
   ],
 }

@@ -4,9 +4,9 @@ tags:
   - frontpage
 date: 2021-11-29T13:49:44.083Z
 date_order: 202206
+short_text: Für die Bearbeitung unserer Projekte in Leistungsphasen 5-8 suchen wir erfahrene Mitarbeiterinnen.
 text: >-
-  Für die Bearbeitung unserer Projekte in Leistungsphasen 5-8 suchen wir
-  erfahrene Mitarbeiterinnen.Entsprechend der Aufgaben in unserem Team sollten
+  Entsprechend der Aufgaben in unserem Team sollten
   die Bewerber*innen über ein hohes Maß an technischem Grundverständnis und
   gestalterischer Kompetenz verfügen. Solide Kenntnisse im Bereich CAD und
   Ausschreibungsprogrammen sowie der gängigen Bürosoftware setzen wir voraus.\

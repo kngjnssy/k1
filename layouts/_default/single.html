@@ -15,6 +15,7 @@
 			{{ if .Params.image }}
 				<img src="{{ .Params.image }}" >
 			{{ end }}
+			<p class="mb-5">{{ .Params.short_text | markdownify }}</p>
 
 			<p class="mb-24">{{ .Params.text | markdownify }}</p>
 

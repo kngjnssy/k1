@@ -2,7 +2,14 @@
   <div class="grid grid-cols-12">
     {{ partial "header.html" . }}
 
-    <div class="flex flex-col col-span-10 ml-10 mt-32 ">
+    <div class="flex flex-col 
+                col-span-8 
+                md:col-start-3
+                md:ml-auto 
+                md:mr-auto
+                md:mt-32 
+                mt-10
+                ">
       {{ $display_posts := (sort .Site.Pages "Params.date_order").Reverse }} 
       {{ range $post := $display_posts }} 
       {{ if in .Params.tags "frontpage" }}
@@ -14,6 +21,7 @@
                     md:third:ml-20 
                     md:fourth:ml-[500px]
                     md:fifth:ml-20
+                    md:sixth:ml-[500px]
                     md:last:ml-72  
                     md:w-2/4
                     ">
@@ -30,7 +38,7 @@
             <p class="mt-2 !font-[500] text-k1darker text-2xl z-10 inline-block" >{{ .Title }}</p>
 
           </a>
-          <p class="">{{ .Params.text | markdownify }}</p>
+          <p class="">{{ .Params.short_text | markdownify }}</p>
         </div>
       </article>
 
