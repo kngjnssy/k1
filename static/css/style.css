@@ -688,6 +688,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: auto;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -714,6 +718,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-6\/12 {
   width: 50%;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .border-collapse {
@@ -755,6 +763,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-red-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-red-200\/50 {
+  background-color: rgb(254 202 202 / 0.5);
+}
+
+.bg-red-200\/5 {
+  background-color: rgb(254 202 202 / 0.05);
+}
+
+.bg-red-200\/25 {
+  background-color: rgb(254 202 202 / 0.25);
+}
+
+.bg-red-200\/20 {
+  background-color: rgb(254 202 202 / 0.2);
 }
 
 .object-cover {

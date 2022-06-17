@@ -15,25 +15,25 @@
 
 			<div class="grid md:grid-cols-2">
 
-				<div class="flex flex-col">
-					<p class="m-10 mt-40">{{ .Params.paragraph1 | markdownify }}</p>
+				<div class="flex flex-col mt-10">
+					<h1 class="text-3xl invisible">{{ .Title }}</h1>
+
+					<p class="m-10">{{ .Params.paragraph1 | markdownify }}</p>
 				</div>
 
-				<div class="flex-col mb-10 md:m-10">
-					<h1 class="text-3xl mt-10 ml-5">{{ .Title }}</h1>
+				<div class="flex-col mt-10 ml-10">
+					<h1 class="text-3xl">{{ .Title }}</h1>
 
-					<!-- <p>{{ .Params.info }}</p> -->
-
-					<div class="grid grid-cols-1 ml-5 mt-10">
+					<div class="grid grid-cols-1 mt-10">
 							<div>
-								<div class="text-l text-k1green">Ort</div>
-								<div class="text-l mb-5">{{ .Params.place }}</div>
-								<div class="text-l text-k1green">Jahr</div>
-								<div class="text-l mb-5">{{ .Params.year }}</div>
-								<div class="text-l text-k1green">Bauherr</div>
-								<div class="text-l mb-5">{{ .Params.bauherr }}</div>
-								<div class="text-l text-k1green">Größe</div>
-								<div class="text-l mb-5">{{ .Params.size }}</div>
+								<div class="text-k1darker">Ort</div>
+								<div class="mb-5">{{ .Params.place }}</div>
+								<div class="text-k1darker">Jahr</div>
+								<div class="mb-5">{{ .Params.year }}</div>
+								<div class="text-k1darker">Bauherr</div>
+								<div class="mb-5">{{ .Params.bauherr }}</div>
+								<div class="text-k1darker">Größe</div>
+								<div class="mb-5">{{ .Params.size }}</div>
 							</div>
 							<div>
 			
@@ -74,7 +74,7 @@
 					{{ end }} {{ if .Params.subtitle4 }}
 					<p class="mt-1.5">{{ .Params.subtitle4 }}</p>
 					{{ end }} {{ if .Params.paragraph4 }}
-					<p class="m-20">{{ .Params.paragraph4 | markdownify }}</p>
+					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph4 | markdownify }}</p>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 5 --------------------------- -->
