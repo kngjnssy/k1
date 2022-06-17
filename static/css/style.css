@@ -484,10 +484,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
-.col-span-10 {
-  grid-column: span 10 / span 10;
-}
-
 .col-span-8 {
   grid-column: span 8 / span 8;
 }
@@ -496,32 +492,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 2.5rem;
 }
 
-.m-20 {
-  margin: 5rem;
-}
-
 .m-8 {
   margin: 2rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mb-36 {
   margin-bottom: 9rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-10 {
@@ -544,32 +528,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.ml-44 {
-  margin-left: 11rem;
-}
-
-.ml-24 {
-  margin-left: 6rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
+.mr-20 {
+  margin-right: 5rem;
 }
 
 .mt-1\.5 {
@@ -580,76 +544,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.25rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mt-\[70px\] {
-  margin-top: 70px;
-}
-
-.mt-\[170px\] {
-  margin-top: 170px;
-}
-
-.mt-\[150px\] {
-  margin-top: 150px;
-}
-
-.mt-\[120px\] {
-  margin-top: 120px;
-}
-
-.mt-\[110px\] {
-  margin-top: 110px;
-}
-
-.mt-\[80px\] {
-  margin-top: 80px;
-}
-
-.mt-\[60px\] {
-  margin-top: 60px;
-}
-
-.mt-\[62px\] {
-  margin-top: 62px;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mt-\[61px\] {
   margin-top: 61px;
 }
 
-.mt-9 {
-  margin-top: 2.25rem;
+.mt-24 {
+  margin-top: 6rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
-.mr-20 {
-  margin-right: 5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .block {
@@ -684,12 +596,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   aspect-ratio: 4 / 3;
 }
 
-.h-auto {
-  height: auto;
-}
-
-.h-9 {
-  height: 2.25rem;
+.h-\[200px\] {
+  height: 200px;
 }
 
 .w-full {
@@ -718,10 +626,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-6\/12 {
   width: 50%;
-}
-
-.w-9 {
-  width: 2.25rem;
 }
 
 .border-collapse {
@@ -758,27 +662,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border {
   border-width: 1px;
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-red-200\/50 {
-  background-color: rgb(254 202 202 / 0.5);
-}
-
-.bg-red-200\/5 {
-  background-color: rgb(254 202 202 / 0.05);
-}
-
-.bg-red-200\/25 {
-  background-color: rgb(254 202 202 / 0.25);
-}
-
-.bg-red-200\/20 {
-  background-color: rgb(254 202 202 / 0.2);
 }
 
 .object-cover {
@@ -889,6 +772,12 @@ html, body, label {
    #99ab90;
 }
 
+.object-cover {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .hover\:text-k1green:hover {
   --tw-text-opacity: 1;
   color: rgb(174 183 156 / var(--tw-text-opacity));
@@ -930,20 +819,20 @@ html, body, label {
     grid-column-start: 2;
   }
 
-  .md\:m-10 {
-    margin: 2.5rem;
-  }
-
-  .md\:mt-32 {
-    margin-top: 8rem;
-  }
-
   .md\:ml-auto {
     margin-left: auto;
   }
 
   .md\:mr-auto {
     margin-right: auto;
+  }
+
+  .md\:mt-\[122px\] {
+    margin-top: 122px;
+  }
+
+  .md\:mt-32 {
+    margin-top: 8rem;
   }
 
   .md\:mt-10 {
@@ -958,40 +847,12 @@ html, body, label {
     margin-bottom: 2.5rem;
   }
 
-  .md\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .md\:mt-\[\] {
-    margin-top: ;
-  }
-
-  .md\:mt-\[120px\] {
-    margin-top: 120px;
-  }
-
-  .md\:mt-\[121px\] {
-    margin-top: 121px;
-  }
-
-  .md\:mt-\[122px\] {
-    margin-top: 122px;
-  }
-
-  .md\:mt-\[30\] {
-    margin-top: 30;
-  }
-
   .md\:w-2\/4 {
     width: 50%;
   }
 
   .md\:w-8\/12 {
     width: 66.666667%;
-  }
-
-  .md\:w-3\/5 {
-    width: 60%;
   }
 
   .md\:max-w-\[800px\] {
@@ -1036,10 +897,6 @@ html, body, label {
 
   .md\:fifth\:ml-20:nth-child(5) {
     margin-left: 5rem;
-  }
-
-  .md\:sixth\:ml-\[\]:nth-child(6) {
-    margin-left: ;
   }
 
   .md\:sixth\:ml-\[500px\]:nth-child(6) {

@@ -15,3 +15,9 @@ html, body, label {
    /* #aeb79c; */
    #99ab90;
 }
+
+.object-cover {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
