@@ -13,7 +13,7 @@ image: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
 image2: 500_website.jpg.crop_display.jpg
 image3: unbenannt-1-kopie.jpg
 image4: 200_1_website.jpg.crop_display.jpg
-image5: picto_2_website_250.jpg.crop_display.jpg
+image5: 200_end.jpg
 image6: 200_1_website.jpg.crop_display.jpg
 image7: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
 image8: 500_website.jpg.crop_display.jpg
