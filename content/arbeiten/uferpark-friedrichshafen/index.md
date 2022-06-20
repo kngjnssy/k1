@@ -8,7 +8,9 @@ paragraph1: >-
   In der ersten Phase des Wettbewerbsverfahrens wurden die Ideen des Planungsteams k1 Landschaftsarchitekten/ raumzeit Architekten neben vier weiteren Arbeiten von der Fachjury zur Weiterbearbeitung empfohlen. In die anschließende Entwurfsüberarbeitung flossen die Ergebnisse eines Bürgerbeiteiligungsverfahrens mit öffentlichem Workshop ein. Aus den Beiträgen dieser zweiten Wettbewerbsrunde kürte die Jury in der abschließenden Preisgerichtssitzung am 28. November 2017 zwei erste Plätze.
 
 
-  <https://www.competitionline.com/de/news/ergebnisse/wettbewerbsergebnis-staedtebau-243162.html>
+
+
+  [Wettbewerbsergebnis bei competitionline.com](https://www.competitionline.com/de/news/ergebnisse/wettbewerbsergebnis-staedtebau-243162.html)
 yearplace: 2017, Friedrichshafen
 tags:
   - wbw
