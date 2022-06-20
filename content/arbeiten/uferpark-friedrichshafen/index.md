@@ -12,7 +12,7 @@ date: 2021-12-01T12:20:06.903Z
 image: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
 image2: 500_website.jpg.crop_display.jpg
 image3: unbenannt-1-kopie.jpg
-image4: 200_1_website.jpg.crop_display.jpg
+image4: ""
 image5: 200_end.jpg
 image6: 200_1_website.jpg.crop_display.jpg
 image7: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
