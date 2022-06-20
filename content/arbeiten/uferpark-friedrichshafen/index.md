@@ -5,7 +5,6 @@ paragraph1: In der ersten Phase des Wettbewerbsverfahrens wurden die Ideen des
 yearplace: 2017, Friedrichshafen
 tags:
   - wbw
-  - projekt
 title: Uferpark Friedrichshafen
 date_order: "2017"
 info: 1. Preis - Ideenwettbewerb mit nachgeschaltetem Workshopverfahren
