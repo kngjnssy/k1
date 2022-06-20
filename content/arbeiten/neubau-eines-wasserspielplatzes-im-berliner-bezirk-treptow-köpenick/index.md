@@ -5,6 +5,10 @@ title: Neubau eines Wasserspielplatzes im Berliner Bezirk Treptow-Köpenick
 date_order: "201910"
 year: "2019"
 place: Berlin
-info: 2. Preis, Nichtoffener Wettbewerb
+info: 2. Preis
 image: playground.jpg
+paragraph1: |-
+  **Städtebaulicher Wettbewerb mit Ideenteil 2011**
+
+  textettdetetegjkq
 ---
