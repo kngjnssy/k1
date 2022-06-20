@@ -11,7 +11,7 @@ info: Weiterentwicklung und Umsetzung der Entwurfsideen für die Internationalen
   Gartenkabinette in den Gärten der Welt
 image: img_6625.jpg
 paragraph1: >-
-  **Leistungsphasen: 3-8**
+  **Leistungsumfang: LP 3-8**
 
 
   Die Internationalen Gartenkabinette sind im Rahmen IGA Berlin 2017 als Erweiterung der Gärten der Welt in Berlin Marzahn entstanden. Hier geben sie als zeitgenössischer Beitrag zusammen mit weiteren, eher traditionell ausgelegten Gartenanlagen einen beeindruckenden Einblick in die Vielfalt internationaler Gartenkultur. Die Entwurfsideen der Internationalen Gartenkabinette stammen von renommierten Landschaftsarchitekturbüros aus verschiedenen Kontinenten.
