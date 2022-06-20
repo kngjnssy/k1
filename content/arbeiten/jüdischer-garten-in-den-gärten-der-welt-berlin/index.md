@@ -1,6 +1,10 @@
 ---
 title: Jüdischer Garten in den Gärten der Welt, Berlin
 date_order: "2018"
+place: Berlin
+year: 2018
+ausloberinnen: 
+ergebniss: 
 paragraph1: >-
   Ergänzend zu den in den Gärten der Welt bereits vorhandenen Themengärten der
   großen Weltreligionen sollte in einem kooperativen Wettbewerbsverfahren eine

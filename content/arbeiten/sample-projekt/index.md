@@ -5,6 +5,8 @@ year: "2022"
 place: Kreuzberg, Berlin
 size: 12 ha
 bauherr: 
+ausloberinnen: 
+ergebniss: 1st prize
 keywords: Park, Spielplatz
 info: This is a short, optional summary that will show up in the list / below
   the title.
