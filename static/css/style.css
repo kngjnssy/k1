@@ -604,6 +604,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 200px;
 }
 
+.h-\[220px\] {
+  height: 220px;
+}
+
+.max-h-\[220px\] {
+  max-height: 220px;
+}
+
+.min-h-\[220px\] {
+  min-height: 220px;
+}
+
+.min-h-\[200px\] {
+  min-height: 200px;
+}
+
+.min-h-\[180px\] {
+  min-height: 180px;
+}
+
 .w-full {
   width: 100%;
 }
