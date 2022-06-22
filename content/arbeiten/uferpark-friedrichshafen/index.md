@@ -33,8 +33,13 @@ paragraph2: >-
 
 
   Die Gartenpromenade ist eine Reminiszenz an den historischen Kontext als der Uferpark aus dem Zusammenschluss von einzelnen Privatgärten hervorging. Als weiterer Hauptweg bildet die Gartenpromenade das der Stadt zugewandte Rückgrat des Parks mit altem Baumbestand und angelagerten gärtnerisch gestalteten Flächen.
-yearplace: 2017, Friedrichshafen
 image3: unbenannt-1-kopie.jpg
+paragraph4: >-
+  **Städtebauliche Einbindung**
+
+
+  Durch die Umgestaltung der an den Park angrenzenden Platzanlagen und die Ausgestaltung der Friedrichstraße als Boulevard erfährt der Uferpark eine verbesserte Anbindung an die Stadt und wird im städtebaulichen Gefüge aufgewertet. Die platzartigen Ausformulierungen am Olga-Brunnen, der Ecke Friedrichstraße/Karlstraße sowie auf dem Antoniusplatz vernetzen die Parkeingänge mit dem Stadtgefüge. Vom Bahnhof wird die historische Verbindung zum Wasser neu ausformuliert. Die Baumreihen entlang der historischen Trapezform von Olga-, Friedrich- und Karlstraße bieten dem Park zudem einen starken Rahmen und verorten ihn als eigenständiges Element in der Stadt.
+yearplace: 2017, Friedrichshafen
 image4: schnitt-b-b-.jpg
 subtitle4: Schnitt-Ansicht Strand - Stadtgarten - Friedrichstraße   1:200
 image5: 200_end.jpg
