@@ -50,4 +50,6 @@ image3: bildchen.jpg
 image8: dam_lageplan-copy-kopie.jpg
 image9: detail-1.jpg
 subtitle9: Kanalfahrt mit Strömung
+image11: detail2.jpg
+subtitle11: Wildwasserbahn
 ---
