@@ -19,10 +19,12 @@ paragraph1: >-
 
 
 
+  \
 
-  In die anschließende Entwurfsüberarbeitung flossen die Ergebnisse eines Bürgerbeiteiligungsverfahrens mit öffentlichem Workshop ein. Aus den Beiträgen dieser zweiten Wettbewerbsrunde kürte die Jury in der abschließenden Preisgerichtssitzung am 28. November 2017 zwei erste Plätze. Wegen seiner landschaftsarchitektonischen Stärken wurde der Entwurf von k1 Landschaftsarchitekten und raumzeit Architekten als Grundlage für weitere Planungen empfohlen.
+  In die anschließende Entwurfsüberarbeitung flossen die Ergebnisse eines Bürgerbeiteiligungsverfahrens mit öffentlichem Workshop ein. Aus den Beiträgen dieser zweiten Wettbewerbsrunde kürte die Jury in der abschließenden Preisgerichtssitzung am 28. November 2017 zwei erste Plätze. Wegen seiner landschaftsarchitektonischen Stärken wurde der Entwurf von k1 Landschaftsarchitekten und raumzeit Architekten als Grundlage für weitere Planungen empfohlen.\
 
 
+  \
 
 
   [Wettbewerbsergebnis bei competitionline.com](https://www.competitionline.com/de/news/ergebnisse/wettbewerbsergebnis-staedtebau-243162.html)
