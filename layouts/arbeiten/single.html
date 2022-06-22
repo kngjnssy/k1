@@ -24,35 +24,35 @@
 				<div class="flex-col mt-10 ml-10">
 					<h1 class="text-3xl">{{ .Title }}</h1>
 
-					<div class="grid grid-cols-1 mt-10">
+					<div class="grid grid-cols-2 mt-10">
 							<div>
 								<div class="text-k1darker">Ort</div>
-								<div class="mb-5">{{ .Params.place }}</div>
+								<div class="mb-5 text-xl">{{ .Params.place }}</div>
 								<div class="text-k1darker">Jahr</div>
-								<div class="mb-5">{{ .Params.year }}</div>
+								<div class="mb-5 text-xl">{{ .Params.year }}</div>
 
+							</div>
+							<div>
+			
 								{{ if .Params.bauherr }}
 								<div class="text-k1darker">Bauherr</div>
-								<div class="mb-5">{{ .Params.bauherr }}</div>
+								<div class="mb-5 text-xl">{{ .Params.bauherr }}</div>
 								{{ end }}
 
 								{{ if .Params.size }}
 								<div class="text-k1darker">Größe</div>
-								<div class="mb-5">{{ .Params.size }}</div>
+								<div class="mb-5 text-xl">{{ .Params.size }}</div>
 								{{ end }}
 
 								{{ if .Params.ausloberinnen }}
 								<div class="text-k1darker">Auslober*innen</div>
-								<div class="mb-5">{{ .Params.ausloberinnen }}</div>
+								<div class="mb-5 text-xl">{{ .Params.ausloberinnen }}</div>
 								{{ end }}
 
 								{{ if .Params.ergebniss }}
 								<div class="text-k1darker">Ergebniss</div>
-								<div class="mb-5">{{ .Params.ergebniss }}</div>
+								<div class="mb-5 text-xl">{{ .Params.ergebniss }}</div>
 								{{ end }}
-							</div>
-							<div>
-			
 								<!-- <div class="text-l textcolor-grey">Categorie</div> -->
 								<!-- <div class="text-l mb-5">{{ .Params.keywords }}</div> -->
 							</div>	
