@@ -35,7 +35,8 @@ paragraph2: >-
   Die Gartenpromenade ist eine Reminiszenz an den historischen Kontext als der Uferpark aus dem Zusammenschluss von einzelnen Privatgärten hervorging. Als weiterer Hauptweg bildet die Gartenpromenade das der Stadt zugewandte Rückgrat des Parks mit altem Baumbestand und angelagerten gärtnerisch gestalteten Flächen.
 yearplace: 2017, Friedrichshafen
 image3: unbenannt-1-kopie.jpg
-image4: ""
+image4: schnitt-b-b-.jpg
+subtitle4: Schnitt-Ansicht Strand - Stadtgarten - Friedrichstraße   1:200
 image5: 200_end.jpg
 image6: ""
 image7: ""
