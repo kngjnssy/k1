@@ -16,6 +16,12 @@ html, body, label {
    #99ab90;
 }
 
+a:hover {
+  color:
+   /* #aeb79c; */
+   #99ab90;
+}
+
 .object-cover {
   width: 100%;
   -o-object-fit: cover;

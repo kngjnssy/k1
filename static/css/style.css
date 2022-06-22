@@ -544,6 +544,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.25rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -562,10 +566,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
 }
 
 .block {
@@ -598,26 +598,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .aspect-\[4\/3\] {
   aspect-ratio: 4 / 3;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[220px\] {
-  height: 220px;
-}
-
-.max-h-\[220px\] {
-  max-height: 220px;
-}
-
-.min-h-\[220px\] {
-  min-height: 220px;
-}
-
-.min-h-\[200px\] {
-  min-height: 200px;
 }
 
 .min-h-\[180px\] {
@@ -686,6 +666,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border {
   border-width: 1px;
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -796,6 +781,12 @@ html, body, label {
 }
 
 .kontakt a:hover {
+  color:
+   /* #aeb79c; */
+   #99ab90;
+}
+
+a:hover {
   color:
    /* #aeb79c; */
    #99ab90;

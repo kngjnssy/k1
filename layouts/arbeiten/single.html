@@ -18,7 +18,7 @@
 				<div class="flex flex-col mt-10">
 					<h1 class="text-3xl ml-10 invisible">{{ .Title }}</h1>
 
-					<p class="m-10">{{ .Params.paragraph1 | markdownify }}</p>
+					<div class="m-10">{{ .Params.paragraph1 | markdownify }}</div>
 				</div>
 
 				<div class="flex-col mt-10 ml-10">
@@ -61,10 +61,10 @@
 
 				<div class="flex flex-col mt-10">
 					{{ if .Params.image2 }}
-					<img class="" src="{{ .Params.image2 }}" />
+					<img class="" src="{{ .Params.image2 }}"/>
 					{{ end }}
 					{{ if .Params.paragraph2 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph2 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph2 | markdownify }}</div>
 					{{ end }}
 				</div>
 
@@ -78,7 +78,7 @@
 					{{ .Params.subtitle3 }}</p>
 					{{ end }} 
 					{{ if .Params.paragraph3 }}
-					<p class="mt-10 ml-20 mr-20">{{ .Params.paragraph3 | markdownify }}</p>
+					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph3 | markdownify }}</div>
 					{{ end }}
 					
 				</div>
@@ -90,7 +90,7 @@
 					{{ end }} {{ if .Params.subtitle4 }}
 					<p class="mt-1.5">{{ .Params.subtitle4 }}</p>
 					{{ end }} {{ if .Params.paragraph4 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph4 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph4 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 5 --------------------------- -->
@@ -100,7 +100,7 @@
 					{{ end }} {{ if .Params.subtitle5 }}
 					<p class="mt-1.5 ml-10">{{ .Params.subtitle5 }}</p>
 					{{ end }} {{ if .Params.paragraph5 }}
-					<p class="m-10 ml-20">{{ .Params.paragraph5 | markdownify }}</p>
+					<div class="m-10 ml-20">{{ .Params.paragraph5 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 6 --------------------------- -->
@@ -110,7 +110,7 @@
 					{{ end }} {{ if .Params.subtitle6 }}
 					<p class="mt-1.5 ml-10">{{ .Params.subtitle6 }}</p>
 					{{ end }} {{ if .Params.paragraph6 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph6 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph6 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 7 --------------------------- -->
@@ -120,7 +120,7 @@
 					{{ end }} {{ if .Params.subtitle7 }}
 					<p class="ml-10 mt-1.5">{{ .Params.subtitle7 }}</p>
 					{{ end }} {{ if .Params.paragraph7 }}
-					<p class="mt-10 ml-20 mr-20">{{ .Params.paragraph7 | markdownify }}</p>
+					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph7 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 8 --------------------------- -->
@@ -130,7 +130,7 @@
 					{{ end }} {{ if .Params.subtitle8 }}
 					<p class="mt-1.5">{{ .Params.subtitle8 }}</p>
 					{{ end }} {{ if .Params.paragraph8 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph8 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph8 | markdownify }}</div>
 					{{ end }}
 				</div>				
 				<!-- ------------------------- 9 --------------------------- -->
@@ -140,7 +140,7 @@
 					{{ end }} {{ if .Params.subtitle9 }}
 					<p class="mt-1.5 ml-10">{{ .Params.subtitle9 }}</p>
 					{{ end }} {{ if .Params.paragraph9 }}
-					<p class="mt-10 ml-20 mr-20">{{ .Params.paragraph9 | markdownify }}</p>
+					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph9 | markdownify }}</div>
 					{{ end }}
 				</div>				
 				<!-- ------------------------- 10 --------------------------- -->
@@ -150,7 +150,7 @@
 					{{ end }} {{ if .Params.subtitle10 }}
 					<p class="mt-1.5">{{ .Params.subtitle10 }}</p>
 					{{ end }} {{ if .Params.paragraph10 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph10 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph10 | markdownify }}</div>
 					{{ end }}
 				</div>	
 				<!-- ------------------------- 11 --------------------------- -->
@@ -160,7 +160,7 @@
 					{{ end }} {{ if .Params.subtitle11 }}
 					<p class="mt-1.5 ml-10">{{ .Params.subtitle11 }}</p>
 					{{ end }} {{ if .Params.paragraph11 }}
-					<p class="mt-10 ml-20 mr-20">{{ .Params.paragraph11 | markdownify }}</p>
+					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph11 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 12 --------------------------- -->
@@ -170,7 +170,7 @@
 					{{ end }} {{ if .Params.subtitle12 }}
 					<p class="mt-1.5">{{ .Params.subtitle12 }}</p>
 					{{ end }} {{ if .Params.paragraph12 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph12 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph12 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 13 --------------------------- -->
@@ -180,7 +180,7 @@
 					{{ end }} {{ if .Params.subtitle13 }}
 					<p class="mt-1.5 ml-10">{{ .Params.subtitle13 }}</p>
 					{{ end }} {{ if .Params.paragraph13 }}
-					<p class="mt-10 ml-20 mr-20">{{ .Params.paragraph13 | markdownify }}</p>
+					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph13 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 14 --------------------------- -->
@@ -190,7 +190,7 @@
 					{{ end }} {{ if .Params.subtitle14 }}
 					<p class="mt-1.5">{{ .Params.subtitle14 }}</p>
 					{{ end }} {{ if .Params.paragraph14 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph14 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph14 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 15 --------------------------- -->
@@ -200,7 +200,7 @@
 					{{ end }} {{ if .Params.subtitle15 }}
 					<p class="mt-1.5 ml-10">{{ .Params.subtitle15 }}</p>
 					{{ end }} {{ if .Params.paragraph15 }}
-					<p class="mt-10 ml-20 mr-20">{{ .Params.paragraph15 | markdownify }}</p>
+					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph15 | markdownify }}</div>
 					{{ end }}
 				</div>
 				<!-- ------------------------- 16 --------------------------- -->
@@ -210,7 +210,7 @@
 					{{ end }} {{ if .Params.subtitle16 }}
 					<p class="mt-1.5">{{ .Params.subtitle16 }}</p>
 					{{ end }} {{ if .Params.paragraph16 }}
-					<p class="mt-10 ml-10 mr-20">{{ .Params.paragraph16 | markdownify }}</p>
+					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph16 | markdownify }}</div>
 					{{ end }}
 				</div>
 																								
