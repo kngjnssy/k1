@@ -49,7 +49,6 @@ collections:
       - { label: "Bauherr", name: "bauherr", widget: "string", required: false }
       - { label: "Auslober*innen", name: "ausloberinnen", widget: "string", required: false }
       - { label: "Ergebniss", name: "ergebniss", widget: "string", required: false }
-      # - { label: "Keywords", name: "keywords", widget: "list", default: "[\"bürgerbeteiligung\", \"spielplatz\", \"parkanlagen\"]", required: false }
       - { label: "Keywords", name: "keywords", widget: "string", required: false }
       - { label: "Short Info", name: "info", widget: "string", required: false }
       - { label: "Publish Date", name: "date", widget: "hidden" }      
