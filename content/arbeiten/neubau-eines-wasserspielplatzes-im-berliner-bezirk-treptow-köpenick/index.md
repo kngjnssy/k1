@@ -46,4 +46,7 @@ paragraph2: >-
 
   **Polyp** - Der Polyp, auf dem Rummel ein klassisches Fahrgeschäft, streckt seine Fangarme nach den Kindern aus. An den Enden der Fangarme werden unterschiedliche Düsen angebracht. Durch Drehen und Drücken bestimmter Saugnäpfe kann von den Kindern eine eigene Wasserchoreographie entworfen werden.
 image3: bildchen.jpg
+image8: dam_lageplan-copy-kopie.jpg
+image9: detail-1.jpg
+subtitle9: Kanalfahrt mit Strömung
 ---
