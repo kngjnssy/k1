@@ -49,7 +49,7 @@ paragraph2: >-
 image3: bildchen.jpg
 image8: dam_lageplan-copy-kopie.jpg
 subtitle8: Entwurfsplan
-image9: detail-1.jpg
+image9: ""
 subtitle9: Kanalfahrt mit Strömung
 image11: detail2.jpg
 subtitle11: Wildwasserbahn
