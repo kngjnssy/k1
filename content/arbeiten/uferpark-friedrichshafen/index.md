@@ -21,8 +21,19 @@ paragraph1: >-
 
 
   [Wettbewerbsergebnis bei competitionline.com](https://www.competitionline.com/de/news/ergebnisse/wettbewerbsergebnis-staedtebau-243162.html)
-yearplace: 2017, Friedrichshafen
 image2: 500_website.jpg.crop_display.jpg
+paragraph2: >-
+  **Uferpromenade und Seeterrassen**
+
+
+  Die großzügige Uferpromenade verbindet die Friedrichshafener Innenstadt mit dem See. Als breite Flaniermeile erschließt sie alle Häfen der Stadt und bietet den Bürgern und Besuchern vielfältige Aufenthaltsmöglichkeiten am Wasser. Durch ihre Weiterführung zum Schlosshorn und zu den übergeordneten Wander- und Radwegen wird der Uferpark mit der umliegenden Landschaft vernetzt und die Promenade zu einem Teil der Erholungswege rund um den Bodensee. An zentraler Stelle weitet sich die Promenade platzartig auf und präsentiert sich als Seebalkon. Der hier entstandene, großzügig dimensionierte Flanierraum kann für Veranstaltungen genutzt werden.
+
+
+  **Gartenpromenade**
+
+
+  Die Gartenpromenade ist eine Reminiszenz an den historischen Kontext als der Uferpark aus dem Zusammenschluss von einzelnen Privatgärten hervorging. Als weiterer Hauptweg bildet die Gartenpromenade das der Stadt zugewandte Rückgrat des Parks mit altem Baumbestand und angelagerten gärtnerisch gestalteten Flächen.
+yearplace: 2017, Friedrichshafen
 image3: unbenannt-1-kopie.jpg
 image4: ""
 image5: 200_end.jpg
