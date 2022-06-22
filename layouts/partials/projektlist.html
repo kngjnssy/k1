@@ -15,8 +15,9 @@
         src="{{ .RelPermalink }}{{ .Params.image }}"
         alt="{{ .Title }}"
       />
+      <p class="mt-2 text-xs">{{ .Params.keywords }}</p>
       <h2 class="mt-1.5 font-[400]">{{ .Title }}</h2>
-      <p class="text-xs">{{ .Params.info }}</p>
+      <p class="mt-2 text-xs">{{ .Params.info }}</p>
     </a>
   </div>
 </article>

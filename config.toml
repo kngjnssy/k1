@@ -22,8 +22,8 @@ favicon = "/img/favicon.ico"
     identifier = "wettbewerbe"
     name = "Wettbewerbe"
     url = "/wettbewerbe"
-    pre = "/"
-    weight = 20
+    # pre = "/"
+    weight = 30
 
   [[menu.sub]]
     identifier = "projekte"
@@ -36,7 +36,8 @@ favicon = "/img/favicon.ico"
     identifier = "all"
     name = "Alle"
     url = "/arbeiten"
-    weight = 30
+    weight = 10
+    pre = "/"
     # parent = "arbeiten"
 
 
