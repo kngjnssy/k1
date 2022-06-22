@@ -8,7 +8,7 @@ ausloberinnen: null
 ergebniss: 1. Preis
 info: 1. Preis
 date: 2021-12-01T12:20:06.903Z
-image: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
+image: fri_visualisierung_monokrom_i_final.jpg
 paragraph1: >-
   **Ideenwettbewerb mit nachgeschaltetem Workshopsverfahren**
 
