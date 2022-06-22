@@ -37,7 +37,7 @@ yearplace: 2017, Friedrichshafen
 image3: unbenannt-1-kopie.jpg
 image4: ""
 image5: 200_end.jpg
-image6: 200_1_website.jpg.crop_display.jpg
-image7: fri_visualisierung_monokrom_k1_website.jpg.crop_display.jpg
-image8: 500_website.jpg.crop_display.jpg
+image6: ""
+image7: ""
+image8: ""
 ---
