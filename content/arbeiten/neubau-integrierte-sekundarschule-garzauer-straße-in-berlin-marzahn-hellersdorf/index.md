@@ -3,7 +3,7 @@ tags:
   - wbw
   - frontpage
 title: Neubau Integrierte Sekundarschule Garzauer Straße in Berlin Marzahn-Hellersdorf
-date_order: "202108"
+date_order: "202208"
 year: "2021"
 place: Berlin
 ausloberinnen: 

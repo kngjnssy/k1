@@ -500,8 +500,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
-.mb-36 {
-  margin-bottom: 9rem;
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .mb-2 {
@@ -552,6 +552,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -566,10 +570,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
 }
 
 .block {
@@ -633,6 +633,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .w-6\/12 {
+  width: 50%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-2\/4 {
   width: 50%;
 }
 
@@ -802,6 +810,42 @@ a:hover {
   object-fit: cover;
 }
 
+.first\:w-72:first-child {
+  width: 18rem;
+}
+
+.first\:w-96:first-child {
+  width: 24rem;
+}
+
+.first\:w-2\/3:first-child {
+  width: 66.666667%;
+}
+
+.first\:w-4\/5:first-child {
+  width: 80%;
+}
+
+.first\:w-\[\]:first-child {
+  width: ;
+}
+
+.first\:w-\[600px\]:first-child {
+  width: 600px;
+}
+
+.first\:w-\[800px\]:first-child {
+  width: 800px;
+}
+
+.first\:w-\[700px\]:first-child {
+  width: 700px;
+}
+
+.first\:w-\[300px\]:first-child {
+  width: 300px;
+}
+
 .hover\:text-k1green:hover {
   --tw-text-opacity: 1;
   color: rgb(174 183 156 / var(--tw-text-opacity));
@@ -879,6 +923,10 @@ a:hover {
     width: 66.666667%;
   }
 
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:max-w-\[800px\] {
     max-width: 800px;
   }
@@ -901,6 +949,10 @@ a:hover {
 
   .md\:first\:ml-20:first-child {
     margin-left: 5rem;
+  }
+
+  .md\:first\:w-72:first-child {
+    width: 18rem;
   }
 
   .md\:last\:ml-72:last-child {
