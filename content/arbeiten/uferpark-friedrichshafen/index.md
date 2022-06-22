@@ -40,6 +40,7 @@ paragraph4: >-
 
   Durch die Umgestaltung der an den Park angrenzenden Platzanlagen und die Ausgestaltung der Friedrichstraße als Boulevard erfährt der Uferpark eine verbesserte Anbindung an die Stadt und wird im städtebaulichen Gefüge aufgewertet. Die platzartigen Ausformulierungen am Olga-Brunnen, der Ecke Friedrichstraße/Karlstraße sowie auf dem Antoniusplatz vernetzen die Parkeingänge mit dem Stadtgefüge. Vom Bahnhof wird die historische Verbindung zum Wasser neu ausformuliert. Die Baumreihen entlang der historischen Trapezform von Olga-, Friedrich- und Karlstraße bieten dem Park zudem einen starken Rahmen und verorten ihn als eigenständiges Element in der Stadt.
 yearplace: 2017, Friedrichshafen
+subtitle2: Seeterrassen mit Uferpromenade
 image4: schnitt-b-b-.jpg
 subtitle4: Schnitt-Ansicht Strand - Stadtgarten - Friedrichstraße   1:200
 image5: 200_end.jpg
