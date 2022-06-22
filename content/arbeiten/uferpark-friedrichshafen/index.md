@@ -44,6 +44,6 @@ image4: schnitt-b-b-.jpg
 subtitle4: Schnitt-Ansicht Strand - Stadtgarten - Friedrichstraße   1:200
 image5: 200_end.jpg
 image6: holzdeck.jpg
-image7: ""
+image7: fri_500_horn_171311_es-kopie.jpg
 image8: ""
 ---
