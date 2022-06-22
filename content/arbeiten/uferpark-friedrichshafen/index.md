@@ -8,7 +8,7 @@ ausloberinnen: null
 ergebniss: 1. Preis
 info: 1. Preis
 date: 2021-12-01T12:20:06.903Z
-image: fri_visualisierung_monokrom_i_final.jpg
+image: plan.jpg
 paragraph1: >-
   **Ideenwettbewerb mit nachgeschaltetem Workshopsverfahren**
 
@@ -21,7 +21,7 @@ paragraph1: >-
 
 
   [Wettbewerbsergebnis bei competitionline.com](https://www.competitionline.com/de/news/ergebnisse/wettbewerbsergebnis-staedtebau-243162.html)
-image2: 500_website.jpg.crop_display.jpg
+image2: fri_visualisierung_monokrom_i_final.jpg
 paragraph2: >-
   **Uferpromenade und Seeterrassen**
 
