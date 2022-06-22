@@ -7,7 +7,6 @@ year: 2009 - 2010
 place: Bad Nauheim
 size: 50.000 m2
 bauherr: LGS Bad Nauheim 2010 GmbH
-keywords: ""
 info: Spielplatzgestaltung für die Laga Bad Nauheim 2010
 image: dsc_0098.jpg
 paragraph1: >-

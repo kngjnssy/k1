@@ -8,7 +8,7 @@ year: "2021"
 place: Berlin
 ausloberinnen: 
 ergebniss: 2. Preis
-keywords: 2. Preis, Nichtoffener Wettbewerb
+categories: Wettbewerb
 info: 2. Preis, Nichtoffener Wettbewerb
 image: f01990a79a7e839c_1.jpg
 paragraph1: Ein großer Baukörper mit linearer Ausrichtung wird als

@@ -7,7 +7,7 @@ size: 12 ha
 bauherr: 
 ausloberinnen: 
 ergebniss: 1st prize
-keywords: Park, Spielplatz
+categories: Park, Spielplatz
 info: This is a short, optional summary that will show up in the list / below
   the title.
 image: featured.jpg

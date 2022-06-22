@@ -6,7 +6,7 @@ date_order: "2018"
 year: "2018"
 size: " 1.100 m²"
 bauherr: Eigentümergemeinschaft Ausbauhaus Lichtenberg GbR
-keywords: Wohnprojekt, Privat
+categories:  Wohnprojekt, Privat
 info: Gestaltung Außenanlagen Wohnprojekt
 image: img_6296_es.jpg
 paragraph1: Im Auftrag der privaten Bauherrengemeinschaft „Ausbauhaus

@@ -7,7 +7,6 @@ year: "2018"
 place: Berlin
 size: "10.000 m² "
 bauherr: Bezirksamt Marzahn-Hellesdorf von Berlin
-keywords: ""
 info: Gestaltung Spielraum im Park mit Bürgerbeteiligung
 date: 2021-12-09T18:26:59.117Z
 image: dsc_1109.jpg
