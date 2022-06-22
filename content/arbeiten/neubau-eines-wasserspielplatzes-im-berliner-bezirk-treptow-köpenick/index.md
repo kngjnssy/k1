@@ -20,6 +20,7 @@ paragraph1: >-
 
 
   Das Wasserspektakel auf der „neuen-alten“ Plansche führt dieses Versprechen als Thema fort. Die auf einer Lichtung in den dichten Baumbestand des Plänterwaldes eingebettete Plansche wird wieder in ihrer ursprünglichen Dimension angelegt. Die neuen Wasserspiele nehmen thematischen Bezug auf Elemente die vom Rummel und vielfältige Interaktionen an und mit dem Wasser erlauben. Dabei werden Attraktionen aus dem Vergnügungspark wie die Kosmosgondel oder die Achterbahn zitiert und um neue Elemente ergänzt. Weiterhin wird das Angebot der Plansche um einen Sand- und Matschspielplatz erweitert. Das übrige Gelände ist extensiv gestaltet und kann zum freien Spiel, zum Verstecken und Entdecken im Wald genutzt werden.
+image2: schnitt.jpg
 paragraph2: >-
   **Achterbahn** - Die Achterbahn zieht sich wie ein roter Faden vom Dammweg
   über das gesamte Gelände. Beginnend als wegebegleitendes Balancierelement im
