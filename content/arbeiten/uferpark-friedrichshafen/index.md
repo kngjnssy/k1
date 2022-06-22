@@ -47,5 +47,6 @@ image5: 200_end.jpg
 image6: holzdeck.jpg
 subtitle6: Faltung Sunset-Lounge
 image7: fri_500_horn_171311_es-kopie.jpg
+subtitle7: "Städtebaulicher und freiraumplanerischer Entwurf: Ausschnitt Schlosshorn"
 image8: ""
 ---
