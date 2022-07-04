@@ -660,6 +660,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
+.w-4\/6 {
+  width: 66.666667%;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -760,6 +768,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-\[500\] {
   font-weight: 500;
+}
+
+.\!font-\[300\] {
+  font-weight: 300 !important;
 }
 
 .text-k1darker {
@@ -917,6 +929,10 @@ a:hover {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
   .md\:font-\[200\] {
     font-weight: 200;
   }
@@ -929,6 +945,22 @@ a:hover {
     grid-column: span 4 / span 4;
   }
 
+  .md\:first\:col-span-10:first-child {
+    grid-column: span 10 / span 10;
+  }
+
+  .md\:first\:w-3:first-child {
+    width: 0.75rem;
+  }
+
+  .md\:first\:w-2\/6:first-child {
+    width: 33.333333%;
+  }
+
+  .md\:first\:w-3\/6:first-child {
+    width: 50%;
+  }
+
   .md\:last\:col-span-6:last-child {
     grid-column: span 6 / span 6;
   }
@@ -937,16 +969,80 @@ a:hover {
     grid-column: span 4 / span 4;
   }
 
+  .md\:second\:col-span-6:nth-child(2) {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:second\:col-span-3:nth-child(2) {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:second\:mb-5:nth-child(2) {
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:second\:mt-5:nth-child(2) {
+    margin-top: 1.25rem;
+  }
+
+  .md\:second\:mt-10:nth-child(2) {
+    margin-top: 2.5rem;
+  }
+
+  .md\:second\:mt-12:nth-child(2) {
+    margin-top: 3rem;
+  }
+
   .md\:third\:col-span-3:nth-child(3) {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:third\:col-span-6:nth-child(3) {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:third\:col-span-4:nth-child(3) {
+    grid-column: span 4 / span 4;
   }
 
   .md\:fourth\:col-span-6:nth-child(4) {
     grid-column: span 6 / span 6;
   }
 
+  .md\:fourth\:col-span-4:nth-child(4) {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:fourth\:col-span-5:nth-child(4) {
+    grid-column: span 5 / span 5;
+  }
+
+  .md\:fourth\:col-start-3:nth-child(4) {
+    grid-column-start: 3;
+  }
+
+  .md\:fourth\:ml-20:nth-child(4) {
+    margin-left: 5rem;
+  }
+
+  .md\:fourth\:ml-52:nth-child(4) {
+    margin-left: 13rem;
+  }
+
   .md\:fifth\:col-span-6:nth-child(5) {
     grid-column: span 6 / span 6;
+  }
+
+  .md\:fifth\:col-span-3:nth-child(5) {
+    grid-column: span 3 / span 3;
+  }
+
+  .md\:fifth\:mt-12:nth-child(5) {
+    margin-top: 3rem;
+  }
+
+  .md\:fifth\:mt-16:nth-child(5) {
+    margin-top: 4rem;
   }
 
   .md\:sixth\:col-span-6:nth-child(6) {

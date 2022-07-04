@@ -4,7 +4,7 @@ tags:
   - frontpage
   - aktuelles
 date: 2021-11-29T13:49:44.083Z
-date_order: 202203
+date_order: 202207
 short_text: Für die Bearbeitung unserer Projekte in Leistungsphasen 5-8 suchen wir erfahrene Mitarbeiterinnen.
 text: >-
   Entsprechend der Aufgaben in unserem Team sollten

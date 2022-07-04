@@ -1,7 +1,6 @@
 ---
 tags:
   - projekt
-  - frontpage
 title: Bildungs- und Forschungsmeile Lemgo-Lüttfeld
 date_order: 2016
 year: "2016"
