@@ -20,7 +20,6 @@ a:hover {
   color:
    /* #aeb79c; */
    #99ab90;
-   
 }
 
 .object-cover {
@@ -28,3 +27,4 @@ a:hover {
   -o-object-fit: cover;
   object-fit: cover;
 }
+

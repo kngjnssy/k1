@@ -1,0 +1,57 @@
+<div class="flex flex-col">
+    {{ partial "header.html" . }}
+    <div class="grid grid-cols-12 w-full">
+      <div class="flex flex-col 
+                  col-span-10
+                  grid 
+                  md:grid-cols-6 
+                  gap-8 
+                  md:col-start-2
+                  md:ml-auto 
+                  md:mr-auto
+                  md:mt-[122px] 
+                  mt-10
+                  ">
+        {{ $display_posts := (sort .Site.Pages "Params.date_order").Reverse }} 
+        {{ range $post := $display_posts }} 
+        {{ if in .Params.tags "aktuelles" }}
+  
+        <article class="
+                      mb-32 
+                      md:first:col-span-4
+                      md:second:col-span-4
+                      md:third:col-span-3 
+                      md:fourth:col-span-6
+                      md:fifth:col-span-6
+                      md:sixth:col-span-6
+                      md:last:col-span-6
+  
+                      ">
+          <div>
+            <a href="{{ .RelPermalink }}">
+  
+              {{ if .Params.image }}
+              <img
+                class="z-0 mb-2"
+                src="{{ .RelPermalink }}{{ .Params.image }}"
+                alt=""
+              />
+              {{ end }}
+              <p class="
+                      !font-[500] 
+                      text-xl 
+                      z-10 
+                      inline-block" >{{ .Title }}</p>
+  
+            </a>
+            <p class="">{{ .Params.short_text | markdownify }}</p>
+          </div>
+        </article>
+  
+        {{ end }} 
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <!-- {{ partial "footer.html" . }} -->
+  

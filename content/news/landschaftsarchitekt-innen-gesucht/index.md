@@ -2,6 +2,7 @@
 title: " Landschaftsarchitekt*innen gesucht"
 tags:
   - frontpage
+  - aktuelles
 date: 2021-11-29T13:49:44.083Z
 date_order: 202203
 short_text: Für die Bearbeitung unserer Projekte in Leistungsphasen 5-8 suchen wir erfahrene Mitarbeiterinnen.

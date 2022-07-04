@@ -1,6 +1,8 @@
 ---
 title: Tag der Städtebauförderung 2022
-tags: '["frontpage"]'
+tags:
+  - frontpage
+  - aktuelles
 date_order: 202204
 image: perspektive-fri-2200505-kopie.jpg
 short_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
