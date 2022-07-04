@@ -7,9 +7,9 @@ favicon = "/img/favicon.ico"
 [menu]
 
   [[menu.main]]
-    identifier = "profil"
-    name = "Büro"
-    url = "/profil"
+    identifier = "aktuelles"
+    name = "Aktuelles"
+    url = "/news"
     weight = 10
 
   [[menu.main]]
@@ -22,7 +22,7 @@ favicon = "/img/favicon.ico"
     identifier = "wettbewerbe"
     name = "Wettbewerbe"
     url = "/wettbewerbe"
-    # pre = "/"
+    pre = "/"
     weight = 30
 
   [[menu.sub]]
@@ -40,12 +40,18 @@ favicon = "/img/favicon.ico"
     pre = "/"
     # parent = "arbeiten"
 
-
-  [[menu.main]]
+  [[menu.sub]]
     identifier = "referenzen"
     name = "Referenzen"
     url = "/referenzen"
-    weight = 30
+    # pre = "/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "profil"
+    name = "Büro"
+    url = "/profil"
+    weight = 10
 
   [[menu.main]]
     identifier = "kontakt"

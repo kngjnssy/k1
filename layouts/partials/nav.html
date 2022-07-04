@@ -1,17 +1,20 @@
-<nav class="m-8 flex flex-col">
-  <ul class="md:fixed">
+<nav class="w-5/6 m-auto mt-20 flex justify-between items-center">
+
+  <div>
     <a href="/">
-      <img class="mb-8 mt-[61px] w-16 opacity-75" src="../../assets/media/logo.png" alt="k1-logo">
+      <img class="w-16" src="../../assets/media/logo.png" alt="k1-logo">
     </a>
+  </div>
+
+  <div class="flex flex-row">
     {{ $current := . }}
     {{ range .Site.Menus.main }}
       {{ $active := in $current.RelPermalink .URL }}
       <!-- {{ $active = or $active (eq .Title "Wettbewerbe") }} DOESNT WORK YET https://discourse.gohugo.io/t/another-way-to-make-a-menu-item-active/17029-->
-    <li class="invisible md:visible">
-      <a class="hover:text-k1green font-[100] leading-10 {{ if $active }}text-k1green{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
-    </li>
-
+      <span class="invisible md:visible ml-10">
+        <a class="hover:text-k1green font-[100]{{ if $active }}text-k1green{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      </span>
     {{ end }}
-  </ul>
+  </div>
 </nav>
 
