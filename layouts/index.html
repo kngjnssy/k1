@@ -3,7 +3,10 @@
     {{ partial "header.html" . }}
 
     <div class="flex flex-col 
-                col-span-8 
+                col-span-10
+                grid 
+                md:grid-cols-6 
+                gap-8 
                 md:col-start-3
                 md:ml-auto 
                 md:mr-auto
@@ -16,14 +19,14 @@
 
       <article class="
                     mb-32 
-                    md:first:ml-20
-                    md:second:ml-96
-                    md:third:ml-20 
-                    md:fourth:ml-[500px]
-                    md:fifth:ml-20
-                    md:sixth:ml-[500px]
-                    md:last:ml-72
-                    md:w-3/5
+                    md:first:col-span-6
+                    md:second:col-span-4
+                    md:third:col-span-3 
+                    md:fourth:col-span-6
+                    md:fifth:col-span-6
+                    md:sixth:col-span-6
+                    md:last:col-span-6
+
                     ">
         <div>
           <a href="{{ .RelPermalink }}">

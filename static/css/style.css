@@ -504,6 +504,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 2 / span 2;
 }
 
+.col-span-10 {
+  grid-column: span 10 / span 10;
+}
+
 .m-10 {
   margin: 2.5rem;
 }
@@ -688,12 +692,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .border {
@@ -905,6 +909,10 @@ a:hover {
     max-width: 700px;
   }
 
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -913,36 +921,72 @@ a:hover {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
   .md\:font-\[200\] {
     font-weight: 200;
+  }
+
+  .md\:first\:col-span-6:first-child {
+    grid-column: span 6 / span 6;
   }
 
   .md\:first\:ml-20:first-child {
     margin-left: 5rem;
   }
 
+  .md\:last\:col-span-6:last-child {
+    grid-column: span 6 / span 6;
+  }
+
   .md\:last\:ml-72:last-child {
     margin-left: 18rem;
+  }
+
+  .md\:second\:col-span-6:nth-child(2) {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:second\:col-span-2:nth-child(2) {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:second\:col-span-4:nth-child(2) {
+    grid-column: span 4 / span 4;
   }
 
   .md\:second\:ml-96:nth-child(2) {
     margin-left: 24rem;
   }
 
+  .md\:third\:col-span-6:nth-child(3) {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:third\:col-span-3:nth-child(3) {
+    grid-column: span 3 / span 3;
+  }
+
   .md\:third\:ml-20:nth-child(3) {
     margin-left: 5rem;
+  }
+
+  .md\:fourth\:col-span-6:nth-child(4) {
+    grid-column: span 6 / span 6;
   }
 
   .md\:fourth\:ml-\[500px\]:nth-child(4) {
     margin-left: 500px;
   }
 
+  .md\:fifth\:col-span-6:nth-child(5) {
+    grid-column: span 6 / span 6;
+  }
+
   .md\:fifth\:ml-20:nth-child(5) {
     margin-left: 5rem;
+  }
+
+  .md\:sixth\:col-span-6:nth-child(6) {
+    grid-column: span 6 / span 6;
   }
 
   .md\:sixth\:ml-\[500px\]:nth-child(6) {
