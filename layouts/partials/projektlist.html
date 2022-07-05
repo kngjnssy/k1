@@ -3,6 +3,8 @@
           "> 
   <div class="">
     <a href="{{ .RelPermalink }}">
+      {{ $image := .Resources.GetMatch (.Params.image) }}
+      {{ $image := $image.Resize "x400" }}
       <img
         class="
           opacity-75
@@ -12,9 +14,10 @@
           object-cover
           aspect-[4/3]
           "
-        src="{{ .RelPermalink }}{{ .Params.image }}"
+        src="{{ $image.RelPermalink }}"
         alt="{{ .Title }}"
       />
+
       <p class="mt-2 text-xs">{{ .Params.keywords }}</p>
       <p class="mt-2 text-xs">{{ .Params.categories }}</p>
 

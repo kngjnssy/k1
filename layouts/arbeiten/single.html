@@ -1,6 +1,6 @@
 <div class="flex flex-col">
+	{{ partial "header.html" . }}
 	<div class="grid md:grid-cols-12">
-		{{ partial "header.html" . }}
 
 		<div class="flex flex-col 
 					md:col-span-10
@@ -9,8 +9,9 @@
 					">
 
 			<div class="flex flex-col">
-				<img class="w-full" src="{{ .Params.image }}" />
-				<!-- <h1 class="text-4xl text-bold mt-10">{{ .Title }}</h1> -->
+				{{ $image := .Resources.GetMatch (.Params.image) }}
+				{{ $image := $image.Resize "x1200" }}
+				<img class="w-full" src="{{ $image.RelPermalink }}"/>
 			</div>
 
 			<div class="grid md:grid-cols-6 gap-8">
