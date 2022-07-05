@@ -62,7 +62,9 @@
 
 				<div class="flex flex-col mt-10 col-span-3">
 					{{ if .Params.image2 }}
-					<img class="" src="{{ .Params.image2 }}"/>
+					{{ $image2 := .Resources.GetMatch (.Params.image2) }}
+					{{ $image2 := $image2.Resize "x600" }}
+					<img class="" src="{{ $image2.RelPermalink }}"/>
 					{{ end }}
 					{{ if .Params.paragraph2 }}
 					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph2 | markdownify }}</div>
