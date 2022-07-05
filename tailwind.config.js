@@ -27,6 +27,7 @@ const colors = require('tailwindcss/colors')
        gray: colors.gray,
        red: colors.red,
        black: colors.black,
+       white: colors.white,
     },
     fontFamily: {
       'roboto': ['Roboto', 'sans-serif'],
