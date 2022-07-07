@@ -2,11 +2,11 @@
     {{ partial "header.html" . }}
     <div class="grid grid-cols-12 w-full">
         <div class="flex flex-col 
-                    col-span-8 
-                    md:col-start-3
+                    col-span-10
+                    md:col-start-2
                     md:ml-auto 
                     md:mr-auto
-                    md:mt-32 
+                    md:mt-44 
                     mt-10
                     ">    
             <section class="flex flex-col">
@@ -29,14 +29,14 @@
             <section class="flex flex-col 
                             mt-24 
                             mb-20 
-                            md:max-w-[700px]
                             ">
                 <h2 id="team" class="text-xl mb-6">Unser Team</h2>
 
-                <div class="grid
-                            lg:grid-cols-4
-                            sm:grid-cols-3
-                            grid-cols-2
+                <section class="grid
+                            gap-1
+                            lg:grid-cols-6
+                            sm:grid-cols-4
+                            grid-cols-3
                             ">
 
                 {{range sort (sort .Data.Pages "Params.name") "Params.index"}} 
@@ -46,7 +46,7 @@
                         <p class="text-xs">{{ .Params.bio }}</p>
                     </figure>
                 {{ end }}
-                </div>
+                </section>
             </section>
                 
             <section class="flex flex-col mt-24 mb-20">

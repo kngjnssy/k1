@@ -9,7 +9,7 @@
                   md:col-start-2
                   md:ml-auto 
                   md:mr-auto
-                  md:mt-[122px] 
+                  md:mt-44
                   mt-10
                   ">
         {{ $display_posts := (sort .Site.Pages "Params.date_order").Reverse }} 
@@ -17,7 +17,7 @@
         {{ if in .Params.tags "aktuelles" }}
   
         <article class="
-                      mb-32 
+                      mb-20 
                       md:first:col-span-4
                       md:second:col-span-4
                       md:third:col-span-3 
@@ -25,11 +25,15 @@
                       md:fifth:col-span-6
                       md:sixth:col-span-6
                       md:last:col-span-6
-  
                       ">
           <div>
             <a href="{{ .RelPermalink }}">
-  
+              <p class="
+              !font-[500] 
+              text-xl 
+              z-10 
+              inline-block" >{{ .Title }}</p>
+              
               {{ if .Params.image }}
               <img
                 class="z-0 mb-2"
@@ -37,11 +41,7 @@
                 alt=""
               />
               {{ end }}
-              <p class="
-                      !font-[500] 
-                      text-xl 
-                      z-10 
-                      inline-block" >{{ .Title }}</p>
+
   
             </a>
             <p class="">{{ .Params.short_text | markdownify }}</p>
