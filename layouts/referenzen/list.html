@@ -2,27 +2,27 @@
   {{ partial "header.html" . }}
   <div class="grid grid-cols-12 w-full">
     <div class="flex flex-col 
-                col-span-8 
-                md:col-start-3
+                col-span-10 
+                md:col-start-2
                 md:ml-auto 
                 md:mr-auto
-                md:mt-[122px] 
+                md:mt-44
                 mt-10
                 ">
-    {{ partial "subnav.html" . }}
+      {{ partial "subnav.html" . }}
 
-{{ range.Data.Pages.ByTitle.Reverse }}
-<article class="post-snippet ref-list">
-  <!-- <p><a class="text-2xl" href="{{ .RelPermalink }}">{{ .Title }}</a></p> -->
-  <p class="text-2xl mb-6 font-[500]">{{ .Title }}</p>
+      {{ range.Data.Pages.ByTitle.Reverse }}
+      <article class="post-snippet ref-list">
+        <!-- <p><a class="text-2xl" href="{{ .RelPermalink }}">{{ .Title }}</a></p> -->
+        <p class="text-2xl mb-6 font-[500]">{{ .Title }}</p>
 
-  {{ if .Params.image }}
-	<img src="{{ .Params.image }}" >
-  {{ end }}
+        {{ if .Params.image }}
+        <img src="{{ .Params.image }}">
+        {{ end }}
 
-  <p class="mb-24">{{ .Params.textarea | markdownify }}</p>
+        <p class="mb-24">{{ .Params.textarea | markdownify }}</p>
 
-</article>
-{{ end }}
+      </article>
+      {{ end }}
 
-<!-- {{ partial "footer.html" . }} -->
+      <!-- {{ partial "footer.html" . }} -->
