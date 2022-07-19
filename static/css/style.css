@@ -480,8 +480,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .z-0 {
@@ -504,6 +512,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 8 / span 8;
 }
 
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -518,14 +534,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .col-span-2 {
   grid-column: span 2 / span 2;
-}
-
-.col-span-12 {
-  grid-column: span 12 / span 12;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
 }
 
 .m-10 {
@@ -562,6 +570,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .ml-10 {
@@ -712,6 +724,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .items-center {
   align-items: center;
 }
@@ -732,20 +748,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.25rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .border {
   border-width: 1px;
 }
 
-.bg-white\/\[0\.9\] {
-  background-color: rgb(255 255 255 / 0.9);
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -753,12 +762,28 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: cover;
 }
 
-.pt-20 {
-  padding-top: 5rem;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom;
 }
 
 .font-roboto {
@@ -871,6 +896,10 @@ a:hover {
   object-fit: cover;
 }
 
+.hover\:bg-white\/\[0\.6\]:hover {
+  background-color: rgb(255 255 255 / 0.6);
+}
+
 .hover\:text-k1green:hover {
   --tw-text-opacity: 1;
   color: rgb(174 183 156 / var(--tw-text-opacity));
@@ -889,18 +918,6 @@ a:hover {
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-
-  .sm\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (min-width: 768px) {
@@ -918,15 +935,6 @@ a:hover {
 
   .md\:col-start-3 {
     grid-column-start: 3;
-  }
-
-  .md\:col-start-1 {
-    grid-column-start: 1;
-  }
-
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .md\:ml-auto {
@@ -953,14 +961,6 @@ a:hover {
     margin-left: 2.5rem;
   }
 
-  .md\:mt-32 {
-    margin-top: 8rem;
-  }
-
-  .md\:mt-\[122px\] {
-    margin-top: 122px;
-  }
-
   .md\:w-8\/12 {
     width: 66.666667%;
   }
@@ -983,10 +983,6 @@ a:hover {
 
   .md\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:font-\[200\] {
@@ -1063,9 +1059,5 @@ a:hover {
 @media (min-width: 1280px) {
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .xl\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

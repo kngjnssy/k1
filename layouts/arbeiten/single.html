@@ -8,13 +8,42 @@
 					md:mt-44
 					">
 
-			<div class="flex flex-col">
+			<div class="grid md:grid-cols-6 gap-8">
 				{{ $image := .Resources.GetMatch (.Params.image) }}
 				{{ $image := $image.Resize "x1200" }}
-				<img class="w-full" src="{{ $image.RelPermalink }}"/>
-			</div>
+				<img class="col-span-5" src="{{ $image.RelPermalink }}" />
 
-			<div class="grid md:grid-cols-6 gap-8">
+
+				<div class="col-span-1 relative">
+					<div class="absolute bottom-0">
+
+						<div class="text-k1darker">Standort</div>
+						<div class="">{{ .Params.place }}</div>
+						<div class="mt-5 text-k1darker">Jahr</div>
+						<div class="">{{ .Params.year }}</div>
+						{{ if .Params.bauherr }}
+						<div class="mt-5 text-k1darker">Bauherr</div>
+						<div class="">{{ .Params.bauherr }}</div>
+						{{ end }}
+
+						{{ if .Params.size }}
+						<div class="mt-5 text-k1darker">Größe</div>
+						<div class="">{{ .Params.size }}</div>
+						{{ end }}
+
+						{{ if .Params.ausloberinnen }}
+						<div class="mt-5 text-k1darker">Auslober*innen</div>
+						<div class="">{{ .Params.ausloberinnen }}</div>
+						{{ end }}
+
+						{{ if .Params.ergebniss }}
+						<div class="mt-5 text-k1darker">Ergebniss</div>
+						<div class="">{{ .Params.ergebniss }}</div>
+						{{ end }}
+
+					</div>
+				</div>
+
 
 				<div class="flex flex-col mt-10 col-span-3">
 					<h1 class="text-3xl ml-10 invisible">{{ .Title }}</h1>
@@ -22,12 +51,12 @@
 					<div class="m-10">{{ .Params.paragraph1 | markdownify }}</div>
 				</div>
 
-				<div class="flex-col mt-10 col-span-3">
+				<!-- <div class="flex-col mt-10 col-span-3">
 					<h1 class="text-3xl">{{ .Title }}</h1>
 
 					<div class="grid grid-cols-2 mt-10">
 							<div>
-								<div class="text-k1darker">Ort</div>
+								<div class="text-k1darker">Standort</div>
 								<div class="mb-5 text-xl">{{ .Params.place }}</div>
 								<div class="text-k1darker">Jahr</div>
 								<div class="mb-5 text-xl">{{ .Params.year }}</div>
@@ -54,17 +83,17 @@
 								<div class="text-k1darker">Ergebniss</div>
 								<div class="mb-5 text-xl">{{ .Params.ergebniss }}</div>
 								{{ end }}
-								<!-- <div class="text-l textcolor-grey">Categorie</div> -->
-								<!-- <div class="text-l mb-5">{{ .Params.keywords }}</div> -->
+								<div class="text-l textcolor-grey">Categorie</div>
+								<div class="text-l mb-5">{{ .Params.keywords }}</div>
 							</div>	
 					</div>
-				</div>
+				</div> -->
 
 				<div class="flex flex-col mt-10 col-span-3">
 					{{ if .Params.image2 }}
 					{{ $image2 := .Resources.GetMatch (.Params.image2) }}
 					{{ $image2 := $image2.Resize "x600" }}
-					<img class="" src="{{ $image2.RelPermalink }}"/>
+					<img class="" src="{{ $image2.RelPermalink }}" />
 					{{ end }}
 					{{ if .Params.paragraph2 }}
 					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph2 | markdownify }}</div>
@@ -75,15 +104,15 @@
 				<div class="flex flex-col col-span-3">
 					{{ if .Params.image3 }}
 					<img class="mt-10" src="{{ .Params.image3 }}" />
-					{{ end }} 
+					{{ end }}
 					<p class="mt-1.5">
-					{{ if .Params.subtitle3 }} 
-					{{ .Params.subtitle3 }}</p>
-					{{ end }} 
+						{{ if .Params.subtitle3 }}
+						{{ .Params.subtitle3 }}</p>
+					{{ end }}
 					{{ if .Params.paragraph3 }}
 					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph3 | markdownify }}</div>
 					{{ end }}
-					
+
 				</div>
 
 				<!-- ------------------------ 4 ---------------------------- -->
@@ -135,7 +164,7 @@
 					{{ end }} {{ if .Params.paragraph8 }}
 					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph8 | markdownify }}</div>
 					{{ end }}
-				</div>				
+				</div>
 				<!-- ------------------------- 9 --------------------------- -->
 				<div class="flex flex-col col-span-2">
 					{{ if .Params.image9 }}
@@ -145,7 +174,7 @@
 					{{ end }} {{ if .Params.paragraph9 }}
 					<div class="mt-10 ml-20 mr-20">{{ .Params.paragraph9 | markdownify }}</div>
 					{{ end }}
-				</div>				
+				</div>
 				<!-- ------------------------- 10 --------------------------- -->
 				<div class="flex flex-col col-span-4">
 					{{ if .Params.image10 }}
@@ -155,7 +184,7 @@
 					{{ end }} {{ if .Params.paragraph10 }}
 					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph10 | markdownify }}</div>
 					{{ end }}
-				</div>	
+				</div>
 				<!-- ------------------------- 11 --------------------------- -->
 				<div class="flex flex-col col-span-6">
 					{{ if .Params.image11 }}
@@ -216,9 +245,9 @@
 					<div class="mt-10 ml-10 mr-20">{{ .Params.paragraph16 | markdownify }}</div>
 					{{ end }}
 				</div>
-																								
-			<!-- +1 extra full with image at the end?  -->
-			<!-- </div>
+
+				<!-- +1 extra full with image at the end?  -->
+				<!-- </div>
 				<img class="mt-20 w-3/6" src="{{ .Params.image }}" />
 			<div> -->
 				<div class="mb-36"></div>
