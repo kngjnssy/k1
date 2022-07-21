@@ -10,10 +10,10 @@ size: "1.865 m² "
 bauherr: Stadt Kyritz
 info: Gestaltung Spiel- und Sportensemble für Kinder und Jugendliche
 image: 010_-c-lichtschwaermer_dji_0743.jpg
-paragraph1: Das Spielband in der Straße der Jugend 2 ist Teil des integri- erten
+paragraph1: Das Spielband in der Straße der Jugend 2 ist Teil des integrierten
   Entwicklungskonzeptes Kyritz-West. Das Gebiet gilt als strukturell
-  unterversorgt und soll mittels eines Stadtentwick- lungsprozesses aufgewertet
-  werden. Über kooperative Be- teiligungsformate konnten die Wünsche der
+  unterversorgt und soll mittels eines Stadtentwicklungsprozesses aufgewertet
+  werden. Über kooperative Beteiligungsformate konnten die Wünsche der
   Anwohner*innen ermittelt und in die Planung integriert werden.
 image2: 019_-c-lichtschwaermer_0875_875_mg_0150.jpg
 paragraph2: Die Fläche, auf dem Gelände eines ehemaligen Wohnkom- plexes, wird
