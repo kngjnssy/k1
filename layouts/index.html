@@ -19,7 +19,7 @@
       <article class="
                     mb-5 
                     md:first:col-span-10 
-                    md:first:w-2/6
+                    md:first:w-3/6
 
                     md:second:col-span-4
                     md:second:mt-12
@@ -46,11 +46,22 @@
               src="{{ .RelPermalink }}{{ .Params.image }}"
               alt=""
             />
-            {{ end }}
             <p class="
-                    font-medium
+                    hover:visible
+                    font-light
                     z-10
                     inline-block" >{{ .Title }}</p>
+            {{ else }}
+            <p class="
+                    font-normal
+                    text-2xl
+                    z-10
+                    inline-block" >{{ .Title }}</p>
+            {{ end }}
+            <!-- <p class="
+                    font-medium
+                    z-10
+                    inline-block" >{{ .Title }}</p> -->
 
           </a>
           <p class="">{{ .Params.short_text | markdownify }}</p>

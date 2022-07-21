@@ -544,6 +544,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -744,6 +749,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.25rem;
 }
 
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
 .border {
   border-width: 1px;
 }
@@ -826,6 +836,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 400;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .text-k1darker {
   --tw-text-opacity: 1;
   color: rgb(153 171 144 / var(--tw-text-opacity));
@@ -890,6 +908,10 @@ a:hover {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.hover\:visible:hover {
+  visibility: visible;
 }
 
 .hover\:bg-white\/\[0\.6\]:hover {
@@ -995,6 +1017,10 @@ a:hover {
 
   .md\:first\:w-2\/6:first-child {
     width: 33.333333%;
+  }
+
+  .md\:first\:w-3\/6:first-child {
+    width: 50%;
   }
 
   .md\:last\:col-span-6:last-child {
