@@ -1,6 +1,7 @@
 ---
 tags:
-  - '"projekt""homepage"'
+  - projekt
+  - frontpage
 title: Fasanenstraße
 date_order: "2021"
 place: Berlin
