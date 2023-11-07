@@ -17,4 +17,6 @@ paragraph1: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 image3: _16i7386.jpg
 subtitle3: Banane Detail
+image7: twz_4207.jpg
+image8: twz_4219.jpg
 ---
