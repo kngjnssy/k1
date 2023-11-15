@@ -91,9 +91,7 @@ favicon = "/img/favicon.ico"
     [markup.goldmark.parser]
       autoHeadingID = true
       autoHeadingIDType = 'github'
-      [markup.goldmark.parser.attribute]
-        block = false
-        title = true
+      attribute = true  
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = false
@@ -115,3 +113,4 @@ favicon = "/img/favicon.ico"
     endLevel = 3
     ordered = false
     startLevel = 2
+
