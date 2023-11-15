@@ -1,5 +1,5 @@
 ---
-title: " Landschaftsarchitekt*innen gesucht TEST"
+title: " Landschaftsarchitekt*innen gesucht "
 tags:
   - frontpage
   - aktuelles
