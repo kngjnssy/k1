@@ -1,6 +1,7 @@
 ---
 tags:
   - projekt
+  - frontpage
 title: Fasanenstraße
 date_order: "2021"
 year: "2021"
